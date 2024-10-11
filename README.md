@@ -12,16 +12,21 @@ Rasa is an open-source machine learning framework for building conversational AI
 
 <b>Key Components of Rasa</b>:
 
-Rasa NLU: This component is responsible for understanding natural language input. It uses machine learning models to extract entities and intents from text.
-Rasa Core: This component handles the conversation logic. It uses state machines to track the conversation context and determines the appropriate response based on the user's input and the current dialogue state.
-Rasa X: This is a visual interface for building and testing Rasa assistants. It provides tools for creating custom NLU models, designing conversation flows, and analyzing bot performance.
+<b>Rasa NLU</b>: This component is responsible for understanding natural language input. It uses machine learning models to extract entities and intents from text.
+
+<b>Rasa Core</b>: This component handles the conversation logic. It uses state machines to track the conversation context and determines the appropriate response based on the user's input and the current dialogue state.
+
+<b>Rasa X</b>: This is a visual interface for building and testing Rasa assistants. It provides tools for creating custom NLU models, designing conversation flows, and analyzing bot performance.
 
 <b>Advantages of Using Rasa</b>:
 
-Flexibility: Rasa offers a high degree of customization and flexibility, allowing you to tailor your chatbot to your specific needs.
-Open-source: Being open-source, Rasa is freely available and has a large and active community of developers who contribute to its development and provide support.
-Scalability: Rasa can handle large-scale conversational AI applications, making it suitable for businesses of all sizes.
-Integration: Rasa can be easily integrated with other systems and services, such as databases, messaging platforms, and APIs.
+<b>Flexibility</b>: Rasa offers a high degree of customization and flexibility, allowing you to tailor your chatbot to your specific needs.
+
+<b>Open-source</b>: Being open-source, Rasa is freely available and has a large and active community of developers who contribute to its development and provide support.
+
+<b>Scalability</b>: Rasa can handle large-scale conversational AI applications, making it suitable for businesses of all sizes.
+
+<b>Integration</b>: Rasa can be easily integrated with other systems and services, such as databases, messaging platforms, and APIs.
 
 
 <b>PRO List</b>:
