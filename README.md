@@ -1,7 +1,3 @@
-<b>Mental Health Assessment Tools</b>
-
-<b>Description:</b>
-
 <b>Conversational AI by RASA Framework for Mental Health Assessment Tools</b>
 
 <b>Description</b>:
@@ -29,6 +25,8 @@ All coding was developed by using Rasa Framework.
 
 <b>What is Rasa?</b>
 
+<img src="https://github.com/HUMADEX/SMILE-PRO-Chatbot/blob/main/docs/rasa_logo.jpg" alt="Rasa Logo">
+
 Rasa is an open-source machine learning framework for building conversational AI assistants. It provides a flexible platform for developers to create chatbots and virtual assistants that can understand natural language, engage in meaningful conversations, and perform tasks.
 
 <b>Key Components of Rasa</b>:
@@ -50,7 +48,7 @@ Rasa is an open-source machine learning framework for building conversational AI
 <b>Integration</b>: Rasa can be easily integrated with other systems and services, such as databases, messaging platforms, and APIs.
 
 
-<b>PRO List</b>:
+<b>Patient-reported Outcome Measures List</b>:
 
 <b>Penn-State Worry Questionnaire for Children (PSWQ-C)</b>: This 16-item self-report measure assesses worry in children aged 10-17. It measures the frequency and intensity of worry across various domains, such as school, family, and friends.
 
