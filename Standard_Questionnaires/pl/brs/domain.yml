@@ -1,0 +1,128 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_brs_pl
+
+
+responses:
+  utter_brs_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_brs_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_brs_pl_intro:
+    - custom:
+        text: "Korzystając z poniższej skali zaznacz jedną z cyfr, w jakim stopniu nie zgadasz się lub zgadzasz się z każdym z twierdzeniem."
+        
+  utter_brs_pl_q1:
+    - custom:
+        text: "1. Mam skłonność do szybkiego stawania na nogi po ciężkich czasach"
+        buttons:
+          - title: "Zdecydowanie nie zgadzam się"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Ani nie zgadzam się, ani zgadzam"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie zgadzam się"
+            value: 5
+            
+            
+  utter_brs_pl_q2:
+    - custom:
+        text: "2. Jest mi trudno przetrwać stresujące wydarzenia"
+        buttons:
+          - title: "Zdecydowanie nie zgadzam się"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Ani nie zgadzam się, ani zgadzam"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie zgadzam się"
+            value: 5
+
+  utter_brs_pl_q3:
+    - custom:
+        text: "3. Z łatwością dochodzę do siebie po stresujących wydarzeniach"
+        buttons:
+          - title: "Zdecydowanie nie zgadzam się"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Ani nie zgadzam się, ani zgadzam"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie zgadzam się"
+            value: 5
+
+  utter_brs_pl_q4:
+    - custom:
+        text: "4. Trudno mi pozbierać się kiedy dzieje się coś złego."
+        buttons:
+          - title: "Zdecydowanie nie zgadzam się"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Ani nie zgadzam się, ani zgadzam"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie zgadzam się"
+            value: 5
+          
+  utter_brs_pl_q5:
+    - custom:
+        text: "5. Zazwyczaj przechodzę przez trudne sytuacje bez większych problemów"
+        buttons:
+          - title: "Zdecydowanie nie zgadzam się"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Ani nie zgadzam się, ani zgadzam"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie zgadzam się"
+            value: 5
+
+  utter_brs_pl_q6:
+    - custom:
+        text: "6. Zwykle dużo czasu zajmuje mi przezwyciężanie niepowodzeń w życiu"
+        buttons:
+          - title: "Zdecydowanie nie zgadzam się"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Ani nie zgadzam się, ani zgadzam"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie zgadzam się"
+            value: 5
+
+
+  utter_brs_pl_end2:
+    - custom:
+        text: "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

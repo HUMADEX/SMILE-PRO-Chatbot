@@ -1,0 +1,179 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_sus_comp_pl
+
+
+responses:
+  utter_sus_comp_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_sus_comp_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_sus_comp_pl_intro:
+    - custom:
+        text: "Użyj poniższej skali i zaznacz jedną liczbę przy każdym stwierdzeniu, aby wskazać, w jakim stopniu się z nim nie zgadzasz lub zgadzasz"
+        
+  utter_sus_comp_pl_q1:
+    - custom:
+        text: "1. Myślę, że chciałbym_chciałabym często korzystać z apki towarzyszącej SMILE."
+        buttons:
+          - title: "Zdecydowanie się nie zgadzam"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Neutralnie"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie się zgadzam"
+            value: 5
+            
+            
+  utter_sus_comp_pl_q2:
+    - custom:
+        text: "2. Uważam, że apka twarzysząca SMILE jest niepotrzebnie skomplikowana."
+        buttons:
+          - title: "Zdecydowanie się nie zgadzam"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Neutralnie"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie się zgadzam"
+
+  utter_sus_comp_pl_q3:
+    - custom:
+        text: "3. Uważam, że apka towarzysząca SMILE jest łatwa w użyciu."
+        buttons:
+          - title: "Zdecydowanie się nie zgadzam"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Neutralnie"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie się zgadzam"
+
+  utter_sus_comp_pl_q4:
+    - custom:
+        text: "4. Myślę, że potrzebowałbym wsparcia osoby technicznej, aby móc korzystać z apki towarzyszącej SMILE."
+        buttons:
+          - title: "Zdecydowanie się nie zgadzam"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Neutralnie"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie się zgadzam"
+          
+  utter_sus_comp_pl_q5:
+    - custom:
+        text: "5. Uważam, że różne funkcje apki towarzyszącej SMILE są dobrze zintegrowane."
+        buttons:
+          - title: "Zdecydowanie się nie zgadzam"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Neutralnie"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie się zgadzam"
+
+  utter_sus_comp_pl_q6:
+    - custom:
+        text: "6. Uważam, że  apka towarzysząca SMILE jest zbyt niespójna."
+        buttons:
+          - title: "Zdecydowanie się nie zgadzam"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Neutralnie"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie się zgadzam"
+
+
+  utter_sus_comp_pl_q7:
+    - custom:
+        text: "7. Wyobrażam sobie, że większość ludzi bardzo szybko nauczyłaby się korzystać z apki towarzyszącej SMILE."
+        buttons:
+          - title: "Zdecydowanie się nie zgadzam"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Neutralnie"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie się zgadzam"
+
+  utter_sus_comp_pl_q8:
+    - custom:
+        text: "8. Uważam, że apka towarzysząca SMILE jest bardzo uciążliwa w użyciu."
+        buttons:
+          - title: "Zdecydowanie się nie zgadzam"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Neutralnie"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie się zgadzam"
+  
+  utter_sus_comp_pl_q9:
+    - custom:
+        text: "9. Czuję się bardzo pewnie korzystając z  apki towarzyszącej SMILE."
+        buttons:
+          - title: "Zdecydowanie się nie zgadzam"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Neutralnie"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie się zgadzam"
+
+  utter_sus_comp_pl_q10:
+    - custom:
+        text: "10. Musiałem_am nauczyć się wielu rzeczy, zanim mogłem_am zacząć korzystać z apki towarzyszącej SMILE."
+        buttons:
+          - title: "Zdecydowanie się nie zgadzam"
+            value: 1
+          - title: "Nie zgadzam się"
+            value: 2
+          - title: "Neutralnie"
+            value: 3
+          - title: "Zgadzam się"
+            value: 4
+          - title: "Zdecydowanie się zgadzam"
+  
+  utter_sus_comp_pl_end2:
+    - custom:
+        text: "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

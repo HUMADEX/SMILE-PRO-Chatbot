@@ -1,0 +1,98 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_ccas_s_pl
+
+
+responses:
+  utter_ccas_s_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_ccas_s_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_ccas_s_pl_intro:
+    - custom:
+        text: "Proszę ocenić, kiedy poniższe twierdzenia są dla Ciebie prawdziwe?"
+        
+  utter_ccas_s_pl_q1:
+    - custom:
+        text: "1. Myślenie o zmianie klimatu sprawia mi trudności ze snem lub koncentracją"
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Czasami"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Prawie zawsze"
+            value: 5
+            
+            
+  utter_ccas_s_pl_q2:
+    - custom:
+        text: "2. Zdarza mi się płakać z powodu zmiany klimatu."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Czasami"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Prawie zawsze"
+            value: 5
+
+  utter_ccas_s_pl_q3:
+    - custom:
+        text: "3. Moje obawy dotyczące zmiany klimatu powodują, że trudno mi dobrze się bawić z moją rodziną lub przyjaciółmi."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Czasami"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Prawie zawsze"
+            value: 5
+
+  utter_ccas_s_pl_q4:
+    - custom:
+        text: "4. Moje obawy dotyczące zmiany klimatu negatywnie wpływają na moją zdolność do wykonywania zadań szkolnych."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Czasami"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Prawie zawsze"
+            value: 5
+          
+
+  utter_ccas_s_pl_end2:
+    - custom:
+        text: "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

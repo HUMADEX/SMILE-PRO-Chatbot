@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_brs_pl
+  examples: |
+    - brs_pl
+    - brs_pl
+
+
+
+- intent: answers
+  examples: |
+    - Zdecydowanie nie zgadzam się
+    - Nie zgadzam się
+    - Ani nie zgadzam się, ani zgadzam
+    - Zgadzam się
+    - Zdecydowanie zgadzam się
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

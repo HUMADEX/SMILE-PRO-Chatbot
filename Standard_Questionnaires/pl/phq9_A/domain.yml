@@ -1,0 +1,153 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_phq9_A_pl
+
+
+responses:  
+  utter_phq9_A_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_phq9_A_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_phq9_A_pl_intro:
+    - custom:
+        text: "Jak często w ciągu ostatnich 2 tygodni dokuczały Ci następujące problemy?"
+        
+  utter_phq9_A_pl_q1:
+    - custom:
+        text: "1. Uczucie smutku, przygnębienia lub beznadziejności"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+          
+  utter_phq9_A_pl_q2:
+    - custom:
+        text: "2. Niewielkie zainteresowanie lub przyjemność w wykonywaniu czynności"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+
+  utter_phq9_A_pl_q3:
+    - custom:
+        text: "3. Trudności z zasypianiem, utrzymaniem snu lub zbyt długim spaniem"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+
+  utter_phq9_A_pl_q4:
+    - custom:
+        text: "4. Słaby apetyt, utrata wagi lub objadanie się"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+          
+  utter_phq9_A_pl_q5:
+    - custom:
+        text: "5. Uczucie zmęczenia lub brak energii"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+
+  utter_phq9_A_pl_q6:
+    - custom:
+        text: "6. Poczucie niezadowolenia z siebie — lub uczucie, że jest się do niczego, albo ze zawodzi się siebie lub rodzinę"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+
+  utter_phq9_A_pl_q7:
+    - custom:
+        text: "7. Problemy ze skupieniem się na przykład w szkole, przy czytaniu lub oglądaniu telewizji"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+          
+  utter_phq9_A_pl_q8:
+    - custom:
+        text: "8. Poruszanie się lub mówienie tak wolno, że inni mogliby to zauważyć? Albo wręcz przeciwnie — niemożność usiedzenia w miejscu lub podenerwowanie powodujące ruchliwość znacznie większą niż zwykle"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+
+  utter_phq9_A_pl_q9:
+    - custom:
+        text: "9. Myśli, że lepiej byłoby umrzeć, albo chęć zrobienia sobie jakiejś krzywdy"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+          
+  utter_phq9_A_pl_end2:
+    - custom:
+        text: "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

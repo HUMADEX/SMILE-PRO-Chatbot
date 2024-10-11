@@ -1,0 +1,157 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_ueq_s_comp_pl
+
+
+responses:
+  utter_ueq_s_comp_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_ueq_s_comp_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_ueq_s_comp_pl_intro:
+    - custom:
+        text: "W celu dokonania oceny produktu, proszę wypełnić poniższy kwestionariusz. Kwestionariusz składa się z par przeciwstawnych cech, które mogą być użyte podczas opisywania produktu. Kółka pomiędzy cechami oznaczają stopień nasilenia występowania danej cechy. Swoją opinię możesz wyrazić poprzez zakreślenie kółka najlepiej odpowiadającego Twojej ocenie."
+        
+  utter_ueq_s_comp_pl_q1:
+    - custom:
+        text: "Uważam, że apka towarzysząca SMILE jest…"
+        buttons:
+          - title: "1 = przeszkadzająca"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = wspierająca"
+            value: 5
+          
+  utter_ueq_s_comp_pl_q2:
+    - custom:
+        text: "Uważam, że apka towarzysząca SMILE jest…”"
+        buttons:
+          - title: "1 = skomplikowana"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = łatwa"
+            value: 5
+
+  utter_ueq_s_comp_pl_q3:
+    - custom:
+        text: "Uważam, że apka towarzysząca SMILE jest…"
+        buttons:
+          - title: "1 = nieefektywna"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = efektywna"
+            value: 5
+
+  utter_ueq_s_comp_pl_q4:
+    - custom:
+        text: "Uważam, że apka towarzysząca SMILE jest…"
+        buttons:
+          - title: "1 = zagmatwana"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = przejrzysta"
+            value: 5
+          
+  utter_ueq_s_comp_pl_q5:
+    - custom:
+        text: "Uważam, że apka towarzysząca SMILE jest…"
+        buttons:
+          - title: "1 = nudna"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = ekscytująca"
+            value: 5
+
+  utter_ueq_s_comp_pl_q6:
+    - custom:
+        text: "Uważam, że apka towarzysząca SMILE jest…"
+        buttons:
+          - title: "1 = nieinteresującao"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = interesująca"
+            value: 5
+
+          
+  utter_ueq_s_comp_pl_q7:
+    - custom:
+        text: "Uważam, że apka towarzysząca SMILE jest…"
+        buttons:
+          - title: "1 = konwencjonalna"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = pomysłowa"
+            value: 5
+
+  utter_ueq_s_comp_pl_q8:
+    - custom:
+        text: "Uważam, że apka towarzysząca SMILE jest…"
+        buttons:
+          - title: "1 = zwykła"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = skrajna"
+            value: 5
+  
+  utter_ueq_s_comp_pl_end2:
+    - custom:
+        text: "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

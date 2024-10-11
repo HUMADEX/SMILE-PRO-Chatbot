@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_privacy_pl
+
+
+responses:
+  utter_privacy_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_privacy_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_privacy_pl_intro:
+    - custom:
+        text: "Zaznacz jedną liczbę przy każdym stwierdzeniu, aby wskazać, w jakim stopniu się z nim nie zgadzasz lub zgadzasz."
+        
+  utter_privacy_pl_q1:
+    - custom:
+        text: "Item 1a: “Obawiam się, że informacje, które udostępniam w grze SMILE, mogą zostać niewłaściwie wykorzystane”"
+        buttons:
+          - title: "1 = zupełnie się nie zgadzam "
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = całkowicie się zgadzam"
+            value: 5
+          
+  utter_privacy_pl_q2:
+    - custom:
+        text: "Item 1b: “Obawiam się, że informacje, które udostępniam w apce towarzyszącej SMILE, mogą zostać niewłaściwie wykorzystane”"
+        buttons:
+          - title: "1 = zupełnie się nie zgadzam "
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = całkowicie się zgadzam"
+            value: 5
+
+  utter_privacy_pl_q3:
+    - custom:
+        text: "Item 2a: “Obawiam się, że inni mogą znaleźć prywatne informacje o mnie w grze SMILE.”"
+        buttons:
+          - title: "1 = zupełnie się nie zgadzam "
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = całkowicie się zgadzam"
+            value: 5
+
+  utter_privacy_pl_q4:
+    - custom:
+        text: "Item 2b: “Obawiam się, że inni mogą znaleźć prywatne informacje o mnie w apce towarzyszącej SMILE.”"
+        buttons:
+          - title: "1 = zupełnie się nie zgadzam "
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = całkowicie się zgadzam"
+            value: 5
+          
+  utter_privacy_pl_q5:
+    - custom:
+        text: "Item 3a: “Obawiam się udostępniania informacji osobistych w grze SMILE, ponieważ mogą zostać wykorzystane w sposób, którego się nie spodziewałem/am.“"
+        buttons:
+          - title: "1 = zupełnie się nie zgadzam "
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = całkowicie się zgadzam"
+            value: 5
+
+  utter_privacy_pl_q6:
+    - custom:
+        text: "Item 3b: “Obawiam się udostępniania informacji osobistych w aplikacji towarzyszącej SMILE, ponieważ mogą zostać wykorzystane w sposób, którego się nie spodziewałem/am“"
+        buttons:
+          - title: "1 = zupełnie się nie zgadzam "
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = całkowicie się zgadzam"
+            value: 5
+
+          
+  utter_privacy_pl_end2:
+    - custom:
+        text: "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,217 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_pswo_c_pl
+
+
+responses:  
+  utter_pswo_c_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_pswo_c_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_pswo_c_pl_intro:
+    - custom:
+        text: "Ten kwestionariusz dotyczy martwienia się. Martwisz się, gdy coś cię niepokoi i często o tym myślisz. Ludzie czasami martwią się o różne rzeczy, takie jak szkoła, swoja rodzina, zdrowie czy przyszłe sprawy. Przeczytaj każde zdanie i zaznacz odpowiedź, która najlepiej określa, jak bardzo to zdanie pasuje do ciebie."
+        
+  utter_pswo_c_pl_q1:
+    - custom:
+        text: "1. Przeszkadza mi to, że się martwię."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+          
+  utter_pswo_c_pl_q2:
+    - custom:
+        text: "2. Tak naprawdę się nie martwię."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+
+  utter_pswo_c_pl_q3:
+    - custom:
+        text: "3. Wiele rzeczy mnie martwi."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+
+  utter_pswo_c_pl_q4:
+    - custom:
+        text: "4. Wiem, że nie powinienem się martwić, a i tak to robię."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+          
+  utter_pswo_c_pl_q5:
+    - custom:
+        text: "5. Kiedy coś mnie stresuje, bardzo się martwię."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+
+  utter_pswo_c_pl_q6:
+    - custom:
+        text: "6. Ciągle się czymś martwię."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+
+  utter_pswo_c_pl_q7:
+    - custom:
+        text: "7. Kiedy chcę, mogę od razu przestać się martwić."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+          
+  utter_pswo_c_pl_q8:
+    - custom:
+        text: "8. Kiedy przestaję się martwić jednym, zaczynam się martwić czymś innym."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+
+  utter_pswo_c_pl_q9:
+    - custom:
+        text: "9. Nigdy o nic się nie martwię."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+          
+  utter_pswo_c_pl_q10:
+    - custom:
+        text: "10. Przez cały czas się czymś martwię."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+          
+  utter_pswo_c_pl_q11:
+    - custom:
+        text: "11.Widzę, że się zamartwiam."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+  utter_pswo_c_pl_q12:
+    - custom:
+        text: "12. Kiedy coś mnie martwi, to nie mogę o tym zapomnieć."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+  
+  utter_pswo_c_pl_q13:
+    - custom:
+        text: "13. Martwię się przez cały czas."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+
+  utter_pswo_c_pl_q14:
+    - custom:
+        text: "14. Martwi mnie wiele rzeczy, dopóki się nie skończą."
+        buttons:
+          - title: "nigdy"
+            value: 0
+          - title: "czasem"
+            value: 1
+          - title: "często"
+            value: 2
+          - title: "zawsze"
+            value: 3
+  
+  utter_pswo_c_pl_end2:
+    - custom:
+        text: "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

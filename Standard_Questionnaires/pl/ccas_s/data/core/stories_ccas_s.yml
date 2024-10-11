@@ -1,0 +1,22 @@
+version: "3.1"
+
+stories:
+
+- story: ccas_s_pl
+  steps:
+  - intent: questionnaire_ccas_s_pl
+  - action: utter_ccas_s_pl_start
+  - intent: answers
+  - action: utter_ccas_s_pl_intro
+  - action: utter_ccas_s_pl_q1
+  - intent: answers
+  - action: utter_ccas_s_pl_q2
+  - intent: answers
+  - action: utter_ccas_s_pl_q3
+  - intent: answers
+  - action: utter_ccas_s_pl_q4
+  - intent: answers
+  - action: utter_ccas_s_pl_end
+  - action: utter_ccas_s_pl_end2
+
+

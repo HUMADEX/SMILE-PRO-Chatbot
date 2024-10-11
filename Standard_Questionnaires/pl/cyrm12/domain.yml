@@ -1,0 +1,292 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_cyrm12_pl
+
+
+responses:  
+  utter_cyrm12_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_cyrm12_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_cyrm12_pl_intro:
+    - custom:
+        text: "Poniżej znajduje się lista pytań dotyczących Ciebie, Twojej rodziny, Twojej społeczności i Twoich relacji z nimi. Te pytania mają na celu pomóc nam lepiej zrozumieć, w jaki sposób stawiacie czoła wyzwaniom życia codziennego oraz rolę, jaką odgrywają osoby wokół Was w sposobie radzenia sobie z tymi wyzwaniami."
+        
+  utter_cyrm12_pl_q1:
+    - custom:
+        text: "1. Współpracuję z ludźmi wokół mnie"
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+          
+  utter_cyrm12_pl_q2:
+    - custom:
+        text: "2. Zdobycie wykształcenia jest dla mnie ważne"
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+
+  utter_cyrm12_pl_q3:
+    - custom:
+        text: "3. Wiem, jak się zachować w różnych sytuacjach społecznych."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+
+  utter_cyrm12_pl_q4:
+    - custom:
+        text: "4. Mój(Moi) rodzic(e)/opiekun(owie) naprawdę się o mnie troszczy(ą)."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+          
+  utter_cyrm12_pl_q5:
+    - custom:
+        text: "5. Mój(Moi) rodzic(e)/opiekun(owie) wiedzą o mnie dużo."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+
+  utter_cyrm12_pl_q6:
+    - custom:
+        text: "6. Jeśli jestem głodny, mam wystarczającą ilość jedzenia."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+
+  utter_cyrm12_pl_q7:
+    - custom:
+        text: "7. Ludzie lubią spędzać ze mną czas."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+          
+  utter_cyrm12_pl_q8:
+    - custom:
+        text: "8. Rozmawiam z rodziną/opiekunem(ami) o tym, jak się czuję."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+
+  utter_cyrm12_pl_q9:
+    - custom:
+        text: "9. Czuję się wspierany przez moich przyjaciół."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+          
+  utter_cyrm12_pl_q10:
+    - custom:
+        text: "10. Czuję, że jestem/byłem częścią mojej szkoły."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+          
+  utter_cyrm12_pl_q11:
+    - custom:
+        text: "11. Moja rodzina/opiekun(owie) są przy mnie w trudnych chwilach."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+
+  utter_cyrm12_pl_q12:
+    - custom:
+        text: "12. Moi przyjaciele są przy mnie w trudnych chwilach."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+
+  
+  utter_cyrm12_pl_q13:
+    - custom:
+        text: "13. Jestem traktowany sprawiedliwie przez otaczających mnie ludzi."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+
+  utter_cyrm12_pl_q14:
+    - custom:
+        text: "14. Mam okazję pokazać innym, że staję się dorosły i potrafię zachowywać się odpowiedzialnie."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+          
+  utter_cyrm12_pl_q15:
+    - custom:
+        text: "15. Czuję się bezpiecznie, gdy jestem z rodziną/opiekunem(ami)."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+
+  utter_cyrm12_pl_q16:
+    - custom:
+        text: "16. Mam możliwości rozwijania umiejętności, które będą przydatne w późniejszym życiu (np. umiejętności zawodowych i umiejętności opieki nad innymi)."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+
+  utter_cyrm12_pl_q17:
+    - custom:
+        text: "17. Lubię tradycje kulturowe i zwyczaje mojej rodziny/opiekuna(ów)."
+        buttons:
+          - title: "1 - Wcale"
+            value: 1
+          - title: "2 - Trochę "
+            value: 2
+          - title: "3 - Średnio"
+            value: 3
+          - title: "4 - Bardzo"
+            value: 4
+          - title: "5 - Najbardziej"
+            value: 5
+  
+  utter_cyrm12_pl_end2:
+    - custom:
+        text: "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

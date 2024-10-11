@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_useq_game_pl
+  examples: |
+    - useq_game_pl
+    - useq_game_pl
+
+
+
+- intent: answers
+  examples: |
+    - Wcale (1)
+    - 2
+    - 3
+    - 4
+    - Bardzo (5)
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

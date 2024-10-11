@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_cyrm12_pl
+  examples: |
+    - cyrm12_pl
+    - cyrm12_pl
+
+
+- intent: answers
+  examples: |
+    - 1 - Wcale
+    - 2 - Trochę 
+    - 3 - Średnio
+    - 4 - Bardzo
+    - 5 - Najbardziej
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

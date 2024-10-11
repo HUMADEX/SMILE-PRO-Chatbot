@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_gad7_pl
+
+
+responses:
+  utter_gad7_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_gad7_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_gad7_pl_intro:
+    - custom:
+        text: "Jak często w ciągu ostatnich 2 tygodni dokuczały Ci następujące problemy?"
+        
+  utter_gad7_pl_q1:
+    - custom:
+        text: "G1.Czułeś(aś) się podenerwowany(a), niespokojny(a), mocno spięty(a)"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+          
+  utter_gad7_pl_q2:
+    - custom:
+        text: "G2.Nie mógłeś(aś) przestać się martwić albo zapanować nad tym"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+
+  utter_gad7_pl_q3:
+    - custom:
+        text: "G3. Za bardzo się martwiłeś(aś) różnymi rzeczami"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+
+  utter_gad7_pl_q4:
+    - custom:
+        text: "G4. Miałeś(aś) trudności z relaksowaniem się"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+          
+  utter_gad7_pl_q5:
+    - custom:
+        text: "G5. Byłeś(aś) tak niespokojny(a), że nie mógłeś(aś) usiedzieć na miejscu"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+
+  utter_gad7_pl_q6:
+    - custom:
+        text: "G6. Łatwo stawałeś(aś) się rozdrażniony(a) lub poirytowany(a)"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+
+  utter_gad7_pl_q7:
+    - custom:
+        text: "G7. Obawiałeś(aś) się, tak jakby miało się stać coś strasznego"
+        buttons:
+          - title: "Wcale nie dokuczały"
+            value: 0
+          - title: "Kilka dni"
+            value: 1
+          - title: "Więcej niż połowę dni"
+            value: 2
+          - title: "Niemal codziennie"
+            value: 3
+          
+  utter_gad7_pl_end2:
+    - custom:
+        text:  "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

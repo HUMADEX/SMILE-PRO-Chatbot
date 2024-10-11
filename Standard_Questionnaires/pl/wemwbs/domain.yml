@@ -1,0 +1,246 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_wemwbs_pl
+
+
+responses:  
+  utter_wemwbs_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_wemwbs_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_wemwbs_pl_intro:
+    - custom:
+        text: "Poniżej znajduję się lista stwierdzeń dotycząca uczuć, myśli i zachowań. Zaznacz pole, które najtrafniej opisuje Twoje doświadczenia na przestrzeni ostatnich dwóch (2) tygodni"
+        
+  utter_wemwbs_pl_q1:
+    - custom:
+        text: "1. Z optymizmem patrzyłem/am w przyszłość."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+          
+  utter_wemwbs_pl_q2:
+    - custom:
+        text: "2. Czułem/am się potrzebny/a."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+
+  utter_wemwbs_pl_q3:
+    - custom:
+        text: "3. Czułem/am się zrelaksowany/a."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+
+  utter_wemwbs_pl_q4:
+    - custom:
+        text: "4. Miałem/am chęć spotykania się z ludźmi."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+          
+  utter_wemwbs_pl_q5:
+    - custom:
+        text: "5. Byłem/am pełen energii."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+
+  utter_wemwbs_pl_q6:
+    - custom:
+        text: "6. Dobrze radziłem/am sobie z problemami."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+
+  utter_wemwbs_pl_q7:
+    - custom:
+        text: "7. Myślałem/am jasno."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+          
+  utter_wemwbs_pl_q8:
+    - custom:
+        text: "8. Czułem/am się dobrze ze sobą."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+
+  utter_wemwbs_pl_q9:
+    - custom:
+        text: "9. Czułem/am bliskość z innymi ludźmi."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+          
+  utter_wemwbs_pl_q10:
+    - custom:
+        text: "10. Czułem/am się pewny/a siebie."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+          
+  utter_wemwbs_pl_q11:
+    - custom:
+        text: "11. Byłem/am w stanie samodzielnie podejmować decyzje."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+
+  utter_wemwbs_pl_q12:
+    - custom:
+        text: "12. Czułem/am się kochany/a."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+  
+  utter_wemwbs_pl_q13:
+    - custom:
+        text: "13. Byłem/am ciekawy/a nowych rzeczy."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+
+  utter_wemwbs_pl_q14:
+    - custom:
+        text: "14. Byłem/am pełen radości."
+        buttons:
+          - title: "Nigdy"
+            value: 1
+          - title: "Rzadko"
+            value: 2
+          - title: "Od czasu do czasu"
+            value: 3
+          - title: "Często"
+            value: 4
+          - title: "Zawsze"
+            value: 5
+  
+  utter_wemwbs_pl_end2:
+    - custom:
+        text: "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

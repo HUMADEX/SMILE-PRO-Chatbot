@@ -1,0 +1,26 @@
+version: "3.1"
+
+nlu:
+
+
+
+- intent: questionnaire_wemwbs_pl
+  examples: |
+    - wemwbs_pl
+    - wemwbs_pl
+
+
+
+- intent: answers
+  examples: |
+    - Nigdy
+    - Rzadko
+    - Od czasu do czasu
+    - Często
+    - Zawsze
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

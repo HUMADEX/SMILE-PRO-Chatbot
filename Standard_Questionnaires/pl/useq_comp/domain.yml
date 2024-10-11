@@ -1,0 +1,129 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_useq_comp_pl
+
+
+responses:
+  utter_useq_comp_pl_start:
+    - text: "Cześć, jak tam?"
+    - text: "Hej, jak tam idzie?"
+    - text: "Czy jesteś gotowy_a zacząć?"
+    - text: "Cześć, porozmawiajmy."
+    - text: "Cześć, dzięki za poświęcenie czasu na te pytania. Zaczynajm"
+        
+  
+  utter_useq_comp_pl_end:
+    - text: "Skończone!"
+    - text: "Skończone na dziś."
+    - text: "Dobra robota. Skończyliśmy."
+    - text: "To było ostatnie pytanie. Dziękuję!"
+    - text: "Skończyliśmy, dzięki. Miłego dnia."
+  
+  utter_useq_comp_pl_intro:
+    - custom:
+        text: "Proszę zaznacz, w jakim stopniu zgadzasz się z poniższymi stwierdzeniami dotyczącymi Twojego doświadczenia z aplikacją towarzyszącą SMILE"
+        
+  utter_useq_comp_pl_q1:
+    - custom:
+        text: "Q1. Czy podobało Ci się korzystanie z apki towarzyszącej SMILE?"
+        buttons:
+          - title: "Wcale (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Bardzo (5)"
+            value: 5
+            
+            
+  utter_useq_comp_pl_q2:
+    - custom:
+        text: "Q2. Czy udało Ci się skorzystać z apki towarzyszącej SMILE?"
+        buttons:
+          - title: "Wcale (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Bardzo (5)"
+            value: 5
+
+  utter_useq_comp_pl_q3:
+    - custom:
+        text: "Q3. Czy byłeś_aś w stanie kontrolować działanie apki towarzyszącej SMILE?"
+        buttons:
+          - title: "Wcale (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Bardzo (5)"
+            value: 5
+
+  utter_useq_comp_pl_q4:
+    - custom:
+        text: "Q4. Czy informacje dostarczane przez apkę towarzyszącą SMILE są jasne?"
+        buttons:
+          - title: "Wcale (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Bardzo (5)"
+            value: 5
+          
+  utter_useq_comp_pl_q5:
+    - custom:
+        text: "Q5. Czy odczuwałeś_aś dyskomfort podczas korzystania z apki towarzyszącej SMILE?"
+        buttons:
+          - title: "Wcale (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Bardzo (5)"
+            value: 5
+
+  utter_useq_comp_pl_q6:
+    - custom:
+        text: "Q6. Czy uważasz, że apka towarzysząca SMILE będzie pomocna we wsparciu Twojego samopoczucia?"
+        buttons:
+          - title: "Wcale (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Bardzo (5)"
+            value: 5
+
+ 
+  
+  utter_useq_comp_pl_end2:
+    - custom:
+        text: "Dziękuję za odpowiedź."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,41 @@
+version: "3.1"
+
+stories:
+
+- story: pswo_c_pl
+  steps:
+  - intent: questionnaire_pswo_c_pl
+  - action: utter_pswo_c_pl_start
+  - intent: answers
+  - action: utter_pswo_c_pl_intro
+  - action: utter_pswo_c_pl_q1
+  - intent: answers
+  - action: utter_pswo_c_pl_q2
+  - intent: answers
+  - action: utter_pswo_c_pl_q3
+  - intent: answers
+  - action: utter_pswo_c_pl_q4
+  - intent: answers
+  - action: utter_pswo_c_pl_q5
+  - intent: answers
+  - action: utter_pswo_c_pl_q6
+  - intent: answers
+  - action: utter_pswo_c_pl_q7
+  - intent: answers
+  - action: utter_pswo_c_pl_q8
+  - intent: answers
+  - action: utter_pswo_c_pl_q9
+  - intent: answers
+  - action: utter_pswo_c_pl_q10
+  - intent: answers
+  - action: utter_pswo_c_pl_q11
+  - intent: answers
+  - action: utter_pswo_c_pl_q12
+  - intent: answers
+  - action: utter_pswo_c_pl_q13
+  - intent: answers
+  - action: utter_pswo_c_pl_q14
+  - intent: answers
+  - action: utter_pswo_c_pl_end
+  - action: utter_pswo_c_pl_end2
+

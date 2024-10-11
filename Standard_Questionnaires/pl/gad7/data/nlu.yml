@@ -1,0 +1,22 @@
+version: "3.1"
+
+nlu:
+
+- intent: questionnaire_gad7_pl
+  examples: |
+    - gad7_pl
+    - gad7_pl
+ 
+
+- intent: answers
+  examples: |
+    - Wcale nie dokuczały
+    - Kilka dni
+    - Więcej niż połowę dni
+    - Niemal codziennie
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+
