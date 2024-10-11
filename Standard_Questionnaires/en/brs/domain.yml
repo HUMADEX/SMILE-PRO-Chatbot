@@ -1,0 +1,128 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_brs_en
+
+
+responses:
+  utter_brs_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_brs_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_brs_en_intro:
+    - custom:
+        text: "Use the following scale and circle one number for each statement to indicate how much you disagree or agree with each of the statements"
+        
+  utter_brs_en_q1:
+    - custom:
+        text: "1. I tend to bounce back quickly after hard times"
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+            
+            
+  utter_brs_en_q2:
+    - custom:
+        text: "2. I have a hard time making it through stressful events."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 5
+          - title: "Disagree"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 2
+          - title: "Strongly Agree"
+            value: 1
+
+  utter_brs_en_q3:
+    - custom:
+        text: "3. It does not take me long to recover from a stressful event."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+
+  utter_brs_en_q4:
+    - custom:
+        text: "4. It is hard for me to snap back when something bad happens."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 5
+          - title: "Disagree"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 2
+          - title: "Strongly Agree"
+            value: 1
+          
+  utter_brs_en_q5:
+    - custom:
+        text: "5. I usually come through difficult times with little trouble."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+
+  utter_brs_en_q6:
+    - custom:
+        text: "6. I tend to take a long time to get over set-backs in my life."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 5
+          - title: "Disagree"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 2
+          - title: "Strongly Agree"
+            value: 1
+
+
+  utter_brs_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

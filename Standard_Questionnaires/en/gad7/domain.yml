@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_gad7_en
+
+
+responses:
+  utter_gad7_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_gad7_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_gad7_en_intro:
+    - custom:
+        text: "Over the last two weeks, how often have you been bothered by the following problems?"
+        
+  utter_gad7_en_q1:
+    - custom:
+        text: "G1.Feeling nervous, anxious, or on edge"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+          
+  utter_gad7_en_q2:
+    - custom:
+        text: "G2.Not being able to stop or control worrying"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+
+  utter_gad7_en_q3:
+    - custom:
+        text: "G3.Worrying too much about different things"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+
+  utter_gad7_en_q4:
+    - custom:
+        text: "G4.Trouble relaxing"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+          
+  utter_gad7_en_q5:
+    - custom:
+        text: "G5.Being so restless that it is hard to sit still"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+
+  utter_gad7_en_q6:
+    - custom:
+        text: "G6.Becoming easily annoyed or irritable"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+
+  utter_gad7_en_q7:
+    - custom:
+        text: "G7.Feeling afraid, as if something awful might happen"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+          
+  utter_gad7_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

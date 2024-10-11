@@ -1,0 +1,188 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_sus_comp_en
+
+
+responses:
+  utter_sus_comp_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_sus_comp_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_sus_comp_en_intro:
+    - custom:
+        text: "Use the following scale and circle one number for each statement to indicate how much you disagree or agree with each of the statements."
+        
+  utter_sus_comp_en_q1:
+    - custom:
+        text: "1. I think that I would like to use the SMILE companion app frequently."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+            
+            
+  utter_sus_comp_en_q2:
+    - custom:
+        text: "2. I found the SMILE companion app unnecessarily complex."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+
+  utter_sus_comp_en_q3:
+    - custom:
+        text: "3. I thought the SMILE companion app was easy to use."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+
+  utter_sus_comp_en_q4:
+    - custom:
+        text: "4. I think that I would need the support of a technical person to be able to use the SMILE companion app."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+          
+  utter_sus_comp_en_q5:
+    - custom:
+        text: "5. I found the various functions in the SMILE companion app were well integrated."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+
+  utter_sus_comp_en_q6:
+    - custom:
+        text: "6. I thought there was too much inconsistency in the SMILE companion app."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+
+
+  utter_sus_comp_en_q7:
+    - custom:
+        text: "7. I would imagine that most people would learn to use the SMILE companion app very quickly."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+
+  utter_sus_comp_en_q8:
+    - custom:
+        text: "8. I found the SMILE companion app very cumbersome to use."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+  
+  utter_sus_comp_en_q9:
+    - custom:
+        text: "9. I felt very confident using the SMILE companion app."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+
+  utter_sus_comp_en_q10:
+    - custom:
+        text: "10. I needed to learn a lot of things before I could get going with the SMILE companion app."
+        buttons:
+          - title: "Strongly Disagree"
+            value: 1
+          - title: "Disagree"
+            value: 2
+          - title: "Neutral"
+            value: 3
+          - title: "Agree"
+            value: 4
+          - title: "Strongly Agree"
+            value: 5
+  
+  utter_sus_comp_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

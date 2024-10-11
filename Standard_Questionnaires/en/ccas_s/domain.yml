@@ -1,0 +1,98 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_ccas_s_en
+
+
+responses:
+  utter_ccas_s_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_ccas_s_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_ccas_s_en_intro:
+    - custom:
+        text: "Please rate how often the following statements are true of you."
+        
+  utter_ccas_s_en_q1:
+    - custom:
+        text: "1. Thinking about climate change makes it difficult for me to sleep or concentrate."
+        buttons:
+          - title: "Never"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Sometimes"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "Almost always"
+            value: 5
+            
+            
+  utter_ccas_s_en_q2:
+    - custom:
+        text: "2. I find myself crying because of climate change."
+        buttons:
+          - title: "Never"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Sometimes"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "Almost always"
+            value: 5
+
+  utter_ccas_s_en_q3:
+    - custom:
+        text: "3. My concerns about climate change make it hard for me to have fun with my family or friends."
+        buttons:
+          - title: "Never"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Sometimes"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "Almost always"
+            value: 5
+
+  utter_ccas_s_en_q4:
+    - custom:
+        text: "4. My concerns about climate change interfere with my ability to get work or school assignments done."
+        buttons:
+          - title: "Never"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Sometimes"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "Almost always"
+            value: 5
+          
+
+  utter_ccas_s_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

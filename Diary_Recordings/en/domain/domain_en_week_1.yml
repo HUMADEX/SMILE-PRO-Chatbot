@@ -1,0 +1,139 @@
+version: "3.1"
+
+
+intents:
+  - answers
+
+
+ 
+responses:
+  utter_diary_en_w1_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_diary_en_w1_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+        
+  
+  utter_diary_en_w1_end2:
+    - custom:
+        endofquestionnaire: "true"
+        text: "Thansk for answering."
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+  utter_diary_en_w1_between:
+    - text: "Thank you for sharing this. Let's move on."
+    - text: "You are doing great. Here comes the next question"
+        
+  
+  utter_diary_en_w1_between_half:
+    - text: "We are halfway done. Let me ask you another question."
+        
+  
+  utter_diary_en_w1_1a:
+    - custom:
+        text: "1a. What do you like about the game so far"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+
+
+  utter_diary_en_w1_1b:
+    - custom:
+        text: "Do you like anything else?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+  utter_diary_en_w1_2a:
+    - custom:
+        text: "2a. What don’t you like about the game so far?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+  utter_diary_en_w1_2b:
+    - custom:
+        text: "2b. Is there anything else that you dislike?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+  utter_diary_en_w1_3:
+    - custom:
+        text: "3. What new things did you learn this week while playing the game?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+
+            
+  
+  utter_diary_en_w1_4:
+    - custom:
+        text: "4. Do you play video games often? If yes, which is your favourite video game? Why this one? How much experience do you have with playing video games?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+      
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_sus_comp_en
+  examples: |
+    - sus_comp_en
+    - SUS_COMP_en
+
+
+
+- intent: answers
+  examples: |
+    - Strongly Disagree
+    - Disagree
+    - Neutral
+    - Agree
+    - Strongly Agree
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

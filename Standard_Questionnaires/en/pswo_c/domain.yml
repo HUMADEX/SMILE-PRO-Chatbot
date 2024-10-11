@@ -1,0 +1,218 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_pswo_c_en
+
+
+responses:  
+  utter_pswo_c_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_pswo_c_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_pswo_c_en_intro:
+    - custom:
+        text: "This form is about worrying. Worrying happens when you are scared about something and you think about it a lot. People sometimes worry about school, their family, their health, things coming up future or other kinds of things. For each sentence that you read, select the answer that best tells how true this sentence tells about you."
+        
+  utter_pswo_c_en_q1:
+    - custom:
+        text: "1. My worries really bother me."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+          
+  utter_pswo_c_en_q2:
+    - custom:
+        text: "2. I don’t really worry about things."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+
+  utter_pswo_c_en_q3:
+    - custom:
+        text: "3. Many things make me worry."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+
+  utter_pswo_c_en_q4:
+    - custom:
+        text: "4. I know I shouldn’t worry about things, but I just can’t help it."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+          
+  utter_pswo_c_en_q5:
+    - custom:
+        text: "5. When I am under pressure, I worry a lot."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+
+  utter_pswo_c_en_q6:
+    - custom:
+        text: "6. I am always worrying about something."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+
+  utter_pswo_c_en_q7:
+    - custom:
+        text: "7. I find it easy to stop worrying when I want."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+          
+  utter_pswo_c_en_q8:
+    - custom:
+        text: "8. When I finish one thing, I start to worry about everything else."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+
+  utter_pswo_c_en_q9:
+    - custom:
+        text: "9. I never worry about anything."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+          
+  utter_pswo_c_en_q10:
+    - custom:
+        text: "10. I’ve been a worrier all my life."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+          
+  utter_pswo_c_en_q11:
+    - custom:
+        text: "11. I notice that I have been worrying about things."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+
+  utter_pswo_c_en_q12:
+    - custom:
+        text: "12. Once I start worrying, I can’t stop."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+  
+  utter_pswo_c_en_q13:
+    - custom:
+        text: "13. I worry all the time."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+
+  utter_pswo_c_en_q14:
+    - custom:
+        text: "14. I worry about things until they are all done"
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+  
+  utter_pswo_c_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+
+- intent: questionnaire_useq_game_en
+  examples: |
+    - useq_game_en
+    - USEQ_GAME_en
+
+
+
+- intent: answers
+  examples: |
+    - Not at All (1)
+    - 2
+    - 3
+    - 4
+    - Very Much (5)
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

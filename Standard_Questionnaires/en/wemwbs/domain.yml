@@ -1,0 +1,246 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_wemwbs_en
+
+
+responses:  
+  utter_wemwbs_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_wemwbs_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_wemwbs_en_intro:
+    - custom:
+        text: "Below are some statements about feelings and thoughts. Please tick the box that best describes your experience of each over the last 2 weeks."
+        
+  utter_wemwbs_en_q1:
+    - custom:
+        text: "1. I’ve been feeling optimistic about the future."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+          
+  utter_wemwbs_en_q2:
+    - custom:
+        text: "2. I’ve been feeling useful."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+
+  utter_wemwbs_en_q3:
+    - custom:
+        text: "3. I’ve been feeling relaxed."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+
+  utter_wemwbs_en_q4:
+    - custom:
+        text: "4. I’ve been feeling interested in other people."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+          
+  utter_wemwbs_en_q5:
+    - custom:
+        text: "5. I’ve had energy to spare."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+
+  utter_wemwbs_en_q6:
+    - custom:
+        text: "6. I’ve been dealing with problems well."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+
+  utter_wemwbs_en_q7:
+    - custom:
+        text: "7. I’ve been thinking clearly."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+          
+  utter_wemwbs_en_q8:
+    - custom:
+        text: "8. I’ve been feeling good about myself."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+
+  utter_wemwbs_en_q9:
+    - custom:
+        text: "9. I’ve been feeling close to other people."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+          
+  utter_wemwbs_en_q10:
+    - custom:
+        text: "10. I’ve been feeling confident."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+          
+  utter_wemwbs_en_q11:
+    - custom:
+        text: "11. I’ve been able to make up my own mind about things."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+
+  utter_wemwbs_en_q12:
+    - custom:
+        text: "12. I’ve been feeling loved."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+  
+  utter_wemwbs_en_q13:
+    - custom:
+        text: "13. I’ve been interested in new things."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+
+  utter_wemwbs_en_q14:
+    - custom:
+        text: "14. I’ve been feeling cheerful."
+        buttons:
+          - title: "None of the time"
+            value: 1
+          - title: "Rarely"
+            value: 2
+          - title: "Some of the time"
+            value: 3
+          - title: "Often"
+            value: 4
+          - title: "All of the time"
+            value: 5
+  
+  utter_wemwbs_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

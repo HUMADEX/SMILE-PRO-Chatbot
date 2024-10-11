@@ -1,0 +1,157 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_ueq_s_game_en
+
+
+responses:
+  utter_ueq_s_game_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_ueq_s_game_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_ueq_s_game_en_intro:
+    - custom:
+        text: "For the assessment of the product, please fill out the following questionnaire. The questionnaire consists of pairs of contrasting attributes that may apply to the product. The circles between the attributes represent gradations between the opposites. You can express your agreement with the attributes by ticking the circle that most closely reflects your impression. Please decide spontaneously. Don’t think too long about your decision to make sure that you convey your original impression. Sometimes you may not be completely sure about your agreement with a particular attribute or you may find that the attribute does not apply completely to the particular product. Nevertheless, please tick a circle in every line. It is your personal opinion that counts. Please remember: there is no wrong or right answer!"
+        
+  utter_ueq_s_game_en_q1:
+    - custom:
+        text: "I found the SMILE game to be …."
+        buttons:
+          - title: "1 = obstructive"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = supportive"
+            value: 5
+          
+  utter_ueq_s_game_en_q2:
+    - custom:
+        text: "I found the SMILE game to be ….”"
+        buttons:
+          - title: "1 = complicated"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = easy"
+            value: 5
+
+  utter_ueq_s_game_en_q3:
+    - custom:
+        text: "I found the SMILE game to be …."
+        buttons:
+          - title: "1 = inefficient"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = efficient"
+            value: 5
+
+  utter_ueq_s_game_en_q4:
+    - custom:
+        text: "I found the SMILE game to be …."
+        buttons:
+          - title: "1 = clear"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = confusing"
+            value: 5
+          
+  utter_ueq_s_game_en_q5:
+    - custom:
+        text: "I found the SMILE game to be …."
+        buttons:
+          - title: "1 = boring"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = exciting"
+            value: 5
+
+  utter_ueq_s_game_en_q6:
+    - custom:
+        text: "I found the SMILE game to be …."
+        buttons:
+          - title: "1 = not interesting"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = interesting"
+            value: 5
+
+          
+  utter_ueq_s_game_en_q7:
+    - custom:
+        text: "I found the SMILE game to be …."
+        buttons:
+          - title: "1 = conventional"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = inventive"
+            value: 5
+
+  utter_ueq_s_game_en_q8:
+    - custom:
+        text: "I found the SMILE game to be …."
+        buttons:
+          - title: "1 = usual"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = leading edge "
+            value: 5
+  
+  utter_ueq_s_game_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

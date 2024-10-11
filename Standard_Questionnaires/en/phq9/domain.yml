@@ -1,0 +1,153 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_phq9_en
+
+
+responses:  
+  utter_phq9_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_phq9_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_phq9_en_intro:
+    - custom:
+        text: "How often have you been bothered by each of the following symptoms during the past two weeks?"
+        
+  utter_phq9_en_q1:
+    - custom:
+        text: "P1.Little interest or pleasure in doing things"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+          
+  utter_phq9_en_q2:
+    - custom:
+        text: "P2.Feeling down, depressed, or hopeless"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+
+  utter_phq9_en_q3:
+    - custom:
+        text: "P3.Trouble falling or staying asleep, or sleeping too much"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+
+  utter_phq9_en_q4:
+    - custom:
+        text: "P4.Feeling tired or having little energy"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+          
+  utter_phq9_en_q5:
+    - custom:
+        text: "P5.Poor appetite or overeating"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+
+  utter_phq9_en_q6:
+    - custom:
+        text: "P6.Feeling bad about yourself or that you are a failure or have let yourself or your family down"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+
+  utter_phq9_en_q7:
+    - custom:
+        text: "P7.Trouble concentrating on things, such as reading the newspaper or watching television"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+          
+  utter_phq9_en_q8:
+    - custom:
+        text: "P8.Moving or speaking so slowly that other people could have noticed. Or the opposite being so figety or restless that you have been moving around a lot more than usual"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+
+  utter_phq9_en_q9:
+    - custom:
+        text: "P9.Thoughts that you would be better off dead, or of hurting yourself"
+        buttons:
+          - title: "Not at all"
+            value: 0
+          - title: "Several days"
+            value: 1
+          - title: "More than half the days"
+            value: 2
+          - title: "Nearly every day"
+            value: 3
+          
+  utter_phq9_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_ccas_s_en
+  examples: |
+    - ccas_s_en
+    - CCAS_S_en
+
+
+
+- intent: answers
+  examples: |
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

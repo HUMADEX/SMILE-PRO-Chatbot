@@ -1,0 +1,217 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_cyrm12_en
+
+
+responses:  
+  utter_cyrm12_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_cyrm12_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_cyrm12_en_intro:
+    - custom:
+        text: "To what extent do the following statements apply to you? There are no right or wrong answers."
+        
+  utter_cyrm12_en_q1:
+    - custom:
+        text: "1. I have people I look up to."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+          
+  utter_cyrm12_en_q2:
+    - custom:
+        text: "2. Getting an education is important to me."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+
+  utter_cyrm12_en_q3:
+    - custom:
+        text: "3. My parent(s)/caregiver(s) know a lot about me."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+
+  utter_cyrm12_en_q4:
+    - custom:
+        text: "4. I try to finish what I start."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+          
+  utter_cyrm12_en_q5:
+    - custom:
+        text: "5. I solve problems without harming myself or others (by using drugs and/or being violent)."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+
+  utter_cyrm12_en_q6:
+    - custom:
+        text: "6. I know where to go in my community to get help."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+
+  utter_cyrm12_en_q7:
+    - custom:
+        text: "7. I feel I belong(ed) at my school."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+          
+  utter_cyrm12_en_q8:
+    - custom:
+        text: "8. My family will stand by me during difficult times."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+
+  utter_cyrm12_en_q9:
+    - custom:
+        text: "9. My friends stand by me during difficult times."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+          
+  utter_cyrm12_en_q10:
+    - custom:
+        text: "10. I am treated fairly in my community."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+          
+  utter_cyrm12_en_q11:
+    - custom:
+        text: "11. I have opportunities to develop skills that will be useful later in life."
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+
+  utter_cyrm12_en_q12:
+    - custom:
+        text: "12. I enjoy my cultural and family traditions. "
+        buttons:
+          - title: "1 = does not describe me at all"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = describes me a lot"
+            value: 5
+
+  
+  utter_cyrm12_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

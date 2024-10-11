@@ -1,0 +1,30 @@
+version: "3.1"
+
+stories:
+
+- story: ueq_s_comp_en
+  steps:
+  - intent: questionnaire_ueq_s_comp_en
+  - action: utter_ueq_s_comp_en_start
+  - intent: answers
+  - action: utter_ueq_s_comp_en_intro
+  - action: utter_ueq_s_comp_en_q1
+  - intent: answers
+  - action: utter_ueq_s_comp_en_q2
+  - intent: answers
+  - action: utter_ueq_s_comp_en_q3
+  - intent: answers
+  - action: utter_ueq_s_comp_en_q4
+  - intent: answers
+  - action: utter_ueq_s_comp_en_q5
+  - intent: answers
+  - action: utter_ueq_s_comp_en_q6
+  - intent: answers
+  - action: utter_ueq_s_comp_en_q7
+  - intent: answers
+  - action: utter_ueq_s_comp_en_q8
+  - intent: answers
+  - action: utter_ueq_s_comp_en_end
+  - action: utter_ueq_s_comp_en_end2
+
+

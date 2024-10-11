@@ -1,0 +1,40 @@
+version: "3.1"
+
+nlu:
+
+
+
+- intent: questionnaire_ueq_s_game_en
+  examples: |
+    - ueq_s_game_en
+    - UEQ_S_GAME_en
+
+
+
+- intent: answers
+  examples: |
+    - 1 = obstructive
+    - 1 = complicated
+    - 1 = inefficient
+    - 1 = clear
+    - 1 = boring
+    - 1 = not interesting
+    - 1 = conventional
+    - 1 = usual
+    - 2
+    - 3
+    - 4
+    - 5 = supportive
+    - 5 = easy
+    - 5 = efficient
+    - 5 = confusing
+    - 5 = exciting
+    - 5 = interesting
+    - 5 = inventive
+    - 5 = leading edge
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

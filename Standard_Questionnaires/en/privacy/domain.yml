@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_privacy_en
+
+
+responses:
+  utter_privacy_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_privacy_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_privacy_en_intro:
+    - custom:
+        text: "Tick one number for each statement to indicate how much you disagree or agree with each of the statements."
+        
+  utter_privacy_en_q1:
+    - custom:
+        text: "Item 1a: “I am concerned that the information I share in the SMILE game could be misused.”"
+        buttons:
+          - title: "1 = completely disagree"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = completely agree"
+            value: 5
+          
+  utter_privacy_en_q2:
+    - custom:
+        text: "Item 1b: “I am concerned that the information I share in the SMILE companion app could be misused.”"
+        buttons:
+          - title: "1 = completely disagree"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = completely agree"
+            value: 5
+
+  utter_privacy_en_q3:
+    - custom:
+        text: "Item 2a: “I am concerned that others can find private information about me in the SMILE game.”"
+        buttons:
+          - title: "1 = completely disagree"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = completely agree"
+            value: 5
+
+  utter_privacy_en_q4:
+    - custom:
+        text: "Item 2b: “I am concerned that others can find private information about me in the SMILE companion app.”"
+        buttons:
+          - title: "1 = completely disagree"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = completely agree"
+            value: 5
+          
+  utter_privacy_en_q5:
+    - custom:
+        text: "Item 3a: “I am concerned about sharing personal information in the SMILE game, because it could be used in a way I did not foresee.“"
+        buttons:
+          - title: "1 = completely disagree"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = completely agree"
+            value: 5
+
+  utter_privacy_en_q6:
+    - custom:
+        text: "Item 3b: “I am concerned about sharing personal information in the SMILE companion app, because it could be used in a way I did not foresee.“"
+        buttons:
+          - title: "1 = completely disagree"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = completely agree"
+            value: 5
+
+          
+  utter_privacy_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

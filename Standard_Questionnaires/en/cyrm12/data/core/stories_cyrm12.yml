@@ -1,0 +1,37 @@
+version: "3.1"
+
+stories:
+
+- story: cyrm12_en
+  steps:
+  - intent: questionnaire_cyrm12_en
+  - action: utter_cyrm12_en_start
+  - intent: answers
+  - action: utter_cyrm12_en_intro
+  - action: utter_cyrm12_en_q1
+  - intent: answers
+  - action: utter_cyrm12_en_q2
+  - intent: answers
+  - action: utter_cyrm12_en_q3
+  - intent: answers
+  - action: utter_cyrm12_en_q4
+  - intent: answers
+  - action: utter_cyrm12_en_q5
+  - intent: answers
+  - action: utter_cyrm12_en_q6
+  - intent: answers
+  - action: utter_cyrm12_en_q7
+  - intent: answers
+  - action: utter_cyrm12_en_q8
+  - intent: answers
+  - action: utter_cyrm12_en_q9
+  - intent: answers
+  - action: utter_cyrm12_en_q10
+  - intent: answers
+  - action: utter_cyrm12_en_q11
+  - intent: answers
+  - action: utter_cyrm12_en_q12
+  - intent: answers
+  - action: utter_cyrm12_en_end
+  - action: utter_cyrm12_en_end2
+

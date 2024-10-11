@@ -1,0 +1,96 @@
+version: "3.1"
+
+
+intents:
+  - answers
+
+
+ 
+responses:
+  utter_diary_en_w41_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_diary_en_w41_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+        
+  
+  utter_diary_en_w41_end2:
+    - custom:
+        endofquestionnaire: "true"
+        text: "Thansk for answering."
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+  utter_diary_en_w41_between:
+    - text: "Thank you for sharing this. Let's move on."
+    - text: "You are doing great. Here comes the next question"
+        
+  
+  utter_diary_en_w41_between_half:
+    - text: "We are halfway done. Let me ask you another question."
+        
+  
+  utter_diary_en_w41_1:
+    - custom:
+        text: "1. Do people always tell the truth? Why or why not?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+
+
+  utter_diary_en_w41_2:
+    - custom:
+        text: "2. How do you know who you can trust and who not?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+  utter_diary_en_w41_3:
+    - custom:
+        text: "3. Do you believe everything you see on television, hear on the radio or see on social media? Did it ever happen to you that you did not believe something? How do you know that something is untrue?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+          
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

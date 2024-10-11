@@ -1,0 +1,110 @@
+version: "3.1"
+
+
+intents:
+  - answers
+
+
+ 
+responses:
+  utter_diary_en_w2_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_diary_en_w2_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+        
+  
+  utter_diary_en_w2_end2:
+    - custom:
+        endofquestionnaire: "true"
+        text: "Thansk for answering."
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+  utter_diary_en_w2_between:
+    - text: "Thank you for sharing this. Let's move on."
+    - text: "You are doing great. Here comes the next question"
+        
+  
+  utter_diary_en_w2_between_half:
+    - text: "We are halfway done. Let me ask you another question."
+        
+  
+  utter_diary_en_w2_1:
+    - custom:
+        text: "1. What new things did you learn this week while playing the game? Did you learn anything new about yourself?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+
+
+  utter_diary_en_w2_2:
+    - custom:
+        text: "2. What do you tend to do when you don’t feel safe in real life?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+  utter_diary_en_w2_3:
+    - custom:
+        text: "3. When you face a problem, what do you do to solve it?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+  utter_diary_en_w2_4:
+    - custom:
+        text: "4. Do you prefer to be by yourself in such situations or with others? Who do you talk to about difficult things?"
+        gesture:
+          TYPE: "Manual"
+          VALUE: ""
+          DO_AFTER: ""
+          DISPLAY_TABLET: ""
+          DISPLAY_TYPE: ""
+          DISPLAY_OPTIONS: ""
+          DURATION_TABLET: ""
+          SENTENCE_SEQ: ""
+          GESTURE_SEQ: ""
+  
+        
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

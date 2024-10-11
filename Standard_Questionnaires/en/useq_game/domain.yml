@@ -1,0 +1,129 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_useq_game_en
+
+
+responses:
+  utter_useq_game_en_start:
+    - text: "Hi, there, how are you?"
+    - text: "Hello, how is everthing going?"
+    - text: "Are you ready to start?"
+    - text: "Hi there, let's talk."
+    - text: "Hi, thanks for taking some time for these questions. Let's begin."
+        
+  
+  utter_useq_game_en_end:
+    - text: "All done."
+    - text: "All done for today."
+    - text: "Good job. We are done."
+    - text: "This was the last question. Thank you."
+    - text: "We are done, thanks. Have a nice day."
+  
+  utter_useq_game_en_intro:
+    - custom:
+        text: "Please indicate the extent to which you agree with the following statements regarding your experience with the SMILE game."
+        
+  utter_useq_game_en_q1:
+    - custom:
+        text: "1. Did you enjoy your experience with the SMILE game?"
+        buttons:
+          - title: "Not at All (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Very Much (5)"
+            value: 5
+            
+            
+  utter_useq_game_en_q2:
+    - custom:
+        text: "2. Were you successful using the SMILE game?"
+        buttons:
+          - title: "Not at All (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Very Much (5)"
+            value: 5
+
+  utter_useq_game_en_q3:
+    - custom:
+        text: "3. Were you able to control the SMILE game?"
+        buttons:
+          - title: "Not at All (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Very Much (5)"
+            value: 5
+
+  utter_useq_game_en_q4:
+    - custom:
+        text: "4. Is the information provided by the SMILE game clear?"
+        buttons:
+          - title: "Not at All (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Very Much (5)"
+            value: 5
+          
+  utter_useq_game_en_q5:
+    - custom:
+        text: "5. Did you feel discomfort during your experience with the SMILE game?"
+        buttons:
+          - title: "Not at All (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Very Much (5)"
+            value: 5
+
+  utter_useq_game_en_q6:
+    - custom:
+        text: "6. Do you think that the SMILE game will be helpful for how you feel?"
+        buttons:
+          - title: "Not at All (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Very Much (5)"
+            value: 5
+
+ 
+  
+  utter_useq_game_en_end2:
+    - custom:
+        text: "Thanks for answering."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
