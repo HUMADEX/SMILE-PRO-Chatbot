@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_pswo_c_sl
+  examples: |
+    - pswq_c_sl
+    - PSWQ_C_SL
+
+
+
+- intent: answers
+  examples: |
+    - Nikoli
+    - Včasih
+    - Večinoma
+    - Vedno
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

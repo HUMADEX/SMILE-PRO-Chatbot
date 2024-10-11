@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_useq_comp_sl
+  examples: |
+    - useq_comp_sl
+    - USEQ_COMP_SL
+
+
+
+- intent: answers
+  examples: |
+    - 1 - Sploh ne
+    - 2
+    - 3
+    - 4
+    - 5 - Zelo
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

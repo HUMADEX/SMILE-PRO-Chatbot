@@ -1,0 +1,157 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_ueq_s_game_sl
+
+
+responses:
+  utter_ueq_s_game_sl_start:
+    - text: "Zdravo, kako si?"
+    - text: "Zdravo, kako gre?"
+    - text: "Si pripravljen_a začeti?"
+    - text: "Zdravo, pogovoriva se."
+    - text: "Zdravo, hvala, da si si vzel_a čas za sledeča vprašanja. Začniva."
+        
+  
+  utter_ueq_s_game_sl_end:
+    - text: "Opravljeno!"
+    - text: "Končano za danes."
+    - text: "Bravo. Zaključila sva."
+    - text: "To je bilo zadnje vprašanje. Hvala!"
+    - text: "Zaključila sva, hvala. Imej lep dan."
+  
+  utter_ueq_s_game_sl_intro:
+    - custom:
+        text: "Za oceno SMILE igre in SMILE aplikacije izpolni naslednji vprašalnik. Vprašalnik je sestavljen iz parov nasprotujočih si besed, ki se lahko nanašajo na SMILE igro in aplikacijo. Krogci* med besedami predstavljajo stopnjo prehanjanja med nasprotji. Svoje strinjanje lahko izraziš tako, da označiš krogec*, ki najbolje odraža tvoje mnenje. O svoji odločitvi ne razmišljaj predolgo. Včasih morda ne boš povsem prepričan_a, ali pa boš ugotovil_a, da beseda za SMILE igro ali aplikacijo ne velja v celoti. Kljub temu v vsaki vrstici označi krogec*. Ne pozabi: ni napačnega ali pravilnega odgovora!"
+        
+  utter_ueq_s_game_sl_q1:
+    - custom:
+        text: "SMILE igra se mi zdi ..."
+        buttons:
+          - title: "1 = z njo se ne da upravljati"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = z njo se z lahkoto upravlja"
+            value: 5
+          
+  utter_ueq_s_game_sl_q2:
+    - custom:
+        text: "SMILE igra se mi zdi ...”"
+        buttons:
+          - title: "1 = komplicirana"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = enostavna"
+            value: 5
+
+  utter_ueq_s_game_sl_q3:
+    - custom:
+        text: "SMILE igra se mi zdi ..."
+        buttons:
+          - title: "1 = ni učinkovita"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = učinkovita"
+            value: 5
+
+  utter_ueq_s_game_sl_q4:
+    - custom:
+        text: "SMILE igra se mi zdi ..."
+        buttons:
+          - title: "1 = pregledna"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = ustvarja zmedo"
+            value: 5
+          
+  utter_ueq_s_game_sl_q5:
+    - custom:
+        text: "SMILE igra se mi zdi ..."
+        buttons:
+          - title: "1 = dolgočasna"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = napeta"
+            value: 5
+
+  utter_ueq_s_game_sl_q6:
+    - custom:
+        text: "SMILE igra se mi zdi ..."
+        buttons:
+          - title: "1 = nezanimiva"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = zanimiva"
+            value: 5
+
+          
+  utter_ueq_s_game_sl_q7:
+    - custom:
+        text: "SMILE igra se mi zdi ..."
+        buttons:
+          - title: "1 = stara"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = nova"
+            value: 5
+
+  utter_ueq_s_game_sl_q8:
+    - custom:
+        text: "SMILE igra se mi zdi ..."
+        buttons:
+          - title: "1 = zastarela"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = moderna"
+            value: 5
+  
+  utter_ueq_s_game_sl_end2:
+    - custom:
+        text: "Hvala za tvoje odgovore."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

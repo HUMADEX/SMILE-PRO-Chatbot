@@ -1,0 +1,218 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_pswo_c_sl
+
+
+responses:  
+  utter_pswo_c_sl_start:
+    - text: "Zdravo, kako si?"
+    - text: "Zdravo, kako gre?"
+    - text: "Si pripravljen_a začeti?"
+    - text: "Zdravo, pogovoriva se."
+    - text: "Zdravo, hvala, da si si vzel_a čas za sledeča vprašanja. Začniva."
+        
+  
+  utter_pswo_c_sl_end:
+    - text: "Opravljeno!"
+    - text: "Končano za danes."
+    - text: "Bravo. Zaključila sva."
+    - text: "To je bilo zadnje vprašanje. Hvala!"
+    - text: "Zaključila sva, hvala. Imej lep dan."
+  
+  utter_pswo_c_sl_intro:
+    - custom:
+        text: "Pri tem vprašalniku se gre o zaskrbljenosti. Do zaskrbljenosti pride, ko te je glede nečesa strah in o tem veliko razmišljaš. Ljudje so včasih zaskrbljeni o šoli, svoji družini, svojem zdravju, prihodnosti ali drugih stvareh. Za vsako poved, ki jo prebereš, označi odgovor, ki zate najbolj velja."
+        
+  utter_pswo_c_sl_q1:
+    - custom:
+        text: "1. Moje skrbi me res motijo."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+          
+  utter_pswo_c_sl_q2:
+    - custom:
+        text: "2. Glede stvari se ne obremenjujem."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+
+  utter_pswo_c_sl_q3:
+    - custom:
+        text: "3. Veliko stvari me dela zaskrbljenega_no."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+
+  utter_pswo_c_sl_q4:
+    - custom:
+        text: "4. Vem, da me ne bi smelo toliko skrbeti, ampak si enostavno ne morem pomagati."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+          
+  utter_pswo_c_sl_q5:
+    - custom:
+        text: "5. Zelo sem zaskrbljen_a, ko sem pod pritiskom."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+
+  utter_pswo_c_sl_q6:
+    - custom:
+        text: "6. Vedno me nekaj skrbi."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+
+  utter_pswo_c_sl_q7:
+    - custom:
+        text: "7. Ko želim, mi je enostavno nehati skrbeti."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+          
+  utter_pswo_c_sl_q8:
+    - custom:
+        text: "8. Ko eno stvar zaključim, me začne skrbeti za vse ostalo."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+
+  utter_pswo_c_sl_q9:
+    - custom:
+        text: "9. Nikoli me o ničemer ne skrbi."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+          
+  utter_pswo_c_sl_q10:
+    - custom:
+        text: "10. Zaskrbljen_a sem že celo življenje."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+          
+  utter_pswo_c_sl_q11:
+    - custom:
+        text: "11. Opazim, da sem zaskrbljen_a o stvareh."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+
+  utter_pswo_c_sl_q12:
+    - custom:
+        text: "12. Ko me enkrat začne skrbeti, ne morem nehati."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+  
+  utter_pswo_c_sl_q13:
+    - custom:
+        text: "13. Zaskrbljen_a sem ves čas."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+
+  utter_pswo_c_sl_q14:
+    - custom:
+        text: "14. O stvareh me skrbi, dokler niso končane."
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Včasih"
+            value: 1
+          - title: "Večinoma"
+            value: 2
+          - title: "Vedno"
+            value: 3
+  
+  utter_pswo_c_sl_end2:
+    - custom:
+        text: "Hvala za tvoje odgovore."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

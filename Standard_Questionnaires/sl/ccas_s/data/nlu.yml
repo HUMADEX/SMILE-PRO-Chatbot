@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_ccas_s_sl
+  examples: |
+    - ccas_s_sl
+    - CCAS_S_SL
+
+
+
+- intent: answers
+  examples: |
+    - Nikoli
+    - Redko
+    - Včasih
+    - Pogosto
+    - Skoraj vedno 
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

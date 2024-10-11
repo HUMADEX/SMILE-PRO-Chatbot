@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_phq9_A_sl
+  examples: |
+    - phq9_A_sl
+    - PHQ9_A_SL
+
+
+
+- intent: answers
+  examples: |
+    - Sploh ne
+    - Nekaj dni
+    - Več kot polovico dni
+    - Skoraj vsak dan
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

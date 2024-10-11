@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_privacy_sl
+
+
+responses:
+  utter_privacy_sl_start:
+    - text: "Zdravo, kako si?"
+    - text: "Zdravo, kako gre?"
+    - text: "Si pripravljen_a začeti?"
+    - text: "Zdravo, pogovoriva se."
+    - text: "Zdravo, hvala, da si si vzel_a čas za sledeča vprašanja. Začniva."
+        
+  
+  utter_privacy_sl_end:
+    - text: "Opravljeno!"
+    - text: "Končano za danes."
+    - text: "Bravo. Zaključila sva."
+    - text: "To je bilo zadnje vprašanje. Hvala!"
+    - text: "Zaključila sva, hvala. Imej lep dan."
+  
+  utter_privacy_sl_intro:
+    - custom:
+        text: "Pri vsaki trditvi označi eno število, ki kaže, koliko se z njo strinjaš ali ne strinjaš."
+        
+  utter_privacy_sl_q1:
+    - custom:
+        text: "Skrbi me, da bi lahko bile informacije, ki jih delim z igro SMILE, zlorabljene."
+        buttons:
+          - title: "1 = sploh se ne strinjam"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = popolnoma se strinjam"
+            value: 5
+          
+  utter_privacy_sl_q2:
+    - custom:
+        text: "Skrbi me, da bi lahko bile informacije, ki jih delim z aplikacijo SMILE, zlorabljene."
+        buttons:
+          - title: "1 = sploh se ne strinjam"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = popolnoma se strinjam"
+            value: 5
+
+  utter_privacy_sl_q3:
+    - custom:
+        text: "Skrbi me, da lahko drugi v igri SMILE najdejo moje zasebne podatke."
+        buttons:
+          - title: "1 = sploh se ne strinjam"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = popolnoma se strinjam"
+            value: 5
+
+  utter_privacy_sl_q4:
+    - custom:
+        text: "Skrbi me, da lahko drugi v aplikaciji SMILE najdejo moje zasebne podatke."
+        buttons:
+          - title: "1 = sploh se ne strinjam"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = popolnoma se strinjam"
+            value: 5
+          
+  utter_privacy_sl_q5:
+    - custom:
+        text: "Skrbi me deljenje osebnih podatkov v igri SMILE, ker bi lahko bili uporabljeni na način, ki ga nisem pričakoval_a."
+        buttons:
+          - title: "1 = sploh se ne strinjam"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = popolnoma se strinjam"
+            value: 5
+
+  utter_privacy_sl_q6:
+    - custom:
+        text: "Skrbi me deljenje osebnih podatkov v aplikaciji SMILE, ker bi lahko bili uporabljeni na način, ki ga nisem pričakoval_a."
+        buttons:
+          - title: "1 = sploh se ne strinjam"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = popolnoma se strinjam"
+            value: 5
+
+          
+  utter_privacy_sl_end2:
+    - custom:
+        text: "Hvala za tvoje odgovore."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

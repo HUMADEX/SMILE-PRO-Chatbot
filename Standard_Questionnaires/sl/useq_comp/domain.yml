@@ -1,0 +1,129 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_useq_comp_sl
+
+
+responses:
+  utter_useq_comp_sl_start:
+    - text: "Zdravo, kako si?"
+    - text: "Zdravo, kako gre?"
+    - text: "Si pripravljen_a začeti?"
+    - text: "Zdravo, pogovoriva se."
+    - text: "Zdravo, hvala, da si si vzel_a čas za sledeča vprašanja. Začniva."
+        
+  
+  utter_useq_comp_sl_end:
+    - text: "Opravljeno!"
+    - text: "Končano za danes."
+    - text: "Bravo. Zaključila sva."
+    - text: "To je bilo zadnje vprašanje. Hvala!"
+    - text: "Zaključila sva, hvala. Imej lep dan."
+  
+  utter_useq_comp_sl_intro:
+    - custom:
+        text: "Prosimo označi, koliko se strinjaš s trditvami glede tvoje izkušnje s SMILE igro in SMILE aplikacijo."
+        
+  utter_useq_comp_sl_q1:
+    - custom:
+        text: "V1. Si užival_a v izkušnji z aplikacijo SMILE?"
+        buttons:
+          - title: "1 - Sploh ne"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 - Zelo"
+            value: 5
+            
+            
+  utter_useq_comp_sl_q2:
+    - custom:
+        text: "V2. Si bil_a pri uporabi aplikacije SMILE uspešen_na?"
+        buttons:
+          - title: "1 - Sploh ne"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 - Zelo"
+            value: 5
+
+  utter_useq_comp_sl_q3:
+    - custom:
+        text: "V3. Si lahko nadzoroval_a aplikacijo SMILE?"
+        buttons:
+          - title: "1 - Sploh ne"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 - Zelo"
+            value: 5
+
+  utter_useq_comp_sl_q4:
+    - custom:
+        text: "V4. So informacije v aplikaciji SMILE jasne?"
+        buttons:
+          - title: "1 - Sploh ne"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 - Zelo"
+            value: 5
+          
+  utter_useq_comp_sl_q5:
+    - custom:
+        text: "V5. Si se med izkušnjo z aplikacijo SMILE počutil_a nelagodno?"
+        buttons:
+          - title: "1 - Sploh ne"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 - Zelo"
+            value: 5
+
+  utter_useq_comp_sl_q6:
+    - custom:
+        text: "V6. Meniš, da bo aplikacija SMILE koristna pri tvojem okrevanju?"
+        buttons:
+          - title: "1 - Sploh ne"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 - Zelo"
+            value: 5
+
+ 
+  
+  utter_useq_comp_sl_end2:
+    - custom:
+        text: "Hvala za tvoje odgovore."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

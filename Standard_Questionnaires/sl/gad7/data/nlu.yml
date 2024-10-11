@@ -1,0 +1,22 @@
+version: "3.1"
+
+nlu:
+
+- intent: questionnaire_gad7_sl
+  examples: |
+    - gad7_sl
+    - GAD7_SL
+ 
+
+- intent: answers
+  examples: |
+    - Nikoli
+    - Več dni
+    - Več kot polovico dni
+    - Skoraj vsak dan
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

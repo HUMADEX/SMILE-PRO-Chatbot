@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_gad7_sl
+
+
+responses:
+  utter_gad7_sl_start:
+    - text: "Zdravo, kako si?"
+    - text: "Zdravo, kako gre?"
+    - text: "Si pripravljen_a začeti?"
+    - text: "Zdravo, pogovoriva se."
+    - text: "Zdravo, hvala, da si si vzel_a čas za sledeča vprašanja. Začniva."
+        
+  
+  utter_gad7_sl_end:
+    - text: "Opravljeno!"
+    - text: "Končano za danes."
+    - text: "Bravo. Zaključila sva."
+    - text: "To je bilo zadnje vprašanje. Hvala!"
+    - text: "Zaključila sva, hvala. Imej lep dan."
+  
+  utter_gad7_sl_intro:
+    - custom:
+        text: "Kako pogosto so vas v zadnjih 2 tednih pestile spodnje težave?"
+        
+  utter_gad7_sl_q1:
+    - custom:
+        text: "1. Počutim se nervozno in/ali zaskrbljeno"
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Več dni"
+            value: 1
+          - title: "Več kot polovico dni"
+            value: 2
+          - title: "Skoraj vsak dan"
+            value: 3
+          
+  utter_gad7_sl_q2:
+    - custom:
+        text: "2. Nisem mogel/a kontrolirati ali ustaviti zaskrbljenosti"
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Več dni"
+            value: 1
+          - title: "Več kot polovico dni"
+            value: 2
+          - title: "Skoraj vsak dan"
+            value: 3
+
+  utter_gad7_sl_q3:
+    - custom:
+        text: "3. Pretirano sem bil/a zaskrbljen/a za različne stvari"
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Več dni"
+            value: 1
+          - title: "Več kot polovico dni"
+            value: 2
+          - title: "Skoraj vsak dan"
+            value: 3
+
+  utter_gad7_sl_q4:
+    - custom:
+        text: "4. Težko sem se sprostil/a"
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Več dni"
+            value: 1
+          - title: "Več kot polovico dni"
+            value: 2
+          - title: "Skoraj vsak dan"
+            value: 3
+          
+  utter_gad7_sl_q5:
+    - custom:
+        text: "5. Tako sem bil/a nemiren/a, da sem težko sedel/a pri miru"
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Več dni"
+            value: 1
+          - title: "Več kot polovico dni"
+            value: 2
+          - title: "Skoraj vsak dan"
+            value: 3
+
+  utter_gad7_sl_q6:
+    - custom:
+        text: "6. Zlahka sem se vznemiril/a, razdražil/a"
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Več dni"
+            value: 1
+          - title: "Več kot polovico dni"
+            value: 2
+          - title: "Skoraj vsak dan"
+            value: 3
+
+  utter_gad7_sl_q7:
+    - custom:
+        text: "7. Strah me je bilo, da se bo zgodilo nekaj groznega"
+        buttons:
+          - title: "Nikoli"
+            value: 0
+          - title: "Več dni"
+            value: 1
+          - title: "Več kot polovico dni"
+            value: 2
+          - title: "Skoraj vsak dan"
+            value: 3
+          
+  utter_gad7_sl_end2:
+    - custom:
+        text: "Hvala za tvoje odgovore."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

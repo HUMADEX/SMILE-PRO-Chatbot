@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+
+- intent: questionnaire_useq_game_sl
+  examples: |
+    - useq_game_sl
+    - USEQ_GAME_SL
+
+
+
+- intent: answers
+  examples: |
+    - 1 - Sploh ne
+    - 2
+    - 3
+    - 4
+    - 5 - Zelo
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

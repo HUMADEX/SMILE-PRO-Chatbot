@@ -1,0 +1,25 @@
+version: "3.1"
+
+stories:
+
+- story: useq_game_sl
+  steps:
+  - intent: questionnaire_useq_game_sl
+  - action: utter_useq_game_sl_start
+  - intent: answers
+  - action: utter_useq_game_sl_intro
+  - action: utter_useq_game_sl_q1
+  - intent: answers
+  - action: utter_useq_game_sl_q2
+  - intent: answers
+  - action: utter_useq_game_sl_q3
+  - intent: answers
+  - action: utter_useq_game_sl_q4
+  - intent: answers
+  - action: utter_useq_game_sl_q5
+  - intent: answers
+  - action: utter_useq_game_sl_q6
+  - intent: answers
+  - action: utter_useq_game_sl_end
+  - action: utter_useq_game_sl_end2
+

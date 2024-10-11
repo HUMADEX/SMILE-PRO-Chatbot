@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_cyrm12_sl
+  examples: |
+    - cyrm12_sl
+    - CYRM12_SL
+
+
+- intent: answers
+  examples: |
+    - Sploh ne drži
+    - Malo drži
+    - Nekoliko drži
+    - Precej drži
+    - Zelo drži
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

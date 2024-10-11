@@ -1,0 +1,40 @@
+version: "3.1"
+
+nlu:
+
+
+
+- intent: questionnaire_ueq_s_game_sl
+  examples: |
+    - ueq_s_game_sl
+    - UEQ_S_GAME_SL
+
+
+
+- intent: answers
+  examples: |
+    - 1 = z njo se ne da upravljati
+    - 1 = komplicirana
+    - 1 = ni učinkovita
+    - 1 = pregledna
+    - 1 = dolgočasna
+    - 1 = nezanimiva
+    - 1 = stara
+    - 1 = zastarela
+    - 2
+    - 3
+    - 4
+    - 5 = z njo se z lahkoto upravlja
+    - 5 = enostavna
+    - 5 = učinkovita
+    - 5 = ustvarja zmedo
+    - 5 = napeta
+    - 5 = zanimiva
+    - 5 = nova
+    - 5 = moderna
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

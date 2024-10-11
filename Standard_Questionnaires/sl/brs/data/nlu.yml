@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_brs_sl
+  examples: |
+    - brs_sl
+    - BRS_SL
+
+
+
+- intent: answers
+  examples: |
+    - Močno se ne strinjam
+    - Se ne strinjam
+    - Sem nevtralen/-na
+    - Se strinjam
+    - Se močno strinjam
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

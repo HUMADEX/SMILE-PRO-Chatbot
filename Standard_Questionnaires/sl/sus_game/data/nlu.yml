@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_sus_game_sl
+  examples: |
+    - sus_game_sl
+    - SUS_GAME_SL
+
+
+
+- intent: answers
+  examples: |
+    - Močno se ne strinjam
+    - Se ne strinjam
+    - Sem nevtralen_a
+    - Se strinjam
+    - Se močno stirnjam
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

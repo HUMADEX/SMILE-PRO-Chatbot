@@ -1,0 +1,26 @@
+version: "3.1"
+
+stories:
+
+- story: brs_sl
+  steps:
+  - intent: questionnaire_brs_sl
+  - action: utter_brs_sl_start
+  - intent: answers
+  - action: utter_brs_sl_intro
+  - action: utter_brs_sl_q1
+  - intent: answers
+  - action: utter_brs_sl_q2
+  - intent: answers
+  - action: utter_brs_sl_q3
+  - intent: answers
+  - action: utter_brs_sl_q4
+  - intent: answers
+  - action: utter_brs_sl_q5
+  - intent: answers
+  - action: utter_brs_sl_q6
+  - intent: answers
+  - action: utter_brs_sl_end
+  - action: utter_brs_sl_end2
+
+

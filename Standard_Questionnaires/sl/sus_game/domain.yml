@@ -1,0 +1,188 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_sus_game_sl
+
+
+responses:
+  utter_sus_game_sl_start:
+    - text: "Zdravo, kako si?"
+    - text: "Zdravo, kako gre?"
+    - text: "Si pripravljen_a začeti?"
+    - text: "Zdravo, pogovoriva se."
+    - text: "Zdravo, hvala, da si si vzel_a čas za sledeča vprašanja. Začniva."
+        
+  
+  utter_sus_game_sl_end:
+    - text: "Opravljeno!"
+    - text: "Končano za danes."
+    - text: "Bravo. Zaključila sva."
+    - text: "To je bilo zadnje vprašanje. Hvala!"
+    - text: "Zaključila sva, hvala. Imej lep dan."
+  
+  utter_sus_game_sl_intro:
+    - custom:
+        text: "Pri vsaki trditvi označi eno število, ki kaže, koliko se z njo strinjaš ali ne strinjaš."
+        
+  utter_sus_game_sl_q1:
+    - custom:
+        text: "1. Menim, da bi SMILE igro rad_a pogosto uporabljal_a."
+        buttons:
+          - title: "Močno se ne strinjam"
+            value: 1
+          - title: "Se ne strinjam"
+            value: 2
+          - title: "Sem nevtralen_a"
+            value: 3
+          - title: "Se strinjam"
+            value: 4
+          - title: "Se močno stirnjam"
+            value: 5
+            
+            
+  utter_sus_game_sl_q2:
+    - custom:
+        text: "2. SMILE igra se mi je zdela po nepotrebnem zapletena."
+        buttons:
+          - title: "Močno se ne strinjam"
+            value: 1
+          - title: "Se ne strinjam"
+            value: 2
+          - title: "Sem nevtralen_a"
+            value: 3
+          - title: "Se strinjam"
+            value: 4
+          - title: "Se močno stirnjam"
+            value: 5
+
+  utter_sus_game_sl_q3:
+    - custom:
+        text: "SMILE igra se mi je zdela enostavna za uporabo."
+        buttons:
+          - title: "Močno se ne strinjam"
+            value: 1
+          - title: "Se ne strinjam"
+            value: 2
+          - title: "Sem nevtralen_a"
+            value: 3
+          - title: "Se strinjam"
+            value: 4
+          - title: "Se močno stirnjam"
+            value: 5
+
+  utter_sus_game_sl_q4:
+    - custom:
+        text: "4. Menim, da bi za uporabo SMILE igre potreboval_a pomoč tehnika."
+        buttons:
+          - title: "Močno se ne strinjam"
+            value: 1
+          - title: "Se ne strinjam"
+            value: 2
+          - title: "Sem nevtralen_a"
+            value: 3
+          - title: "Se strinjam"
+            value: 4
+          - title: "Se močno stirnjam"
+            value: 5
+          
+  utter_sus_game_sl_q5:
+    - custom:
+        text: "5. Različne funkcije SMILE igre so se mi zdele dobro povezane v smiselno celoto."
+        buttons:
+          - title: "Močno se ne strinjam"
+            value: 1
+          - title: "Se ne strinjam"
+            value: 2
+          - title: "Sem nevtralen_a"
+            value: 3
+          - title: "Se strinjam"
+            value: 4
+          - title: "Se močno stirnjam"
+            value: 5
+
+  utter_sus_game_sl_q6:
+    - custom:
+        text: "SMILE igra se mi je zdela preveč nekonsistentna."
+        buttons:
+          - title: "Močno se ne strinjam"
+            value: 1
+          - title: "Se ne strinjam"
+            value: 2
+          - title: "Sem nevtralen_a"
+            value: 3
+          - title: "Se strinjam"
+            value: 4
+          - title: "Se močno stirnjam"
+            value: 5
+
+
+  utter_sus_game_sl_q7:
+    - custom:
+        text: "7. Menim, da bi se večina uporabnikov SMILE igro zelo hitro naučila uporabljati."
+        buttons:
+          - title: "Močno se ne strinjam"
+            value: 1
+          - title: "Se ne strinjam"
+            value: 2
+          - title: "Sem nevtralen_a"
+            value: 3
+          - title: "Se strinjam"
+            value: 4
+          - title: "Se močno stirnjam"
+            value: 5
+
+  utter_sus_game_sl_q8:
+    - custom:
+        text: "8. SMILE igra se mi je zdela nerodna za uporabo."
+        buttons:
+          - title: "Močno se ne strinjam"
+            value: 1
+          - title: "Se ne strinjam"
+            value: 2
+          - title: "Sem nevtralen_a"
+            value: 3
+          - title: "Se strinjam"
+            value: 4
+          - title: "Se močno stirnjam"
+            value: 5
+  
+  utter_sus_game_sl_q9:
+    - custom:
+        text: "9. Pri uporabi SMILE igre sem bil_a zelo suveren_a."
+        buttons:
+          - title: "Močno se ne strinjam"
+            value: 1
+          - title: "Se ne strinjam"
+            value: 2
+          - title: "Sem nevtralen_a"
+            value: 3
+          - title: "Se strinjam"
+            value: 4
+          - title: "Se močno stirnjam"
+            value: 5
+
+  utter_sus_game_sl_q10:
+    - custom:
+        text: "10. Preden sem osvojil_a uporabo SMILE igre, sem se moral_a naučiti veliko stvari."
+        buttons:
+          - title: "Močno se ne strinjam"
+            value: 1
+          - title: "Se ne strinjam"
+            value: 2
+          - title: "Sem nevtralen_a"
+            value: 3
+          - title: "Se strinjam"
+            value: 4
+          - title: "Se močno stirnjam"
+            value: 5
+  
+  utter_sus_game_sl_end2:
+    - custom:
+        text: "Hvala za tvoje odgovore."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
