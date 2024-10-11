@@ -65,12 +65,12 @@ Rasa Community: https://forum.rasa.com/
 
 <b>Supported Languages</b>
 
-English
-Slovenian
-Greek
-Polish
-German
-Italian (pending)
+English,
+Slovenian,
+Greek,
+Polish,
+German,
+Italian (pending),
 Spanish (pending)
 
 <b>Reference</b>
