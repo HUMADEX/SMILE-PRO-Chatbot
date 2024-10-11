@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_sus_game_el
+  examples: |
+    - sus_game_el
+    - SUS_GAME_el
+
+
+
+- intent: answers
+  examples: |
+    - Διαφωνώ Απόλυτα
+    - Διαφωνώ
+    - Ούτε διαφωνώ ούτε συμφωνώ
+    - Συμφωνώ
+    - Συμφωνώ απόλυτα
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

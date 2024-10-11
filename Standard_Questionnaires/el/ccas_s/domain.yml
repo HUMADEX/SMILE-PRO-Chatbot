@@ -1,0 +1,98 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_ccas_s_el
+
+
+responses:
+  utter_ccas_s_el_start:
+    - text: "Γεια σου, πώς είσαι;"
+    - text: "Γεια σου, πώς πάει;"
+    - text: "Είσαι έτοιμος/η να ξεκινήσεις;"
+    - text: "Γεια σου, ας μιλήσουμε."
+    - text: "Γεια σου, ευχαριστώ για το χρόνο που αφιερώνεις για ν’ απαντήσεις σ’ αυτές τις ερωτήσεις. Ας αρχίσουμε."
+        
+  
+  utter_ccas_s_el_end:
+    - text: "Έχεις τελειώσει!"
+    - text: "Τελείωσες για σήμερα."
+    - text: "Μπράβο. Τελειώσαμε."
+    - text: "Αυτή ήταν η τελευταία ερώτηση. Ευχαριστούμε!"
+    - text: "Τελειώσαμε, ευχαριστούμε. Να έχεις μια όμορφη ημέρα."
+  
+  utter_ccas_s_el_intro:
+    - custom:
+        text: "Please rate how often the following statements are true of you."
+        
+  utter_ccas_s_el_q1:
+    - custom:
+        text: "1. Όταν σκέφτομαι την κλιματική αλλαγή, δυσκολεύομαι να κοιμηθώ ή να συγκεντρωθώ."
+        buttons:
+          - title: "Ποτέ"
+            value: 1
+          - title: "Σπάνια"
+            value: 2
+          - title: "Μερικές Φορές"
+            value: 3
+          - title: "Συχνά"
+            value: 4
+          - title: "Σχεδόν Πάντα"
+            value: 5
+            
+            
+  utter_ccas_s_el_q2:
+    - custom:
+        text: "2. Πιάνω τον εαυτό μου να κλαίει εξαιτίας της κλιματικής αλλαγής."
+        buttons:
+          - title: "Ποτέ"
+            value: 1
+          - title: "Σπάνια"
+            value: 2
+          - title: "Μερικές Φορές"
+            value: 3
+          - title: "Συχνά"
+            value: 4
+          - title: "Σχεδόν Πάντα"
+            value: 5
+
+  utter_ccas_s_el_q3:
+    - custom:
+        text: "3. Οι ανησυχίες μου για την κλιματική αλλάγη με δυσκολεύουν ως προς το να διασκεδάσω με την οικογένεια μου ή τους φίλους μου."
+        buttons:
+          - title: "Ποτέ"
+            value: 1
+          - title: "Σπάνια"
+            value: 2
+          - title: "Μερικές Φορές"
+            value: 3
+          - title: "Συχνά"
+            value: 4
+          - title: "Σχεδόν Πάντα"
+            value: 5
+
+  utter_ccas_s_el_q4:
+    - custom:
+        text: "4. Οι ανησυχίες μου για την κλιματική αλλάγη παρεμβαίνουν σητν ικανότητά μου να δουλέψω ή να ολοκληρώσω τις σχολικές μου εργασίες."
+        buttons:
+          - title: "Ποτέ"
+            value: 1
+          - title: "Σπάνια"
+            value: 2
+          - title: "Μερικές Φορές"
+            value: 3
+          - title: "Συχνά"
+            value: 4
+          - title: "Σχεδόν Πάντα"
+            value: 5
+          
+
+  utter_ccas_s_el_end2:
+    - custom:
+        text: "Ευχαριστώ για την απάντηση."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

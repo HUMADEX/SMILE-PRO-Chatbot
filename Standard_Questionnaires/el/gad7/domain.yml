@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_gad7_el
+
+
+responses:
+  utter_gad7_el_start:
+    - text: "Γεια σου, πώς είσαι;"
+    - text: "Γεια σου, πώς πάει;"
+    - text: "Είσαι έτοιμος/η να ξεκινήσεις;"
+    - text: "Γεια σου, ας μιλήσουμε."
+    - text: "Γεια σου, ευχαριστώ για το χρόνο που αφιερώνεις για ν’ απαντήσεις σ’ αυτές τις ερωτήσεις. Ας αρχίσουμε."
+        
+  
+  utter_gad7_el_end:
+    - text: "Έχεις τελειώσει!"
+    - text: "Τελείωσες για σήμερα."
+    - text: "Μπράβο. Τελειώσαμε."
+    - text: "Αυτή ήταν η τελευταία ερώτηση. Ευχαριστούμε!"
+    - text: "Τελειώσαμε, ευχαριστούμε. Να έχεις μια όμορφη ημέρα."
+  
+  utter_gad7_el_intro:
+    - custom:
+        text: "Τις τελευταίες δύο εβδομάδες, πόσο συχνά σε ενόχλησαν τα παρακάτω προβλήματα;"
+        
+  utter_gad7_el_q1:
+    - custom:
+        text: "G1.Αισθάνθηκες νεύρα, άγχος ή ένταση."
+        buttons:
+          - title: "Καθόλου"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Περισσότερες από τις μισές φορές"
+            value: 2
+          - title: "Σχεδόν κάθε μέρα"
+            value: 3
+          
+  utter_gad7_el_q2:
+    - custom:
+        text: "G2.Δεν μπορούσες να σταματήσεις ή να ελέγξεις το άγχος σου."
+        buttons:
+          - title: "Καθόλου"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Περισσότερες από τις μισές φορές"
+            value: 2
+          - title: "Σχεδόν κάθε μέρα"
+            value: 3
+
+  utter_gad7_el_q3:
+    - custom:
+        text: "G3.Ανησυχούσες υπερβολικά για διάφορα πράγματα."
+        buttons:
+          - title: "Καθόλου"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Περισσότερες από τις μισές φορές"
+            value: 2
+          - title: "Σχεδόν κάθε μέρα"
+            value: 3
+
+  utter_gad7_el_q4:
+    - custom:
+        text: "G4.Δυσκολευόσουν να χαλαρώσεις."
+        buttons:
+          - title: "Καθόλου"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Περισσότερες από τις μισές φορές"
+            value: 2
+          - title: "Σχεδόν κάθε μέρα"
+            value: 3
+          
+  utter_gad7_el_q5:
+    - custom:
+        text: "G5.Είχες τόσο μεγάλη ανησυχία που δεν μπορούσες να καθίσεις ακίνητος(η)."
+        buttons:
+          - title: "Καθόλου"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Περισσότερες από τις μισές φορές"
+            value: 2
+          - title: "Σχεδόν κάθε μέρα"
+            value: 3
+
+  utter_gad7_el_q6:
+    - custom:
+        text: "G6.Ένιωθες εύκολα ενόχληση ή εκνευρισμό."
+        buttons:
+          - title: "Καθόλου"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Περισσότερες από τις μισές φορές"
+            value: 2
+          - title: "Σχεδόν κάθε μέρα"
+            value: 3
+
+  utter_gad7_el_q7:
+    - custom:
+        text: "G7.Φοβόσουν ότι κάτι φρικτό μπορεί να συμβεί."
+        buttons:
+          - title: "Καθόλου"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Περισσότερες από τις μισές φορές"
+            value: 2
+          - title: "Σχεδόν κάθε μέρα"
+            value: 3
+          
+  utter_gad7_el_end2:
+    - custom:
+        text: "Ευχαριστώ για την απάντηση."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

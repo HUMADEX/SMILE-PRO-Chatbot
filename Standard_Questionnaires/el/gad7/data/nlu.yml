@@ -1,0 +1,22 @@
+version: "3.1"
+
+nlu:
+
+- intent: questionnaire_gad7_el
+  examples: |
+    - gad7_el
+    - GAD7_el
+ 
+
+- intent: answers
+  examples: |
+    - Καθόλου
+    - Μερικές Φορές
+    - Περισσότερες από τις μισές φορές
+    - Σχεδόν κάθε μέρα
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

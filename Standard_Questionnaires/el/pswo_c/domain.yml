@@ -1,0 +1,218 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_pswo_c_el
+
+
+responses:  
+  utter_pswo_c_el_start:
+    - text: "Γεια σου, πώς είσαι;"
+    - text: "Γεια σου, πώς πάει;"
+    - text: "Είσαι έτοιμος/η να ξεκινήσεις;"
+    - text: "Γεια σου, ας μιλήσουμε."
+    - text: "Γεια σου, ευχαριστώ για το χρόνο που αφιερώνεις για ν’ απαντήσεις σ’ αυτές τις ερωτήσεις. Ας αρχίσουμε."
+        
+  
+  utter_pswo_c_el_end:
+    - text: "Έχεις τελειώσει!"
+    - text: "Τελείωσες για σήμερα."
+    - text: "Μπράβο. Τελειώσαμε."
+    - text: "Αυτή ήταν η τελευταία ερώτηση. Ευχαριστούμε!"
+    - text: "Τελειώσαμε, ευχαριστούμε. Να έχεις μια όμορφη ημέρα."
+  
+  utter_pswo_c_el_intro:
+    - custom:
+        text: "Αυτό το ερωτηματολόγιο αφορά την ανησυχία. Η ανησυχία συμβαίνει όταν φοβάσαι για κάτι και το σκέφτεσαι πολύ. Οι άνθρωποι μερικές φορές ανησυχούν για το σχολείο, την οικογένειά τους, την υγεία τους, τα πράγματα που έρχονται στο μέλλον ή άλλα είδη πραγμάτων. Για κάθε πρόταση που διαβάζεις, βάλε σε κύκλο την απάντηση που λέει καλύτερα πόσο αληθινή είναι αυτή η πρόταση για εσένα."
+        
+  utter_pswo_c_el_q1:
+    - custom:
+        text: "1. Οι ανησυχίες μου πραγματικά με ενοχλούν."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+          
+  utter_pswo_c_el_q2:
+    - custom:
+        text: "2. Δεν ανησυχώ πραγματικά για τα πράγματα."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+
+  utter_pswo_c_el_q3:
+    - custom:
+        text: "3. Πολλά πράγματα με κάνουν να ανησυχώ."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+
+  utter_pswo_c_el_q4:
+    - custom:
+        text: "4. Το ξέρω ότι δεν θα έπρεπε να ανησυχώ για πράγματα απλά δεν μπορώ να κάνω αλλιώς."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+          
+  utter_pswo_c_el_q5:
+    - custom:
+        text: "5. Όταν είμαι υπό πίεση, ανησυχώ πολύ."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+
+  utter_pswo_c_el_q6:
+    - custom:
+        text: "6. Πάντα ανησυχώ για κάτι."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+
+  utter_pswo_c_el_q7:
+    - custom:
+        text: "7. Το βρίσκω εύκολο να σταματήσω να ανησυχώ όταν θέλω."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+          
+  utter_pswo_c_el_q8:
+    - custom:
+        text: "8. Όταν τελειώνω ένα πράγμα, ξεκινώ να ανησυχώ για ότιδήποτε άλλο."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+
+  utter_pswo_c_el_q9:
+    - custom:
+        text: "9. Δεν ανησυχώ ποτέ για τίποτε."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+          
+  utter_pswo_c_el_q10:
+    - custom:
+        text: "10. Ανησυχούσα σε όλη μου τη ζωή."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+          
+  utter_pswo_c_el_q11:
+    - custom:
+        text: "11. Παρατηρώ ότι ανησυχώ για διάφορα πράγματα."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+
+  utter_pswo_c_el_q12:
+    - custom:
+        text: "12. Μόλις αρχίσω να ανησυχώ, δεν μπορώ να σταματήσω."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+  
+  utter_pswo_c_el_q13:
+    - custom:
+        text: "13. Ανησυχώ όλη την ώρα."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+
+  utter_pswo_c_el_q14:
+    - custom:
+        text: "14. Ανησυχώ για τα πράγματα μέχρι να τελειώσουν όλα."
+        buttons:
+          - title: "Ποτέ"
+            value: 0
+          - title: "Μερικές Φορές"
+            value: 1
+          - title: "Συνήθως"
+            value: 2
+          - title: "Πάντα"
+            value: 3
+  
+  utter_pswo_c_el_end2:
+    - custom:
+        text: "Ευχαριστώ για την απάντηση."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

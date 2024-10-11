@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_privacy_el
+
+
+responses:
+  utter_privacy_el_start:
+    - text: "Γεια σου, πώς είσαι;"
+    - text: "Γεια σου, πώς πάει;"
+    - text: "Είσαι έτοιμος/η να ξεκινήσεις;"
+    - text: "Γεια σου, ας μιλήσουμε."
+    - text: "Γεια σου, ευχαριστώ για το χρόνο που αφιερώνεις για ν’ απαντήσεις σ’ αυτές τις ερωτήσεις. Ας αρχίσουμε."
+        
+  
+  utter_privacy_el_end:
+    - text: "Έχεις τελειώσει!"
+    - text: "Τελείωσες για σήμερα."
+    - text: "Μπράβο. Τελειώσαμε."
+    - text: "Αυτή ήταν η τελευταία ερώτηση. Ευχαριστούμε!"
+    - text: "Τελειώσαμε, ευχαριστούμε. Να έχεις μια όμορφη ημέρα."
+  
+  utter_privacy_el_intro:
+    - custom:
+        text: "Ανησυχίες σχετικά με την προστασία της ιδιωτικής ζωής στο διαδίκτυο."
+        
+  utter_privacy_el_q1:
+    - custom:
+        text: "Ανησυχώ ότι οι πληροφορίες που μοιράζομαι στο παιχνίδι SMILE θα μπορούσαν να χρησιμοποιηθούν καταχρηστικά."
+        buttons:
+          - title: "1 = διαφωνώ απόλυτα"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = συμφωνώ απόλυτα"
+            value: 5
+          
+  utter_privacy_el_q2:
+    - custom:
+        text: "Ανησυχώ ότι οι πληροφορίες που μοιράζομαι στην εφαρμογή συντροφικότητας SMILE θα μπορούσαν να χρησιμοποιηθούν καταχρηστικά."
+        buttons:
+          - title: "1 = διαφωνώ απόλυτα"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = συμφωνώ απόλυτα"
+            value: 5
+
+  utter_privacy_el_q3:
+    - custom:
+        text: "Ανησυχώ ότι άλλοι μπορούν να βρουν προσωπικές πληροφορίες για μένα στο παιχνίδι SMILE."
+        buttons:
+          - title: "1 = διαφωνώ απόλυτα"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = συμφωνώ απόλυτα"
+            value: 5
+
+  utter_privacy_el_q4:
+    - custom:
+        text: "Ανησυχώ ότι άλλοι μπορούν να βρουν προσωπικές πληροφορίες για μένα στην εφαρμογή συντροφικότητας SMILE."
+        buttons:
+          - title: "1 = διαφωνώ απόλυτα"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = συμφωνώ απόλυτα"
+            value: 5
+          
+  utter_privacy_el_q5:
+    - custom:
+        text: "Ανησυχώ για την κοινοποίηση προσωπικών πληροφοριών στο παιχνίδι SMILE, επειδή θα μπορούσαν να χρησιμοποιηθούν με τρόπο που δεν προέβλεψα."
+        buttons:
+          - title: "1 = διαφωνώ απόλυτα"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = συμφωνώ απόλυτα"
+            value: 5
+
+  utter_privacy_el_q6:
+    - custom:
+        text: "Ανησυχώ για την κοινοποίηση προσωπικών πληροφοριών στην εφαρμογή συντροφικότητας SMILE, επειδή θα μπορούσαν να χρησιμοποιηθούν με τρόπο που δεν προέβλεψα."
+        buttons:
+          - title: "1 = διαφωνώ απόλυτα"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = συμφωνώ απόλυτα"
+            value: 5
+
+          
+  utter_privacy_el_end2:
+    - custom:
+        text: "Ευχαριστώ για την απάντηση."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

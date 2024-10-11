@@ -1,0 +1,188 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_sus_game_el
+
+
+responses:
+  utter_sus_game_el_start:
+    - text: "Γεια σου, πώς είσαι;"
+    - text: "Γεια σου, πώς πάει;"
+    - text: "Είσαι έτοιμος/η να ξεκινήσεις;"
+    - text: "Γεια σου, ας μιλήσουμε."
+    - text: "Γεια σου, ευχαριστώ για το χρόνο που αφιερώνεις για ν’ απαντήσεις σ’ αυτές τις ερωτήσεις. Ας αρχίσουμε."
+        
+  
+  utter_sus_game_el_end:
+    - text: "Έχεις τελειώσει!"
+    - text: "Τελείωσες για σήμερα."
+    - text: "Μπράβο. Τελειώσαμε."
+    - text: "Αυτή ήταν η τελευταία ερώτηση. Ευχαριστούμε!"
+    - text: "Τελειώσαμε, ευχαριστούμε. Να έχεις μια όμορφη ημέρα."
+  
+  utter_sus_game_el_intro:
+    - custom:
+        text: "Kλίμακα Χρήσης Συστήματος"
+        
+  utter_sus_game_el_q1:
+    - custom:
+        text: "1. Πιστεύω θα μου άρεσε να χρησιμοποιώ συχνά, το παιχνίδι SMILE."
+        buttons:
+          - title: "Διαφωνώ Απόλυτα"
+            value: 1
+          - title: "Διαφωνώ"
+            value: 2
+          - title: "Ούτε διαφωνώ ούτε συμφωνώ"
+            value: 3
+          - title: "Συμφωνώ"
+            value: 4
+          - title: "Συμφωνώ απόλυτα"
+            value: 5
+            
+            
+  utter_sus_game_el_q2:
+    - custom:
+        text: "2. Βρήκα το παιχνίδι SMILE αχρείαστα περίπλοκο."
+        buttons:
+          - title: "Διαφωνώ Απόλυτα"
+            value: 1
+          - title: "Διαφωνώ"
+            value: 2
+          - title: "Ούτε διαφωνώ ούτε συμφωνώ"
+            value: 3
+          - title: "Συμφωνώ"
+            value: 4
+          - title: "Συμφωνώ απόλυτα"
+            value: 5
+
+  utter_sus_game_el_q3:
+    - custom:
+        text: "3. Πίστευα ότι θα ήταν εύκολο να χρησιμοποιήσω το παιχνίδι SMILE."
+        buttons:
+          - title: "Διαφωνώ Απόλυτα"
+            value: 1
+          - title: "Διαφωνώ"
+            value: 2
+          - title: "Ούτε διαφωνώ ούτε συμφωνώ"
+            value: 3
+          - title: "Συμφωνώ"
+            value: 4
+          - title: "Συμφωνώ απόλυτα"
+            value: 5
+
+  utter_sus_game_el_q4:
+    - custom:
+        text: "4. Πιστεύω ότι θα χρειαζόμουν την υποστήριξη ενός τεχνικού για να μπορέσω να χρησιμοποιήσω το παιχνίδι SMILE."
+        buttons:
+          - title: "Διαφωνώ Απόλυτα"
+            value: 1
+          - title: "Διαφωνώ"
+            value: 2
+          - title: "Ούτε διαφωνώ ούτε συμφωνώ"
+            value: 3
+          - title: "Συμφωνώ"
+            value: 4
+          - title: "Συμφωνώ απόλυτα"
+            value: 5
+          
+  utter_sus_game_el_q5:
+    - custom:
+        text: "5. Βρήκα τις διάφορες λειτουργίες του παιχνιδιού SMILE πολύ καλά ενσωματωμένες."
+        buttons:
+          - title: "Διαφωνώ Απόλυτα"
+            value: 1
+          - title: "Διαφωνώ"
+            value: 2
+          - title: "Ούτε διαφωνώ ούτε συμφωνώ"
+            value: 3
+          - title: "Συμφωνώ"
+            value: 4
+          - title: "Συμφωνώ απόλυτα"
+            value: 5
+
+  utter_sus_game_el_q6:
+    - custom:
+        text: "6. Σκέφτηκα ότι υπήρχε μεγάλη ασυνέπεια στο παιχνίδι SMILE."
+        buttons:
+          - title: "Διαφωνώ Απόλυτα"
+            value: 1
+          - title: "Διαφωνώ"
+            value: 2
+          - title: "Ούτε διαφωνώ ούτε συμφωνώ"
+            value: 3
+          - title: "Συμφωνώ"
+            value: 4
+          - title: "Συμφωνώ απόλυτα"
+            value: 5
+
+
+  utter_sus_game_el_q7:
+    - custom:
+        text: "7. Θα μπορούσα να φανταστώ ότι οι πλείστοι άνθρωποι θα μάθαιναν να χρησιμοποιούν το παιχνίδι SMILE πολύ γρήγορα."
+        buttons:
+          - title: "Διαφωνώ Απόλυτα"
+            value: 1
+          - title: "Διαφωνώ"
+            value: 2
+          - title: "Ούτε διαφωνώ ούτε συμφωνώ"
+            value: 3
+          - title: "Συμφωνώ"
+            value: 4
+          - title: "Συμφωνώ απόλυτα"
+            value: 5
+
+  utter_sus_game_el_q8:
+    - custom:
+        text: "8. Βρήκα το παιχνίδι SMILE πολύ περίπλοκο ως προς τη χρήση του."
+        buttons:
+          - title: "Διαφωνώ Απόλυτα"
+            value: 1
+          - title: "Διαφωνώ"
+            value: 2
+          - title: "Ούτε διαφωνώ ούτε συμφωνώ"
+            value: 3
+          - title: "Συμφωνώ"
+            value: 4
+          - title: "Συμφωνώ απόλυτα"
+            value: 5
+  
+  utter_sus_game_el_q9:
+    - custom:
+        text: "9. Αισθανόμουν πολλή αυτοπεποίθηση να χρησιμοποιήσω το παιχνίδι SMILE."
+        buttons:
+          - title: "Διαφωνώ Απόλυτα"
+            value: 1
+          - title: "Διαφωνώ"
+            value: 2
+          - title: "Ούτε διαφωνώ ούτε συμφωνώ"
+            value: 3
+          - title: "Συμφωνώ"
+            value: 4
+          - title: "Συμφωνώ απόλυτα"
+            value: 5
+
+  utter_sus_game_el_q10:
+    - custom:
+        text: "10. Χρειαζόταν να μάθω πολλά πράγματα προτού ξεκινήσω με το παιχνίδι SMILE."
+        buttons:
+          - title: "Διαφωνώ Απόλυτα"
+            value: 1
+          - title: "Διαφωνώ"
+            value: 2
+          - title: "Ούτε διαφωνώ ούτε συμφωνώ"
+            value: 3
+          - title: "Συμφωνώ"
+            value: 4
+          - title: "Συμφωνώ απόλυτα"
+            value: 5
+  
+  utter_sus_game_el_end2:
+    - custom:
+        text: "Ευχαριστώ για την απάντηση."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

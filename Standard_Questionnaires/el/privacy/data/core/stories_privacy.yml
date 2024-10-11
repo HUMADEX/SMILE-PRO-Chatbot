@@ -1,0 +1,26 @@
+version: "3.1"
+
+stories:
+
+- story: privacy_el
+  steps:
+  - intent: questionnaire_privacy_el
+  - action: utter_privacy_el_start
+  - intent: answers
+  - action: utter_privacy_el_intro
+  - action: utter_privacy_el_q1
+  - intent: answers
+  - action: utter_privacy_el_q2
+  - intent: answers
+  - action: utter_privacy_el_q3
+  - intent: answers
+  - action: utter_privacy_el_q4
+  - intent: answers
+  - action: utter_privacy_el_q5
+  - intent: answers
+  - action: utter_privacy_el_q6
+  - intent: answers
+  - action: utter_privacy_el_end
+  - action: utter_privacy_el_end2
+
+

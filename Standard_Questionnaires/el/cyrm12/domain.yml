@@ -1,0 +1,217 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_cyrm12_el
+
+
+responses:  
+  utter_cyrm12_el_start:
+    - text: "Γεια σου, πώς είσαι;"
+    - text: "Γεια σου, πώς πάει;"
+    - text: "Είσαι έτοιμος/η να ξεκινήσεις;"
+    - text: "Γεια σου, ας μιλήσουμε."
+    - text: "Γεια σου, ευχαριστώ για το χρόνο που αφιερώνεις για ν’ απαντήσεις σ’ αυτές τις ερωτήσεις. Ας αρχίσουμε."
+        
+  
+  utter_cyrm12_el_end:
+    - text: "Έχεις τελειώσει!"
+    - text: "Τελείωσες για σήμερα."
+    - text: "Μπράβο. Τελειώσαμε."
+    - text: "Αυτή ήταν η τελευταία ερώτηση. Ευχαριστούμε!"
+    - text: "Τελειώσαμε, ευχαριστούμε. Να έχεις μια όμορφη ημέρα."
+  
+  utter_cyrm12_el_intro:
+    - custom:
+        text: "Σε ποιο βαθμό σε χαρακτηρίζουν οι ακόλουθες δηλώσεις; Επέλεξε έναν αριθμό για κάθε απάντηση."
+        
+  utter_cyrm12_el_q1:
+    - custom:
+        text: "1. Έχω άτομα τα οποία θαυμάζω."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+          
+  utter_cyrm12_el_q2:
+    - custom:
+        text: "2. Η μόρφωση είναι σημαντική για εμένα."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+
+  utter_cyrm12_el_q3:
+    - custom:
+        text: "3. Οι γονείς/φροντιστές μου ξέρουν πολλά για εμένα."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+
+  utter_cyrm12_el_q4:
+    - custom:
+        text: "4. Προσπαθώ να τελειώσω αυτό που ξεκινώ."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+          
+  utter_cyrm12_el_q5:
+    - custom:
+        text: "5. Είμαι σε θέση να λύνω προβλήματα χωρίς να βλάπτω τον εαυτό μου ή τους άλλους (για παράδειγμα κάνοντας χρήση ναρκωτικών ή ασκώντας βία)."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+
+  utter_cyrm12_el_q6:
+    - custom:
+        text: "6. Ξέρω που πρέπει να αποταθώ για να λάβω βοήθεια."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+
+  utter_cyrm12_el_q7:
+    - custom:
+        text: "7. Νιώθω ότι ανήκω στο σχολείο μου."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+          
+  utter_cyrm12_el_q8:
+    - custom:
+        text: "8. Η οικογένεια μου είναι δίπλα μου στις δύσκολές στιγμές."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+
+  utter_cyrm12_el_q9:
+    - custom:
+        text: "9. Οι φίλοι μου είναι δίπλα μου στις δύσκολες στιγμές."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+          
+  utter_cyrm12_el_q10:
+    - custom:
+        text: "10. Στην κοινότητά μου, με αντιμετωπίζουν δίκαια."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+          
+  utter_cyrm12_el_q11:
+    - custom:
+        text: "11. Έχω τις ευκαιρίες να αναπτύξω δεξιότητες που θα μου είναι χρήσιμες αργότερα στη ζωή μου."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+
+  utter_cyrm12_el_q12:
+    - custom:
+        text: "12. Απολαμβάνω τις παραδόσεις της οικογένειας και της κοινότητάς μου."
+        buttons:
+          - title: "1 = (Δεν με περιγράφει) Καθόλου"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = (Με περιγράφει) Πολύ"
+            value: 5
+
+  
+  utter_cyrm12_el_end2:
+    - custom:
+        text: "Ευχαριστώ για την απάντηση."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_pswo_c_el
+  examples: |
+    - pswq_c_el
+    - pswq_c_el
+
+
+
+- intent: answers
+  examples: |
+    - Ποτέ
+    - Μερικές Φορές
+    - Συνήθως
+    - Πάντα
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

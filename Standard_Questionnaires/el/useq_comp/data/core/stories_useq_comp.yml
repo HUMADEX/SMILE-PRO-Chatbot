@@ -1,0 +1,25 @@
+version: "3.1"
+
+stories:
+
+- story: useq_comp_el
+  steps:
+  - intent: questionnaire_useq_comp_el
+  - action: utter_useq_comp_el_start
+  - intent: answers
+  - action: utter_useq_comp_el_intro
+  - action: utter_useq_comp_el_q1
+  - intent: answers
+  - action: utter_useq_comp_el_q2
+  - intent: answers
+  - action: utter_useq_comp_el_q3
+  - intent: answers
+  - action: utter_useq_comp_el_q4
+  - intent: answers
+  - action: utter_useq_comp_el_q5
+  - intent: answers
+  - action: utter_useq_comp_el_q6
+  - intent: answers
+  - action: utter_useq_comp_el_end
+  - action: utter_useq_comp_el_end2
+

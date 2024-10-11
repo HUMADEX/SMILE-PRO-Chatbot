@@ -1,0 +1,30 @@
+version: "3.1"
+
+stories:
+
+- story: ueq_s_game_el
+  steps:
+  - intent: questionnaire_ueq_s_game_el
+  - action: utter_ueq_s_game_el_start
+  - intent: answers
+  - action: utter_ueq_s_game_el_intro
+  - action: utter_ueq_s_game_el_q1
+  - intent: answers
+  - action: utter_ueq_s_game_el_q2
+  - intent: answers
+  - action: utter_ueq_s_game_el_q3
+  - intent: answers
+  - action: utter_ueq_s_game_el_q4
+  - intent: answers
+  - action: utter_ueq_s_game_el_q5
+  - intent: answers
+  - action: utter_ueq_s_game_el_q6
+  - intent: answers
+  - action: utter_ueq_s_game_el_q7
+  - intent: answers
+  - action: utter_ueq_s_game_el_q8
+  - intent: answers
+  - action: utter_ueq_s_game_el_end
+  - action: utter_ueq_s_game_el_end2
+
+

@@ -1,0 +1,129 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_useq_comp_el
+
+
+responses:
+  utter_useq_comp_el_start:
+    - text: "Γεια σου, πώς είσαι;"
+    - text: "Γεια σου, πώς πάει;"
+    - text: "Είσαι έτοιμος/η να ξεκινήσεις;"
+    - text: "Γεια σου, ας μιλήσουμε."
+    - text: "Γεια σου, ευχαριστώ για το χρόνο που αφιερώνεις για ν’ απαντήσεις σ’ αυτές τις ερωτήσεις. Ας αρχίσουμε."
+        
+  
+  utter_useq_comp_el_end:
+    - text: "Έχεις τελειώσει!"
+    - text: "Τελείωσες για σήμερα."
+    - text: "Μπράβο. Τελειώσαμε."
+    - text: "Αυτή ήταν η τελευταία ερώτηση. Ευχαριστούμε!"
+    - text: "Τελειώσαμε, ευχαριστούμε. Να έχεις μια όμορφη ημέρα."
+  
+  utter_useq_comp_el_intro:
+    - custom:
+        text: "Ερωτηματολόγιο Εμπειρίας Ικανοποίησης Χρήστη από την εφαρμογή συντροφικότητας SMILE."
+        
+  utter_useq_comp_el_q1:
+    - custom:
+        text: "1. Σου άρεσε η εμπειρία σου με την εφαρμογή συντροφικότητας SMILE;"
+        buttons:
+          - title: "Καθόλου (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Πάρα πολύ (5)"
+            value: 5
+            
+            
+  utter_useq_comp_el_q2:
+    - custom:
+        text: "2.  Χρησιμοποίησες με επιτυχία την εφαρμογή συντροφικότητας  SMILE;"
+        buttons:
+          - title: "Καθόλου (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Πάρα πολύ (5)"
+            value: 5
+
+  utter_useq_comp_el_q3:
+    - custom:
+        text: "3. Καταφέρες να ελέγξεις την εφαρμογή συντροφικότητας SMILE;"
+        buttons:
+          - title: "Καθόλου (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Πάρα πολύ (5)"
+            value: 5
+
+  utter_useq_comp_el_q4:
+    - custom:
+        text: "4. Είναι σαφείς οι πληροφορίες που παρέχονται από την εφαρμογή συντροφικότητας  SMILE;"
+        buttons:
+          - title: "Καθόλου (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Πάρα πολύ (5)"
+            value: 5
+          
+  utter_useq_comp_el_q5:
+    - custom:
+        text: "5. Αισθανθήκες δυσφορία κατά τη διάρκεια της εμπειρίας σου με την εφαρμογή συντροφικότητας  SMILE;"
+        buttons:
+          - title: "Καθόλου (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Πάρα πολύ (5)"
+            value: 5
+
+  utter_useq_comp_el_q6:
+    - custom:
+        text: "6. Πιστεύεις ότι η εφαρμογή συντροφικότητας SMILE θα είναι βοηθητική για το πως νιώθεις;"
+        buttons:
+          - title: "Καθόλου (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Πάρα πολύ (5)"
+            value: 5
+
+ 
+  
+  utter_useq_comp_el_end2:
+    - custom:
+        text: "Ευχαριστώ για την απάντηση."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

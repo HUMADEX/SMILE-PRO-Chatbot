@@ -1,0 +1,26 @@
+version: "3.1"
+
+nlu:
+
+
+
+- intent: questionnaire_wemwbs_el
+  examples: |
+    - wemwbs_el
+    - WEMWBS_el
+
+
+
+- intent: answers
+  examples: |
+    - Ποτέ
+    - Σπάνια
+    - Μερικές Φορές
+    - Συχνά
+    - Συνέχεια
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

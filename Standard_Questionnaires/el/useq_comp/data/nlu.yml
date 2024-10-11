@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_useq_comp_el
+  examples: |
+    - useq_comp_el
+    - USEQ_COMP_el
+
+
+
+- intent: answers
+  examples: |
+    - Καθόλου (1)
+    - 2
+    - 3
+    - 4
+    - Πάρα πολύ (5)
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

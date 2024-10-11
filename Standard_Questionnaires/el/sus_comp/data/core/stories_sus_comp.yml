@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+
+- story: sus_comp_el
+  steps:
+  - intent: questionnaire_sus_comp_el
+  - action: utter_sus_comp_el_start
+  - intent: answers
+  - action: utter_sus_comp_el_intro
+  - action: utter_sus_comp_el_q1
+  - intent: answers
+  - action: utter_sus_comp_el_q2
+  - intent: answers
+  - action: utter_sus_comp_el_q3
+  - intent: answers
+  - action: utter_sus_comp_el_q4
+  - intent: answers
+  - action: utter_sus_comp_el_q5
+  - intent: answers
+  - action: utter_sus_comp_el_q6
+  - intent: answers
+  - action: utter_sus_comp_el_q7
+  - intent: answers
+  - action: utter_sus_comp_el_q8
+  - intent: answers
+  - action: utter_sus_comp_el_q9
+  - intent: answers
+  - action: utter_sus_comp_el_q10
+  - intent: answers
+  - action: utter_sus_comp_el_end
+  - action: utter_sus_comp_el_end2
+
