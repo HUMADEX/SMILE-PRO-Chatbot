@@ -1,18 +1,14 @@
-
-<<<<<<< HEAD
 <b>Mental Health Assessment Tools</b>
 
 <b>Description:
-=======
+
 <b>Conversational AI by RASA Framework for Mental Health Assessment Tools</b>
 
 <b>Description</b>:
->>>>>>> 9f0f13bb704a210c68bf839d846ecc8a997cd06b
 
 This repository contains a curated list of psychometric instruments (PROs) suitable for assessing various mental health conditions, including anxiety, depression, and resilience. The PROs are organized by age group and target construct.
 All coding was developed by using Rasa Framework. 
 
-<<<<<<< HEAD
 <b>PRO List:
 
 <b>Penn-State Worry Questionnaire for Children (PSWQ-C): This 16-item self-report measure assesses worry in children aged 10-17. It measures the frequency and intensity of worry across various domains, such as school, family, and friends.
@@ -30,7 +26,7 @@ All coding was developed by using Rasa Framework.
 <b>Warwick-Edinburgh Mental Well-being Scale (WEMWBS): This 14-item self-report measure assesses general mental well-being in adults. It measures positive feelings, such as happiness and satisfaction, as well as negative feelings, such as stress and anxiety.
 
 <b>Climate Change Anxiety Scale - Short-form (CCAS-S): This 10-item self-report measure assesses anxiety related to climate change. It measures concerns about the future, personal impact, and social consequences of climate change.
-=======
+
 <b>What is Rasa?</b>
 
 Rasa is an open-source machine learning framework for building conversational AI assistants. It provides a flexible platform for developers to create chatbots and virtual assistants that can understand natural language, engage in meaningful conversations, and perform tasks.
@@ -48,7 +44,6 @@ Rasa is an open-source machine learning framework for building conversational AI
 <b>Flexibility</b>: Rasa offers a high degree of customization and flexibility, allowing you to tailor your chatbot to your specific needs.
 
 <b>Open-source</b>: Being open-source, Rasa is freely available and has a large and active community of developers who contribute to its development and provide support.
->>>>>>> 9f0f13bb704a210c68bf839d846ecc8a997cd06b
 
 <b>Scalability</b>: Rasa can handle large-scale conversational AI applications, making it suitable for businesses of all sizes.
 
