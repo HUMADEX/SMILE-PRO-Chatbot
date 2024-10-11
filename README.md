@@ -29,6 +29,8 @@ All coding was developed by using Rasa Framework.
 
 <b>What is Rasa?</b>
 
+<img src="https://github.com/HUMADEX/SMILE-PRO-Chatbot/blob/main/docs/rasa_logo.jpg" alt="Rasa Logo">
+
 Rasa is an open-source machine learning framework for building conversational AI assistants. It provides a flexible platform for developers to create chatbots and virtual assistants that can understand natural language, engage in meaningful conversations, and perform tasks.
 
 <b>Key Components of Rasa</b>:
