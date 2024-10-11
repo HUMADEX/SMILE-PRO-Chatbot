@@ -1,5 +1,5 @@
 
-Mental Health Assessment Tools
+<b>Mental Health Assessment Tools</b>
 
 Description:
 
