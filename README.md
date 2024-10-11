@@ -1,7 +1,3 @@
-<b>Mental Health Assessment Tools</b>
-
-<b>Description:</b>
-
 <b>Conversational AI by RASA Framework for Mental Health Assessment Tools</b>
 
 <b>Description</b>:
