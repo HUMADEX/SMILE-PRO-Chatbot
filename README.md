@@ -32,8 +32,8 @@ Rasa is an open-source machine learning framework for building conversational AI
 
 <b>Further Resources:</b>
 
-<b>Rasa Documentation:</b> <a href="https://rasa.com/docs/"></a> 
-<b>Rasa Community:</b> <a href="https://forum.rasa.com/"</a> 
+<b>Rasa Documentation:</b> https://rasa.com/docs/
+<b>Rasa Community:</b> https://forum.rasa.com/
 
 <b>Patient-reported Outcome Measures List</b>:
 
