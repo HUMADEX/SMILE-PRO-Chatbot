@@ -57,11 +57,11 @@ Rasa Community: https://forum.rasa.com/
 
 <b>Climate Change Anxiety Scale - Short-form (CCAS-S)</b>: This 10-item self-report measure assesses anxiety related to climate change. It measures concerns about the future, personal impact, and social consequences of climate change.
 
-<b>System Usability Scale (SUS)</b>: This 10-item questionnaire measures the perceived ease of use and effectiveness of a product or system. It is used to evaluate the usability of the SMILE game and companion app.
+<b>System Usability Scale (SUS)</b>: This 10-item questionnaire measures the perceived ease of use and effectiveness of a product or system. It is used to evaluate the usability of the game and companion app.
 
-<b>User Satisfaction Evaluation Questionnaire (USEQ)</b>: This 10-item questionnaire measures overall satisfaction with a product or service. It is used to assess user satisfaction with the SMILE game and companion app.
+<b>User Satisfaction Evaluation Questionnaire (USEQ)</b>: This 10-item questionnaire measures overall satisfaction with a product or service. It is used to assess user satisfaction with the game and companion app.
 
-<b>User Experience Questionnaire Short (UEQ-S)</b>: This 10-item questionnaire measures the overall user experience of a product or service. It is used to evaluate the user experience of the SMILE game and companion app.
+<b>User Experience Questionnaire Short (UEQ-S)</b>: This 10-item questionnaire measures the overall user experience of a product or service. It is used to evaluate the user experience of the game and companion app.
 
 <b>Reference</b>
 
