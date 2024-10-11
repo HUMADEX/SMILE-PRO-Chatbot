@@ -63,6 +63,16 @@ Rasa Community: https://forum.rasa.com/
 
 <b>User Experience Questionnaire Short (UEQ-S)</b>: This 10-item questionnaire measures the overall user experience of a product or service. It is used to evaluate the user experience of the game and companion app.
 
+<b>Supported Languages</b>
+
+English
+Slovenian
+Greek
+Polish
+German
+Italian (pending)
+Spanish (pending)
+
 <b>Reference</b>
 
 Mlakar, I.; Šafran, V.; Hari, D.; Rojc, M.; Alankus, G.; Pérez Luna, R.; Ariöz, U. Multilingual Conversational Systems to Drive the Collection of Patient-Reported Outcomes and Integration into Clinical Workflows. Symmetry 2021, 13, 1187. https://doi.org/10.3390/sym13071187. 
