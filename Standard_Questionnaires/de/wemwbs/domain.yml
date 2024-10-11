@@ -1,0 +1,246 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_wemwbs_de
+
+
+responses:  
+  utter_wemwbs_de_start:
+    - text: "Hallo, wie geht es Dir?"
+    - text: "Hallo, wie geht's denn so?"
+    - text: "Bist Du bereit, anzufangen?"
+    - text: "Hallo, lass uns reden."
+    - text: "Hallo, danke, dass Du Dir etwas Zeit für diese Fragen nimmst. Fangen wir an."
+        
+  
+  utter_wemwbs_de_end:
+    - text: "Alles geschafft!"
+    - text: "Alles geschafft für heute!"
+    - text: "Gute Arbeit. Wir sind fertig."
+    - text: "Das war die letzte Frage. Danke Dir!"
+    - text: "Wir sind fertig, danke. Hab einen schönen Tag."
+  
+  utter_wemwbs_de_intro:
+    - custom:
+        text: "Im Folgenden finden Sie einige Aussagen über Gefühle und Gedanken. Bitte kreuzen Sie das Kästchen an, das Ihre Erfahrungen in den letzten 2 Wochen am besten beschreibt"
+        
+  utter_wemwbs_de_q1:
+    - custom:
+        text: "1. Ich habe mich in Bezug auf die Zukunft optimistisch gefühlt."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+          
+  utter_wemwbs_de_q2:
+    - custom:
+        text: "2. Ich habe mich nützlich gefühlt."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+
+  utter_wemwbs_de_q3:
+    - custom:
+        text: "3. Ich habe mich entspannt gefühlt."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+
+  utter_wemwbs_de_q4:
+    - custom:
+        text: "4. Ich habe mich für andere Menschen interessiert."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+          
+  utter_wemwbs_de_q5:
+    - custom:
+        text: "5. Ich hatte viel Energie."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+
+  utter_wemwbs_de_q6:
+    - custom:
+        text: "6. Ich bin mit Problemen gut umgegangen."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+
+  utter_wemwbs_de_q7:
+    - custom:
+        text: "7. Ich konnte klar denken."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+          
+  utter_wemwbs_de_q8:
+    - custom:
+        text: "8. Ich habe mich wohl gefühlt."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+
+  utter_wemwbs_de_q9:
+    - custom:
+        text: "9. Ich habe mich anderen Menschen nahe gefühlt."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+          
+  utter_wemwbs_de_q10:
+    - custom:
+        text: "10. Ich habe mich zuversichtlich gefühlt."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+          
+  utter_wemwbs_de_q11:
+    - custom:
+        text: "11. Ich war in der Lage, Entscheidungen zu treffen."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+
+  utter_wemwbs_de_q12:
+    - custom:
+        text: "12. Ich habe mich geliebt gefühlt."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+  
+  utter_wemwbs_de_q13:
+    - custom:
+        text: "13. Ich habe mich für Neues interessiert."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+
+  utter_wemwbs_de_q14:
+    - custom:
+        text: "14. Ich habe mich fröhlich gefühlt."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+  
+  utter_wemwbs_de_end2:
+    - custom:
+        text: "Danke für die Antwort."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,188 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_sus_game_de
+
+
+responses:
+  utter_sus_game_de_start:
+    - text: "Hallo, wie geht es Dir?"
+    - text: "Hallo, wie geht's denn so?"
+    - text: "Bist Du bereit, anzufangen?"
+    - text: "Hallo, lass uns reden."
+    - text: "Hallo, danke, dass Du Dir etwas Zeit für diese Fragen nimmst. Fangen wir an."
+        
+  
+  utter_sus_game_de_end:
+    - text: "Alles geschafft!"
+    - text: "Alles geschafft für heute!"
+    - text: "Gute Arbeit. Wir sind fertig."
+    - text: "Das war die letzte Frage. Danke Dir!"
+    - text: "Wir sind fertig, danke. Hab einen schönen Tag."
+  
+  utter_sus_game_de_intro:
+    - custom:
+        text: "Kreuzen Sie für jede Aussage eine Zahl an, um anzugeben, inwieweit du der jeweiligen Aussage zustimmst oder nicht."
+        
+  utter_sus_game_de_q1:
+    - custom:
+        text: "1. Ich denke, dass ich das SMILE-Spiel häufig verwenden möchte."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+            
+            
+  utter_sus_game_de_q2:
+    - custom:
+        text: "2. Ich fand das SMILE-Spiel unnötig komplex."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+
+  utter_sus_game_de_q3:
+    - custom:
+        text: "3. Ich fand, dass das SMILE-Spiel einfach zu benutzen war."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+
+  utter_sus_game_de_q4:
+    - custom:
+        text: "4. Ich denke, dass ich die Unterstützung eines Technikers benötigen würde, um das SMILE-Spiel zu nutzen."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+          
+  utter_sus_game_de_q5:
+    - custom:
+        text: "5. Ich fand die verschiedenen Funktionen in das SMILE-Spiel gut integriert."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+
+  utter_sus_game_de_q6:
+    - custom:
+        text: "6. Ich fand, dass das SMILE-Spiel zu inkonsistent war."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+
+
+  utter_sus_game_de_q7:
+    - custom:
+        text: "7. Ich könnte mir vorstellen, dass die meisten Menschen die Verwendung des SMILE-Spiel sehr schnell erlernen würden."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+
+  utter_sus_game_de_q8:
+    - custom:
+        text: "8. Ich fand das SMILE-Spiel sehr umständlich zu bedienen."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+  
+  utter_sus_game_de_q9:
+    - custom:
+        text: "9. Ich fühlte mich sehr sicher im Umgang mit dem SMILE-Spiel."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+
+  utter_sus_game_de_q10:
+    - custom:
+        text: "10. Ich musste eine Menge Dinge lernen, bevor ich mit dem SMILE-Spiel loslegen konnte."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+  
+  utter_sus_game_de_end2:
+    - custom:
+        text: "Danke für die Antwort."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

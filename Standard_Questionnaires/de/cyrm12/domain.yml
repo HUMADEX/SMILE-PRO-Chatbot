@@ -1,0 +1,217 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_cyrm12_de
+
+
+responses:  
+  utter_cyrm12_de_start:
+    - text: "Hallo, wie geht es Dir?"
+    - text: "Hallo, wie geht's denn so?"
+    - text: "Bist Du bereit, anzufangen?"
+    - text: "Hallo, lass uns reden."
+    - text: "Hallo, danke, dass Du Dir etwas Zeit für diese Fragen nimmst. Fangen wir an."
+        
+  
+  utter_cyrm12_de_end:
+    - text: "Alles geschafft!"
+    - text: "Alles geschafft für heute!"
+    - text: "Gute Arbeit. Wir sind fertig."
+    - text: "Das war die letzte Frage. Danke Dir!"
+    - text: "Wir sind fertig, danke. Hab einen schönen Tag."
+  
+  utter_cyrm12_de_intro:
+    - custom:
+        text: "To what extent do the following statements apply to you? There are no right or wrong answers."
+        
+  utter_cyrm12_de_q1:
+    - custom:
+        text: "1. Ich habe Leute, zu denen ich aufschaue."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+          
+  utter_cyrm12_de_q2:
+    - custom:
+        text: "2. Eine Ausbildung ist wichtig für mich."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+
+  utter_cyrm12_de_q3:
+    - custom:
+        text: "3. Meine Eltern/Betreuer wissen viel über mich."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+
+  utter_cyrm12_de_q4:
+    - custom:
+        text: "4. Ich versuche zu beenden, was ich anfange."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+          
+  utter_cyrm12_de_q5:
+    - custom:
+        text: "5. Ich löse Probleme, ohne mich selbst oder andere zu verletzen (indem ich Drogen nehme und/oder gewalttätig werde)."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+
+  utter_cyrm12_de_q6:
+    - custom:
+        text: "6. Ich weiß, an wen ich mich in meinem sozialen Umfeld wenden kann, um Hilfe zu bekommen."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+
+  utter_cyrm12_de_q7:
+    - custom:
+        text: "7. Ich fühle mich meiner Schule zugehörig."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+          
+  utter_cyrm12_de_q8:
+    - custom:
+        text: "8. Meine Familie steht mir in schwierigen Zeiten zur Seite."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+
+  utter_cyrm12_de_q9:
+    - custom:
+        text: "9. Meine Freunde stehen mir in schwierigen Zeiten zur Seite."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+          
+  utter_cyrm12_de_q10:
+    - custom:
+        text: "10. Ich werde in meinem sozialen Umfeld fair behandelt."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+          
+  utter_cyrm12_de_q11:
+    - custom:
+        text: "11. Ich habe die Möglichkeit, Fähigkeiten zu entwickeln, die mir später im Leben nützlich sein werden."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+
+  utter_cyrm12_de_q12:
+    - custom:
+        text: "12. Ich genieße meine kulturellen und familiären Traditionen."
+        buttons:
+          - title: "1 = beschreibt mich überhaupt nichtl"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = beschreibt mich sehr"
+            value: 5
+
+  
+  utter_cyrm12_de_end2:
+    - custom:
+        text: "Danke für die Antwort."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

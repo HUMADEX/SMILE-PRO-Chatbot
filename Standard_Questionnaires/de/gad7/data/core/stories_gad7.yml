@@ -1,0 +1,28 @@
+version: "3.1"
+
+stories:
+
+- story: gad7_de
+  steps:
+  - intent: questionnaire_gad7_de
+  - action: utter_gad7_de_start
+  - intent: answers
+  - action: utter_gad7_de_intro
+  - action: utter_gad7_de_q1
+  - intent: answers
+  - action: utter_gad7_de_q2
+  - intent: answers
+  - action: utter_gad7_de_q3
+  - intent: answers
+  - action: utter_gad7_de_q4
+  - intent: answers
+  - action: utter_gad7_de_q5
+  - intent: answers
+  - action: utter_gad7_de_q6
+  - intent: answers
+  - action: utter_gad7_de_q7
+  - intent: answers
+  - action: utter_gad7_de_end
+  - action: utter_gad7_de_end2
+
+

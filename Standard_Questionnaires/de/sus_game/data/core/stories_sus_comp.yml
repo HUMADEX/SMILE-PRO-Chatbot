@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+
+- story: sus_game_de
+  steps:
+  - intent: questionnaire_sus_game_de
+  - action: utter_sus_game_de_start
+  - intent: answers
+  - action: utter_sus_game_de_intro
+  - action: utter_sus_game_de_q1
+  - intent: answers
+  - action: utter_sus_game_de_q2
+  - intent: answers
+  - action: utter_sus_game_de_q3
+  - intent: answers
+  - action: utter_sus_game_de_q4
+  - intent: answers
+  - action: utter_sus_game_de_q5
+  - intent: answers
+  - action: utter_sus_game_de_q6
+  - intent: answers
+  - action: utter_sus_game_de_q7
+  - intent: answers
+  - action: utter_sus_game_de_q8
+  - intent: answers
+  - action: utter_sus_game_de_q9
+  - intent: answers
+  - action: utter_sus_game_de_q10
+  - intent: answers
+  - action: utter_sus_game_de_end
+  - action: utter_sus_game_de_end2
+

@@ -1,0 +1,155 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_phq9_de
+
+
+responses:  
+  utter_phq9_de_start:
+    - text: "Hallo, wie geht es Dir?"
+    - text: "Hallo, wie geht's denn so?"
+    - text: "Bist Du bereit, anzufangen?"
+    - text: "Hallo, lass uns reden."
+    - text: "Hallo, danke, dass Du Dir etwas Zeit für diese Fragen nimmst. Fangen wir an."
+        
+  
+  utter_phq9_de_end:
+    - text: "Alles geschafft!"
+    - text: "Alles geschafft für heute!"
+    - text: "Gute Arbeit. Wir sind fertig."
+    - text: "Das war die letzte Frage. Danke Dir!"
+    - text: "Wir sind fertig, danke. Hab einen schönen Tag."
+  
+  utter_phq9_de_intro:
+    - custom:
+        text: "Wie oft wurden Sie in den letzten zwei Wochen von jedem der folgenden Symptome geplagt? Kreuzen Sie bei jeder Frage ein „x“ unter der Antwort an (überhaupt nicht, mehrere Tage, mehr als die Hälfte der Tage und fast jeden Tag). "
+        
+  utter_phq9_de_q1:
+    - custom:
+        text: "1. Niedergeschlagenheit, Schwermut oder Hoffnungslosigkeit."
+        buttons:
+          - title: "Überhaupt nicht"
+            value: 0
+          - title: "An einzelnen Tagen"
+            value: 1
+          - title: "An mehr als der Hälfte der Tage"
+            value: 2
+          - title: "Beinahe jeden Tag"
+            value: 3
+          
+  utter_phq9_de_q2:
+    - custom:
+        text: "2.Wenig Interesse oder Freude an Ihren Tätigkeiten "
+        buttons:
+          - title: "Überhaupt nicht"
+            value: 0
+          - title: "An einzelnen Tagen"
+            value: 1
+          - title: "An mehr als der Hälfte der Tage"
+            value: 2
+          - title: "Beinahe jeden Tag"
+            value: 3
+
+  utter_phq9_de_q3:
+    - custom:
+        text: "3. Schwierigkeiten ein- oder durchzuschlafen oder vermehrter Schlaf"
+        buttons:
+          - title: "Überhaupt nicht"
+            value: 0
+          - title: "An einzelnen Tagen"
+            value: 1
+          - title: "An mehr als der Hälfte der Tage"
+            value: 2
+          - title: "Beinahe jeden Tag"
+            value: 3
+
+  utter_phq9_de_q4:
+    - custom:
+        text: "4. Verminderter Appetit oder übermäßiges Bedürfnis zu essen"
+        buttons:
+          - title: "Überhaupt nicht"
+            value: 0
+          - title: "An einzelnen Tagen"
+            value: 1
+          - title: "An mehr als der Hälfte der Tage"
+            value: 2
+          - title: "Beinahe jeden Tag"
+            value: 3
+          
+  utter_phq9_de_q5:
+    - custom:
+        text: "5. Müdigkeit oder Gefühl, keine Energie zu haben"
+        buttons:
+          - title: "Überhaupt nicht"
+            value: 0
+          - title: "An einzelnen Tagen"
+            value: 1
+          - title: "An mehr als der Hälfte der Tage"
+            value: 2
+          - title: "Beinahe jeden Tag"
+            value: 3
+
+  utter_phq9_de_q6:
+    - custom:
+        text: "6. Schlechte Meinung von sich selbst; Gefühl, ein Versager zu sein oder die Familie
+enttäuscht zu haben"
+        buttons:
+          - title: "Überhaupt nicht"
+            value: 0
+          - title: "An einzelnen Tagen"
+            value: 1
+          - title: "An mehr als der Hälfte der Tage"
+            value: 2
+          - title: "Beinahe jeden Tag"
+            value: 3
+
+  utter_phq9_de_q7:
+    - custom:
+        text: "7. Schwierigkeiten, sich auf etwas zu konzentrieren, z.B. beim Zeitunglesen oder
+Fernsehen"
+        buttons:
+          - title: "Überhaupt nicht"
+            value: 0
+          - title: "An einzelnen Tagen"
+            value: 1
+          - title: "An mehr als der Hälfte der Tage"
+            value: 2
+          - title: "Beinahe jeden Tag"
+            value: 3
+          
+  utter_phq9_de_q8:
+    - custom:
+        text: "8. Waren deine Bewegungen oder deine Sprache so verlangsamt, dass es auch anderen auffallen würde? Oder warst du im Gegenteil „zappelig“ oder ruhelos und hattest dadurch einen stärkeren Bewegungsdrang als sonst?"
+        buttons:
+          - title: "Überhaupt nicht"
+            value: 0
+          - title: "An einzelnen Tagen"
+            value: 1
+          - title: "An mehr als der Hälfte der Tage"
+            value: 2
+          - title: "Beinahe jeden Tag"
+            value: 3
+
+  utter_phq9_de_q9:
+    - custom:
+        text: "9. Gedanken, dass du lieber tot wärst oder dir Leid zufügen möchtest"
+        buttons:
+          - title: "Überhaupt nicht"
+            value: 0
+          - title: "An einzelnen Tagen"
+            value: 1
+          - title: "An mehr als der Hälfte der Tage"
+            value: 2
+          - title: "Beinahe jeden Tag"
+            value: 3
+          
+  utter_phq9_de_end2:
+    - custom:
+        text: "Danke für die Antwort."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

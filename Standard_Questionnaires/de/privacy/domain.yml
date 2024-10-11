@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_privacy_de
+
+
+responses:
+  utter_privacy_de_start:
+    - text: "Hallo, wie geht es Dir?"
+    - text: "Hallo, wie geht's denn so?"
+    - text: "Bist Du bereit, anzufangen?"
+    - text: "Hallo, lass uns reden."
+    - text: "Hallo, danke, dass Du Dir etwas Zeit für diese Fragen nimmst. Fangen wir an."
+        
+  
+  utter_privacy_de_end:
+    - text: "Alles geschafft!"
+    - text: "Alles geschafft für heute!"
+    - text: "Gute Arbeit. Wir sind fertig."
+    - text: "Das war die letzte Frage. Danke Dir!"
+    - text: "Wir sind fertig, danke. Hab einen schönen Tag."
+  
+  utter_privacy_de_intro:
+    - custom:
+        text: "Kreuzen Sie für jede Aussage eine Zahl an, um anzugeben, inwieweit du der jeweiligen Aussage zustimmst oder nicht."
+        
+  utter_privacy_de_q1:
+    - custom:
+        text: "1a: „Ich bin besorgt, dass die Informationen, die ich im SMILE-Spiel freigebe, missbraucht werden könnten.“"
+        buttons:
+          - title: "1 = stimme überhaupt nicht zu"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = stimme vollkommen zu"
+            value: 5
+          
+  utter_privacy_de_q2:
+    - custom:
+        text: "1b: „Ich bin besorgt, dass die Informationen, die ich in der SMILE-Begleit-App freigebe, missbraucht werden könnten.“"
+        buttons:
+          - title: "1 = stimme überhaupt nicht zu"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = stimme vollkommen zu"
+            value: 5
+
+  utter_privacy_de_q3:
+    - custom:
+        text: "2a: „Ich bin besorgt, dass andere private Informationen über mich im SMILE-Spiel finden können.“"
+        buttons:
+          - title: "1 = stimme überhaupt nicht zu"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = stimme vollkommen zu"
+            value: 5
+
+  utter_privacy_de_q4:
+    - custom:
+        text: "2b: „Ich bin besorgt, dass andere private Informationen über mich in der SMILE-Begleit-App finden können.“"
+        buttons:
+          - title: "1 = stimme überhaupt nicht zu"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = stimme vollkommen zu"
+            value: 5
+          
+  utter_privacy_de_q5:
+    - custom:
+        text: "3a: „Ich bin besorgt über die Weitergabe von persönlichen Informationen im SMILE-Spiel, weil sie auf eine Weise verwendet werden könnten, die ich nicht vorhergesehen habe.“"
+        buttons:
+          - title: "1 = stimme überhaupt nicht zu"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = stimme vollkommen zu"
+            value: 5
+
+  utter_privacy_de_q6:
+    - custom:
+        text: "3b: „Ich habe Bedenken, persönliche Informationen in der SMILE-Begleit-App zu teilen, weil sie auf eine Art und Weise verwendet werden könnten, die ich nicht vorhergesehen habe.“"
+        buttons:
+          - title: "1 = stimme überhaupt nicht zu"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = stimme vollkommen zu"
+            value: 5
+
+          
+  utter_privacy_de_end2:
+    - custom:
+        text: "Danke für die Antwort."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

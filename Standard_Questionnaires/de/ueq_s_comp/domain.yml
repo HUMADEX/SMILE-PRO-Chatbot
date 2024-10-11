@@ -1,0 +1,157 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_ueq_s_comp_de
+
+
+responses:
+  utter_ueq_s_comp_de_start:
+    - text: "Hallo, wie geht es Dir?"
+    - text: "Hallo, wie geht's denn so?"
+    - text: "Bist Du bereit, anzufangen?"
+    - text: "Hallo, lass uns reden."
+    - text: "Hallo, danke, dass Du Dir etwas Zeit für diese Fragen nimmst. Fangen wir an."
+        
+  
+  utter_ueq_s_comp_de_end:
+    - text: "Alles geschafft!"
+    - text: "Alles geschafft für heute!"
+    - text: "Gute Arbeit. Wir sind fertig."
+    - text: "Das war die letzte Frage. Danke Dir!"
+    - text: "Wir sind fertig, danke. Hab einen schöne"
+  
+  utter_ueq_s_comp_de_intro:
+    - custom:
+        text: "Bitte beantworten sie folgende Fragen: Diese bestehen aus Paaren kontrastierender Attribute, die auf die SMILE-App zutreffen können. Die Kreise zwischen den Attributen stellen Abstufungen zwischen den Gegensätzen dar. Sie können Ihre Zustimmung zu den Attributen zum Ausdruck bringen, indem Sie den Kreis ankreuzen, der Ihrem Eindruck am ehesten entspricht. Bitte entscheiden Sie spontan. Denken Sie nicht zu lange über Ihre Entscheidung nach, um sicherzustellen, dass Sie Ihren ursprünglichen Eindruck vermitteln. Manchmal sind Sie sich möglicherweise nicht ganz sicher, ob Sie mit einem bestimmten Attribut einverstanden sind, oder Sie stellen möglicherweise fest, dass das Attribut nicht vollständig auf das bestimmte Produkt zutrifft. Bitte kreuzen Sie dennoch in jeder Zeile einen Kreis an. Es zählt Ihre persönliche Meinung. Bitte denken Sie daran: Es gibt keine falsche oder richtige Antwort!"
+        
+  utter_ueq_s_comp_de_q1:
+    - custom:
+        text: "Ich fand die SMILE-App"
+        buttons:
+          - title: "1 = Störend"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = Unterstützend"
+            value: 5
+          
+  utter_ueq_s_comp_de_q2:
+    - custom:
+        text: "Ich fand die SMILE-App”"
+        buttons:
+          - title: "1 = Kompliziert"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = Einfach"
+            value: 5
+
+  utter_ueq_s_comp_de_q3:
+    - custom:
+        text: "Ich fand die SMILE-App"
+        buttons:
+          - title: "1 = Nicht wirksam"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = Wirksam"
+            value: 5
+
+  utter_ueq_s_comp_de_q4:
+    - custom:
+        text: "Ich fand die SMILE-App"
+        buttons:
+          - title: "1 = Klar verständlich"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = Nicht verständlich"
+            value: 5
+          
+  utter_ueq_s_comp_de_q5:
+    - custom:
+        text: "Ich fand die SMILE-App"
+        buttons:
+          - title: "1 = Langweilig"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = Spannend"
+            value: 5
+
+  utter_ueq_s_comp_de_q6:
+    - custom:
+        text: "Ich fand die SMILE-App"
+        buttons:
+          - title: "1 = Nicht interessant"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = Interessant"
+            value: 5
+
+          
+  utter_ueq_s_comp_de_q7:
+    - custom:
+        text: "Ich fand die SMILE-App"
+        buttons:
+          - title: "1 = Konventionell"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = Originell"
+            value: 5
+
+  utter_ueq_s_comp_de_q8:
+    - custom:
+        text: "Ich fand die SMILE-App"
+        buttons:
+          - title: "1 = Gewöhnlich"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "5 = Erstklassig"
+            value: 5
+  
+  utter_ueq_s_comp_de_end2:
+    - custom:
+        text: "Danke für die Antwort."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

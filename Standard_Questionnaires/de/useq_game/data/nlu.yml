@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+
+- intent: questionnaire_useq_game_de
+  examples: |
+    - useq_game_de
+    - useq_game_de
+
+
+
+- intent: answers
+  examples: |
+    - Überhaupt nicht (1)
+    - 2
+    - 3
+    - 4
+    - Sehr (5)
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

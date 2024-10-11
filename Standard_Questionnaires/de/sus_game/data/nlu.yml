@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_sus_game_de
+  examples: |
+    - sus_game_de
+    - sus_game_de
+
+
+
+- intent: answers
+  examples: |
+    - Stimme überhaupt nicht zu
+    - Stimme eher nicht zu
+    - Neutral
+    - Stimme eher zu
+    - Stimme vollkommen zu
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

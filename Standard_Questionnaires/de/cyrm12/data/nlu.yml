@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_cyrm12_de
+  examples: |
+    - cyrm12_de
+    - cyrm12_de
+
+
+- intent: answers
+  examples: |
+    - 1 = beschreibt mich überhaupt nicht
+    - 2
+    - 3
+    - 4
+    - 5 = beschreibt mich sehr
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

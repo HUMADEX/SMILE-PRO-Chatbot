@@ -1,0 +1,25 @@
+version: "3.1"
+
+nlu:
+
+
+- intent: questionnaire_brs_de
+  examples: |
+    - brs_de
+    - brs_de
+
+
+
+- intent: answers
+  examples: |
+    - Stimme überhaupt nicht zu
+    - Stimme eher nicht zu
+    - Neutral
+    - Stimme eher zu
+    - Stimme vollkommen zu
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

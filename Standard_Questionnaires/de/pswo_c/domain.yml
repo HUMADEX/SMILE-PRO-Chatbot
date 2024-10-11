@@ -1,0 +1,218 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_pswo_c_de
+
+
+responses:  
+  utter_pswo_c_de_start:
+    - text: "Hallo, wie geht es Dir?"
+    - text: "Hallo, wie geht's denn so?"
+    - text: "Bist Du bereit, anzufangen?"
+    - text: "Hallo, lass uns reden."
+    - text: "Hallo, danke, dass Du Dir etwas Zeit für diese Fragen nimmst. Fangen wir an."
+        
+  
+  utter_pswo_c_de_end:
+    - text: "Alles geschafft!"
+    - text: "Alles geschafft für heute!"
+    - text: "Gute Arbeit. Wir sind fertig."
+    - text: "Das war die letzte Frage. Danke Dir!"
+    - text: "Wir sind fertig, danke. Hab einen schönen Tag."
+  
+  utter_pswo_c_de_intro:
+    - custom:
+        text: "In diesem Fragebogen geht es um Sorgen. Sorgen macht man sich, wenn man Angst vor etwas hat und viel darüber nachdenkt. Man macht sich manchmal Sorgen um die Schule, die Familie, die Gesundheit, die Zukunft oder andere Dinge. Kreise für jeden Satz, den du liest, die Antwort ein, die am besten angibt, wie wahr dieser Satz über dich ist."
+        
+  utter_pswo_c_de_q1:
+    - custom:
+        text: "1. Meine Sorgen stören mich wirklich."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+          
+  utter_pswo_c_de_q2:
+    - custom:
+        text: "2. Ich neige nicht dazu, mir über Dinge Sorgen zu machen."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+
+  utter_pswo_c_de_q3:
+    - custom:
+        text: "3. Viele Dinge bereiten mir Sorgen."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+
+  utter_pswo_c_de_q4:
+    - custom:
+        text: "4. Ich weiß, ich sollte mir keine Sorgen machen, aber ich kann einfach nichts dagegen tun."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+          
+  utter_pswo_c_de_q5:
+    - custom:
+        text: "5. Wenn ich unter Druck stehe, mache ich mir viele Sorgen."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+
+  utter_pswo_c_de_q6:
+    - custom:
+        text: "6. Über irgendetwas mache ich mir immer Sorgen."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+
+  utter_pswo_c_de_q7:
+    - custom:
+        text: "7. Ich finde es ist einfach, Sorgen zu beenden, wenn ich es möchte."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+          
+  utter_pswo_c_de_q8:
+    - custom:
+        text: "8. Wenn ich eine Sache beendet habe, fange ich an, mich über alles zu sorgen."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+
+  utter_pswo_c_de_q9:
+    - custom:
+        text: "9. Ich mache mir nie über etwas Sorgen."
+        buttons:
+          - title: "Never"
+            value: 0
+          - title: "Sometimes"
+            value: 1
+          - title: "Most times"
+            value: 2
+          - title: "Always"
+            value: 3
+          
+  utter_pswo_c_de_q10:
+    - custom:
+        text: "10. Ich war schon immer jemand, der sich viele Sorgen macht."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+          
+  utter_pswo_c_de_q11:
+    - custom:
+        text: "11. Mir fällt auf, dass ich mir über einiges Sorgen gemacht habe."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+
+  utter_pswo_c_de_q12:
+    - custom:
+        text: "12. Wenn ich erst einmal anfange, mir Sorgen zu machen, kann ich nicht mehr damit aufhören."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+  
+  utter_pswo_c_de_q13:
+    - custom:
+        text: "13. Ich mache mir die ganze Zeit über Sorgen."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+
+  utter_pswo_c_de_q14:
+    - custom:
+        text: "14. Ich sorge mich über Dinge so lange, bis sie komplett erledigt sind."
+        buttons:
+          - title: "trifft nie zu"
+            value: 0
+          - title: "trifft manchmal zu"
+            value: 1
+          - title: "trifft meistens zu"
+            value: 2
+          - title: "trifft immer zu"
+            value: 3
+  
+  utter_pswo_c_de_end2:
+    - custom:
+        text: "Danke für die Antwort."
+        endofquestionnaire: "true"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

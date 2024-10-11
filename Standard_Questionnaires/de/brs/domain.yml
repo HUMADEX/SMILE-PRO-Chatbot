@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_brs_de
+
+
+responses:
+  utter_brs_de_start:
+    - text: "Hallo, wie geht es Dir?"
+    - text: "Hallo, wie geht's denn so?"
+    - text: "Bist Du bereit, anzufangen?"
+    - text: "Hallo, lass uns reden."
+    - text: "Hallo, danke, dass Du Dir etwas Zeit für diese Fragen nimmst. Fangen wir an."
+        
+  
+  utter_brs_de_end:
+    - text: "Alles geschafft!"
+    - text: "Alles geschafft für heute!"
+    - text: "Gute Arbeit. Wir sind fertig."
+    - text: "Das war die letzte Frage. Danke Dir!"
+    - text: "Wir sind fertig, danke. Hab einen schönen Tag."
+  
+  utter_brs_de_intro:
+    - custom:
+        text: "Benutzen Sie die folgende Skala und kreisen Sie für jede Aussage eine Zahl ein, um anzugeben, wie sehr Sie den einzelnen Aussagen zustimmen oder nicht zustimmen"
+        
+  utter_brs_de_q1:
+    - custom:
+        text: "1. Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+            
+  utter_brs_de_q2:
+    - custom:
+        text: "2. Es fällt mir, schwer stressige Situationen durchzustehen."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+
+  utter_brs_de_q3:
+    - custom:
+        text: "3. Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+
+  utter_brs_de_q4:
+    - custom:
+        text: "4. Es fällt mir schwer zur Normalität zurückzukehren, wenn etwas Schlimmes passiert ist."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+          
+  utter_brs_de_q5:
+    - custom:
+        text: "5. Normalerweise überstehe ich schwierige Zeiten ohne größere Probleme."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+
+  utter_brs_de_q6:
+    - custom:
+        text: "6. Ich brauche tendenziell lange, um über Rückschläge in meinem Leben hinwegzukommen."
+        buttons:
+          - title: "Stimme überhaupt nicht zu"
+            value: 5
+          - title: "Stimme eher nicht zu"
+            value: 4
+          - title: "Neutral"
+            value: 3
+          - title: "Stimme eher zu"
+            value: 2
+          - title: "Stimme vollkommen zu"
+            value: 1
+
+
+  utter_brs_de_end2:
+    - custom:
+        text: "Danke für die Antwort."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

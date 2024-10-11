@@ -1,0 +1,26 @@
+version: "3.1"
+
+nlu:
+
+
+
+- intent: questionnaire_privacy_de
+  examples: |
+    - privacy_de
+    - privacy_de
+
+
+
+- intent: answers
+  examples: |
+    - 1 = stimme überhaupt nicht zu
+    - 2
+    - 3
+    - 4
+    - 5 = stimme vollkommen zu
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

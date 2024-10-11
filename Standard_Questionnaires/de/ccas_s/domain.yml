@@ -1,0 +1,98 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_ccas_s_de
+
+
+responses:
+  utter_ccas_s_de_start:
+    - text: "Hallo, wie geht es Dir?"
+    - text: "Hallo, wie geht's denn so?"
+    - text: "Bist Du bereit, anzufangen?"
+    - text: "Hallo, lass uns reden."
+    - text: "Hallo, danke, dass Du Dir etwas Zeit für diese Fragen nimmst. Fangen wir an."
+        
+  
+  utter_ccas_s_de_end:
+    - text: "Alles geschafft!"
+    - text: "Alles geschafft für heute!"
+    - text: "Gute Arbeit. Wir sind fertig."
+    - text: "Das war die letzte Frage. Danke Dir!"
+    - text: "Wir sind fertig, danke. Hab einen schönen Tag."
+  
+  utter_ccas_s_de_intro:
+    - custom:
+        text: "Bitte bewerten Sie, wie oft die folgenden Aussagen auf Sie zutreffen."
+        
+  utter_ccas_s_de_q1:
+    - custom:
+        text: "1. Über den Klimawandel nachzudenken bereitet mir Konzentrations- und Schlafschwierigkeiten"
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+            
+            
+  utter_ccas_s_de_q2:
+    - custom:
+        text: "2. Ich ertappe mich dabei, dass ich wegen des Klimawandels weine"
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+
+  utter_ccas_s_de_q3:
+    - custom:
+        text: "3. Meine Sorgen über den Klimawandel erschweren es mir, Spaß mit meiner Familie und Freund*innen zu haben."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+
+  utter_ccas_s_de_q4:
+    - custom:
+        text: "4. Meine Sorgen um den Klimawandel beeinträchtigen meine Fähigkeit, Arbeiten oder Schulaufgaben zu bewältigen."
+        buttons:
+          - title: "Niemals"
+            value: 1
+          - title: "Selten"
+            value: 2
+          - title: "Manchmal"
+            value: 3
+          - title: "Oft"
+            value: 4
+          - title: "Immer"
+            value: 5
+          
+
+  utter_ccas_s_de_end2:
+    - custom:
+        text: "Danke für die Antwort."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

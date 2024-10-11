@@ -1,0 +1,40 @@
+version: "3.1"
+
+nlu:
+
+
+
+- intent: questionnaire_ueq_s_game_de
+  examples: |
+    - ueq_s_game_de
+    - ueq_s_game_de
+
+
+
+- intent: answers
+  examples: |
+    - 1 = Störend
+    - 1 = Kompliziert
+    - 1 = Nicht wirksam
+    - 1 = Klar verständlich
+    - 1 = Langweilig
+    - 1 = Nicht interessant
+    - 1 = Konventionell
+    - 1 = Gewöhnlich
+    - 2
+    - 3
+    - 4
+    - 5 = Unterstützend
+    - 5 = Einfach
+    - 5 = Wirksam
+    - 5 = Nicht verständlich
+    - 5 = Spannend
+    - 5 = Interessant
+    - 5 = Originell
+    - 5 = Erstklassig
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

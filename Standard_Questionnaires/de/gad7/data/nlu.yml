@@ -1,0 +1,22 @@
+version: "3.1"
+
+nlu:
+
+- intent: questionnaire_gad7_de
+  examples: |
+    - gad7_de
+    - gad7_de
+ 
+
+- intent: answers
+  examples: |
+    - Überhaupt nicht
+    - An einzelnen Tagen
+    - An mehr als der Hälfte der Tage
+    - Beinahe jeden Tag
+    - ok
+    - OK
+    - okay
+    - OKAY
+
+

@@ -1,0 +1,128 @@
+version: "3.1"
+
+intents:
+  - answers
+  - questionnaire_useq_comp_de
+
+
+responses:
+  utter_useq_comp_de_start:
+    - text: "Hallo, wie geht es Dir?"
+    - text: "Hallo, wie geht's denn so?"
+    - text: "Bist Du bereit, anzufangen?"
+    - text: "Hallo, lass uns reden."
+    - text: "Hallo, danke, dass Du Dir etwas Zeit für diese Fragen nimmst. Fangen wir an."
+        
+  
+  utter_useq_comp_de_end:
+    - text: "Alles geschafft!"
+    - text: "Alles geschafft für heute!"
+    - text: "Gute Arbeit. Wir sind fertig."
+    - text: "Das war die letzte Frage. Danke Dir!"
+    - text: "Wir sind fertig, danke. Hab einen schöne"
+  
+  utter_useq_comp_de_intro:
+    - custom:
+        text: "Kreuzen Sie für jede Aussage eine Zahl an, um anzugeben, inwieweit du der jeweiligen Aussage zustimmst oder nicht."
+        
+  utter_useq_comp_de_q1:
+    - custom:
+        text: "Q1. Hast du gute Erfahrungen mit der SMILE-App gemacht?"
+        buttons:
+          - title: "Überhaupt nicht (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Sehr (5)"
+            value: 5
+            
+            
+  utter_useq_comp_de_q2:
+    - custom:
+        text: "Q2. Konntest du die SMILE-App erfolgreich benutzen?"
+        buttons:
+          - title: "Überhaupt nicht (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Sehr (5)"
+            value: 5
+
+  utter_useq_comp_de_q3:
+    - custom:
+        text: "Q3. Warst du in der Lage, das SMILE-Spiel zu steuern?"
+        buttons:
+          - title: "Überhaupt nicht (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Sehr (5)"
+            value: 5
+  utter_useq_comp_de_q4:
+    - custom:
+        text: "Q4. Waren die Informationen, die die SMILE-App liefert, verständlich?"
+        buttons:
+          - title: "Überhaupt nicht (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Sehr (5)"
+            value: 5
+          
+  utter_useq_comp_de_q5:
+    - custom:
+        text: "Q5. Fühltest du dich unwohl während deiner Erfahrung mit der SMILE-App?"
+        buttons:
+          - title: "Überhaupt nicht (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Sehr (5)"
+            value: 5
+
+  utter_useq_comp_de_q6:
+    - custom:
+        text: "Q6. Glaubst du, dass die SMILE-App für deine Rehabilitation hilfreich sein wird?"
+        buttons:
+          - title: "Überhaupt nicht (1)"
+            value: 1
+          - title: "2"
+            value: 2
+          - title: "3"
+            value: 3
+          - title: "4"
+            value: 4
+          - title: "Sehr (5)"
+            value: 5
+
+ 
+  
+  utter_useq_comp_de_end2:
+    - custom:
+        text: "Danke für die Antwort."
+        endofquestionnaire: "true"
+                  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
