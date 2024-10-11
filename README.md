@@ -1,9 +1,28 @@
 
-<b>Mental Health Assessment Tools</b>
+<b>Conversational AI by RASA Framework for Mental Health Assessment Tools</b>
 
 <b>Description</b>:
 
 This repository contains a curated list of psychometric instruments (PROs) suitable for assessing various mental health conditions, including anxiety, depression, and resilience. The PROs are organized by age group and target construct.
+All coding was developed by using Rasa Framework. 
+
+<b>What is Rasa?</b>
+
+Rasa is an open-source machine learning framework for building conversational AI assistants. It provides a flexible platform for developers to create chatbots and virtual assistants that can understand natural language, engage in meaningful conversations, and perform tasks.
+
+<b>Key Components of Rasa</b>:
+
+Rasa NLU: This component is responsible for understanding natural language input. It uses machine learning models to extract entities and intents from text.
+Rasa Core: This component handles the conversation logic. It uses state machines to track the conversation context and determines the appropriate response based on the user's input and the current dialogue state.
+Rasa X: This is a visual interface for building and testing Rasa assistants. It provides tools for creating custom NLU models, designing conversation flows, and analyzing bot performance.
+
+<b>Advantages of Using Rasa</b>:
+
+Flexibility: Rasa offers a high degree of customization and flexibility, allowing you to tailor your chatbot to your specific needs.
+Open-source: Being open-source, Rasa is freely available and has a large and active community of developers who contribute to its development and provide support.
+Scalability: Rasa can handle large-scale conversational AI applications, making it suitable for businesses of all sizes.
+Integration: Rasa can be easily integrated with other systems and services, such as databases, messaging platforms, and APIs.
+
 
 <b>PRO List</b>:
 
