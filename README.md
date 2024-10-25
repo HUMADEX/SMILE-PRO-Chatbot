@@ -46,6 +46,7 @@ Rasa Community: https://forum.rasa.com/
 <b>Penn-State Worry Questionnaire for Children (PSWQ-C)</b>: This 16-item self-report measure assesses worry in children aged 10-17. It measures the frequency and intensity of worry across various domains, such as school, family, and friends.
 The PSWQ-C is a 14-item self-report questionnaire designed to assess worry in children and adolescents aged seven to seventeen. The questionnaire was designed to be comprehensible to children at the second grade reading level and above. Respondents are asked to indicate how often each item applies to them by choosing from the following responses for each item: “never,” “sometimes,” “often,” and “always.” Their responses are scored on a 4-point Likert scale from 0 (never) to 3 (always). Items 2, 7, and 9 are reverse-scored from 0 (always) to 3 (never), with greater scores indicating less worry rather than greater worry. Subsequently, item scores are summed to yield a total score (Chorpita et al., 1997). Total scores range from 0 to 42, with higher scores indicating
 greater tendency to worry. 
+
 <b>References:</b> 
 Publication: Chorpita BF, Tracey SA, Brown TA, Collica TJ, Barlow DH. Assessment of worry in children and adolescents: an adaptation of the Penn State Worry Questionnaire. Behav Res Ther. 1997 Jun;35(6):569-81. doi: 10.1016/s0005-7967(96)00116-7. PMID: 9159982.
 Resources: https://www.childfirst.ucla.edu/resources/
