@@ -49,9 +49,9 @@ greater tendency to worry.
 
 #### <b>References:</b> 
 
-<b>Publication:</b> Chorpita BF, Tracey SA, Brown TA, Collica TJ, Barlow DH. Assessment of worry in children and adolescents: an adaptation of the Penn State Worry Questionnaire. Behav Res Ther. 1997 Jun;35(6):569-81. doi: 10.1016/s0005-7967(96)00116-7. PMID: 9159982.
+* Chorpita BF, Tracey SA, Brown TA, Collica TJ, Barlow DH. Assessment of worry in children and adolescents: an adaptation of the Penn State Worry Questionnaire. Behav Res Ther. 1997 Jun;35(6):569-81. doi: 10.1016/s0005-7967(96)00116-7. PMID: 9159982.
 
-<b>Resources:</b> https://www.childfirst.ucla.edu/resources/
+* https://www.childfirst.ucla.edu/resources/
 
 ### <b>Generalized Anxiety Disorder-7 (GAD-7)</b>
 This seven-item self-report measure screens for symptoms of generalized anxiety disorder in adults aged 18-24 (Spitzer et al, 2006). It assesses the frequency of symptoms such as feeling nervous, restless, or easily fatigued. When screening for anxiety disorders, a score of 8 or greater represents a reasonable cut-point for identifying probable cases of generalized anxiety disorder; further diagnostic assessment is warranted to determine the presence and type of anxiety disorder. Using a cut-off of 8 the GAD-7 has a sensitivity of 92% and specificity of 76% for diagnosis generalized anxiety disorder (Plummer et al, 2016; Kroenke et al, 2007).
@@ -74,7 +74,7 @@ Based on a recent meta-analysis, some experts have recommended considering using
 * Kroenke K, Spitzer RL, Williams JB, Monahan PO, Löwe B. Anxiety disorders in primary care: prevalence, impairment, comorbidity, and detection. Ann Intern Med. 2007;146:317-25.
 
 #### Acknowledgement
-The GAD-7 was developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues [1], with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.
+The GAD-7 was developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues (2006), with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.
 
 ### <b>Patient Health Questionnaire-9 for Adolescents (PHQ-9-A)</b>
 The Severity Measure for Depression—Child Age 11–17 (adapted from PHQ-9 modified for Adolescents [PHQ-A]) is a 9-item measure that assesses the severity of depressive disorders and episodes (or clinically significant symptoms of depressive disorders and episodes) in children ages 11–17 (Johnson et al, 2002). Each item on the measure is rated on a 4-point scale (0=Not at all; 1=Several days; 2=More than half the days; and 3=Nearly every day). The total score can range from 0 to 27, with higher scores indicating greater severity of depression. The raw scores on the 9 items should be summed to obtain a total raw score and should be interpreted like: 0-4: None; 5-9: Mild; 10-14: Moderate; 15-19: Moderately severe; 20-27: Severe.
@@ -85,7 +85,7 @@ This measure can be reproduced without permission by researchers and by clinicia
 This measure was adapted from the PHQ-9 modified for Adolescents (PHQ-A), which is in the public domain (http://www.phqscreeners.com/instructions/instructions.pdf). The original measure was developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt
 Kroenke and colleagues, with an educational grant from Pfizer Inc.
 #### References
-Johnson JG, Harris ES, Spitzer RL, Williams JBW: The Patient Health Questionnaire for Adolescents: Validation of an instrument for the assessment of mental disorders among adolescent primary care patients. J Adolescent Health 30:196–204, 2002.
+* Johnson JG, Harris ES, Spitzer RL, Williams JBW: The Patient Health Questionnaire for Adolescents: Validation of an instrument for the assessment of mental disorders among adolescent primary care patients. J Adolescent Health 30:196–204, 2002.
 #### Acknowledgement
 To request permission for any other use beyond what is stipulated above. The measure is in the public domain and can be used without permission.
 
@@ -93,7 +93,7 @@ To request permission for any other use beyond what is stipulated above. The mea
 The Patient Health Questionnaire (PHQ)-9 is the major depressive disorder (MDD) module of the full PHQ. Used to provisionally diagnose depression and grade severity of symptoms in general medical and mental health settings. Scores each of the 9 DSM criteria of MDD as “0” (not at all) to “3” (nearly every day), providing a 0-27 severity score. The last item (“How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?”) is not included in score, but is a good indicator of the patient’s global impairment and can be used to track treatment response. Higher PHQ-9 scores are associated with decreased functional status and increased symptom-related difficulties, sick days, and healthcare utilization. 
 
 #### Reference
-<b>1:</b> Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001 Sep;16(9):606-13. doi: 10.1046/j.1525-1497.2001.016009606.x. PMID: 11556941; PMCID: PMC1495268.
+* Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001 Sep;16(9):606-13. doi: 10.1046/j.1525-1497.2001.016009606.x. PMID: 11556941; PMCID: PMC1495268.
 
 #### Acknowledgement
 The copyright for the PHQ-9 was formerly held with Pfizer, who provided the educational grant for Drs Spitzer, Williams and Kroenke who originally designed it (Kroenke et al, 2001). This is no longer the case and no permission is required to reproduce, translate, display or distribute the PHQ-9.
@@ -102,7 +102,7 @@ The copyright for the PHQ-9 was formerly held with Pfizer, who provided the educ
 There are different versions of the CYRM and ARM that you can use to measure resilience. These include the basic age appropriate versions: The CYRM-R (for 5-9 years and 10-23 years), and the ARM-R (for 18+). For each age group, there are 3- and 5-point Likert scale versions. There are also versions with simplified language for individuals with limited comprehension. Finally, there are Person Most Knowledgeable (PMK) versions of each measure that can be completed by an individual who knows the target individual well. In the user’s manual developers provide a guide to help you decide the best measure for your study. The statements are completed on either a three- or five-point scale. Responses are summed by the administrator to get a measure of an individual’s resilience. You can find out more about scoring and subscale scoring in the user’s manual: https://resilienceresearch.org/download
 
 #### Reference
-Liebenberg L, Ungar M, LeBlanc JC. The CYRM-12: a brief measure of resilience. Can J Public Health. 2013 Feb 11;104(2):e131-5. doi: 10.1007/BF03405676. PMID: 23618205; PMCID: PMC6974279.
+* Liebenberg L, Ungar M, LeBlanc JC. The CYRM-12: a brief measure of resilience. Can J Public Health. 2013 Feb 11;104(2):e131-5. doi: 10.1007/BF03405676. PMID: 23618205; PMCID: PMC6974279.
 
 #### Acknowledgement
 There are no costs or special permissions required to use the measures, provided that: The measures are used for not-for-profit purposes and not for commercial purposes (if you wish to use the measures for profit/commercial purposes, please get in touch with developers (https://resilienceresearch.org)); Any reproduction of the measures is accompanied by the appropriate copyright information (see manual); Any report or publication involving the measure is accompanied by the appropriate citation/reference (see manual); The measures are not sold. Please fill in the form on download page to receive instant access the measures. There is no review process. Download page: https://resilienceresearch.org/download
@@ -122,7 +122,7 @@ The Warwick-Edinburgh Mental Wellbeing scale was developed to enable the monitor
 The WEMWBS is scored by summing the scores for each of the 14 items, which are scored from 1 to 5. Scores range from 14 to 70 and higher scores indicate greater positive mental wellbeing. The idea of wellbeing is fairly new, therefore, it is difficult to fully interpret what the scores mean for each individual. However, you can see how individual’s scores compare with national survey data (from adults) and find additional information on interpretation here: https://warwick.ac.uk/fac/sci/med/research/platform/wemwbs/using/howto/
 
 #### Reference
-Tennant, R., Hiller, L., Fishwick, R. et al. The Warwick-Edinburgh Mental Well-being Scale (WEMWBS): development and UK validation. Health Qual Life Outcomes 5, 63 (2007). https://doi.org/10.1186/1477-7525-5-63
+* Tennant, R., Hiller, L., Fishwick, R. et al. The Warwick-Edinburgh Mental Well-being Scale (WEMWBS): development and UK validation. Health Qual Life Outcomes 5, 63 (2007). https://doi.org/10.1186/1477-7525-5-63
 
 #### Acknowledgement
 The WEMWBS is free to use but you need to ask for permission before you begin using WEMWBS, by completing a registration form on the WEMWBS website: https://warwick.ac.uk/fac/sci/med/research/platform/wemwbs/using
@@ -172,10 +172,10 @@ Greek,
 Polish,
 German
 
-<b>Reference</b>
+### <b>Reference</b>
 
 Mlakar, I.; Šafran, V.; Hari, D.; Rojc, M.; Alankus, G.; Pérez Luna, R.; Ariöz, U. Multilingual Conversational Systems to Drive the Collection of Patient-Reported Outcomes and Integration into Clinical Workflows. Symmetry 2021, 13, 1187. https://doi.org/10.3390/sym13071187. 
 
-<b>Acknowledgment</b>
+### <b>Acknowledgment</b>
 
 This work has been funded by the European Union Horizon Europe Research and Innovation Programme projects SMILE (grant number 101080923) and the Slovenian Research and Innovation Agency, Advanced methods of interaction in telecommunication research programme (grant number P2-0069). The content of this paper does not reflect the official position of the European Union or any other institution. The information and views expressed are the sole responsibility of the authors.
