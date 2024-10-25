@@ -5,7 +5,8 @@
 This repository contains a curated list of psychometric instruments (PROs) suitable for assessing various mental health conditions, including anxiety, depression, and resilience. The PROs are organized by age group and target construct.
 All coding was developed by using Rasa Framework. 
 
-To use please revise and adhere to the individual licensesof the tools.
+**To use please revise and adhere to the individual licenses of the intruments.**
+
 <b>What is Rasa?</b>
 
 <img src="https://github.com/HUMADEX/SMILE-PRO-Chatbot/blob/main/docs/rasa_logo.jpg" alt="Rasa Logo">
