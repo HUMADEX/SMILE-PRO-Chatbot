@@ -138,12 +138,22 @@ Stage 1 employed the Climate Change Anxiety Scale [1], a measure of climate anxi
 
 #### References
 <b>1:</b> Clayton, S., & Karazsia, B. T. (2020). Development and validation of a measure of climate change anxiety. Journal of Environmental Psychology, 69, 101434. https://doi.org/10.1016/j.jenvp.2020.101434.
-<b>2:</b> Wu, J., Long, D., Hafez, N., Maloney, J., Lim, Y., & Samji, H. (2023). Development and validation of a youth climate anxiety scale for the Youth Development Instrument survey. International Journal of Mental Health Nursing. https://doi.org/10.1111/
-inm.13201
+<b>2:</b> Wu, J., Long, D., Hafez, N., Maloney, J., Lim, Y., & Samji, H. (2023). Development and validation of a youth climate anxiety scale for the Youth Development Instrument survey. International Journal of Mental Health Nursing. https://doi.org/10.1111/inm.13201
 
-<b>System Usability Scale (SUS)</b>: This 10-item questionnaire measures the perceived ease of use and effectiveness of a product or system. It is used to evaluate the usability of the game and companion app.
+### <b>System Usability Scale (SUS)</b>
+The system usability scale (SUS) is a simple, ten-item attitude Likert scale giving a global view of subjective assessments of usability. It was developed by John Brooke[1] at Digital Equipment Corporation in the UK in 1986 as a tool to be used in usability engineering of electronic office systems. SUS is a short 10-item questionnaire (each question with a Likert scale ranging from strongly agree to strongly disagree) designed to measure the usability of a system. The SUS is a well-designed, balanced survey consisting of 5 questions with positive statements and 5 questions with negative statements, with scores ranging from 0 to 100. 
 
-<b>User Satisfaction Evaluation Questionnaire (USEQ)</b>: This 10-item questionnaire measures overall satisfaction with a product or service. It is used to assess user satisfaction with the game and companion app.
+#### References
+<b>1:</b> Brooke, John (1996). "SUS: a "quick and dirty" usability scale". In P. W. Jordan; B. Thomas; B. A. Weerdmeester; A. L. McClelland (eds.). Usability Evaluation in Industry. London: Taylor and Francis.
+
+#### Acknowledgement
+The SUS is free tool and can be used for research and education as long as it is properly cited [1].
+
+### <b>User Satisfaction Evaluation Questionnaire (USEQ)</b>
+This 10-item questionnaire measures overall satisfaction with a product or service. It is used to assess user satisfaction with the game and companion app.
+
+
+
 
 <b>User Experience Questionnaire Short (UEQ-S)</b>: This 10-item questionnaire measures the overall user experience of a product or service. It is used to evaluate the user experience of the game and companion app.
 
