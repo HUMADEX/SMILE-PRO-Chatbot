@@ -119,7 +119,21 @@ The brief resilience scale (BRS) was created to assess the ability to bounce bac
 #### Acknowledgement
 The BRS can be used for research and education as long as it is properly cited and as long as the authors are acknowledged [1].
 
-<b>Warwick-Edinburgh Mental Well-being Scale (WEMWBS)</b>: This 14-item self-report measure assesses general mental well-being in adults. It measures positive feelings, such as happiness and satisfaction, as well as negative feelings, such as stress and anxiety.
+### <b>Warwick-Edinburgh Mental Well-being Scale (WEMWBS)</b>
+The Warwick-Edinburgh Mental Wellbeing scale was developed to enable the monitoring of mental wellbeing in the general population and the evaluation of projects, programmes and policies which aim to improve mental wellbeing. WEMWBS has 2 scales: the original 14-item scale and the short 7-item scale. The scales have been validated for use in: A wide variety of different geographical locations, languages and cultural contexts, and Many different settings including the workplace, schools, health services and community wellbeing projects e.g. creative arts, gardening and walking groups.
+
+#### Reference
+Tennant, R., Hiller, L., Fishwick, R. et al. The Warwick-Edinburgh Mental Well-being Scale (WEMWBS): development and UK validation. Health Qual Life Outcomes 5, 63 (2007). https://doi.org/10.1186/1477-7525-5-63
+
+#### Acknowledgement
+WEMWBS is protected by copyright. Should you wish to use WEMWBS you will require a license appropriate to your intended use:
+
+Non-Commercial Use: This licence is made available for organisations whose main purpose is not directed towards commercial advantage or monetary compensation (“Non-Commercial Organisations”), including Public Sector Organisations (e.g. Universities, Schools, Public Health, Social Services, NGOs), Registered Charities, Registered Community Interest Companies and Registered Social Enterprises only; Please register ensuring you read and accept the Non-Commercial Licence Terms and Conditions prior to confirming your agreement.
+Please be aware that the Non-Commercial licence does not give you permission to publicly share WEMWBS or for you to provide WEMWBS to other parties for their use under your licence. Should you wish to use WEMWBS outside of these terms please contact wemwbslicence@warwick.ac.uk to discuss your requirements.
+Registration Link: https://warwick.ac.uk/fac/sci/med/research/platform/wemwbs/using/non-commercial-licence-registration/
+
+Commercial Use: All individuals or organisations other than those listed above as Non-Commercial will require a Commercial Licence. This includes commercial organisations utilising WEMWBS within their own organisation or providing products or services to non-commercial customers or in non-commercial settings. For organisations requiring a Commercial Licence for using WEMWBS with up to 3,000 participants, please complete the registration formLink opens in a new window and payment of the Annual Licence Fee ensuring that you read and accept the Commercial Licence Terms and Conditions. For organisations requiring a Commercial Licence for using WEMWBS with more than 3,000 participants please contact wemwbslicence@warwick.ac.uk to discuss your requirements.
+Registration Link: https://warwick.ac.uk/fac/sci/med/research/platform/wemwbs/using/commercial-licence-registration
 
 <b>Climate Change Anxiety Scale - Short-form (CCAS-S)</b>: This 10-item self-report measure assesses anxiety related to climate change. It measures concerns about the future, personal impact, and social consequences of climate change.
 
