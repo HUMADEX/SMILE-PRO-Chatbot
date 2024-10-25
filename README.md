@@ -48,8 +48,10 @@ The PSWQ-C is a 14-item self-report questionnaire designed to assess worry in ch
 greater tendency to worry. 
 
 <b>References:</b> 
-Publication: Chorpita BF, Tracey SA, Brown TA, Collica TJ, Barlow DH. Assessment of worry in children and adolescents: an adaptation of the Penn State Worry Questionnaire. Behav Res Ther. 1997 Jun;35(6):569-81. doi: 10.1016/s0005-7967(96)00116-7. PMID: 9159982.
-Resources: https://www.childfirst.ucla.edu/resources/
+
+<b>Publication:</b> Chorpita BF, Tracey SA, Brown TA, Collica TJ, Barlow DH. Assessment of worry in children and adolescents: an adaptation of the Penn State Worry Questionnaire. Behav Res Ther. 1997 Jun;35(6):569-81. doi: 10.1016/s0005-7967(96)00116-7. PMID: 9159982.
+
+<b>Resources:</b> https://www.childfirst.ucla.edu/resources/
 
 <b>Generalized Anxiety Disorder-7 (GAD-7)</b>: This seven-item self-report measure screens for symptoms of generalized anxiety disorder in adults aged 18-24. It assesses the frequency of symptoms such as feeling nervous, restless, or easily fatigued.
 
