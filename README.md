@@ -74,9 +74,23 @@ Based on a recent meta-analysis, some experts have recommended considering using
 <b>3:</b>Kroenke K, Spitzer RL, Williams JB, Monahan PO, Löwe B. Anxiety disorders in primary care: prevalence, impairment, comorbidity, and detection. Ann Intern Med. 2007;146:317-25.
 
 #### Acknowledgement
-The GAD-7 was developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.
+The GAD-7 was developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues [1], with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.
 
-<b>Patient Health Questionnaire-9 for Adolescents (PHQ-9-A)</b>: This nine-item self-report measure assesses symptoms of depression in adolescents aged 10-17. It measures the frequency of symptoms such as feeling sad, hopeless, or having trouble sleeping.
+### <b>Patient Health Questionnaire-9 for Adolescents (PHQ-9-A)</b>
+The Severity Measure for Depression—Child Age 11–17 (adapted from PHQ-9 modified for Adolescents [PHQ-A]) is a 9-item measure that assesses the severity of depressive disorders and episodes (or clinically significant symptoms of
+depressive disorders and episodes) in children ages 11–17. Each item on the measure is rated on a 4-point scale (0=Not at all; 1=Several days; 2=More than half the days; and
+3=Nearly every day). The total score can range from 0 to 27, with higher scores indicating greater severity of depression. The raw scores on the 9 items should be summed to obtain a total raw
+score and should be interpreted like: 0-4: None; 5-9: Mild; 10-14: Moderate; 15-19: Moderately severe; 20-27: Severe.
+
+#### Rights granted
+This measure can be reproduced without permission by researchers and by clinicians for use with their patients. 
+#### Rights holder
+This measure was adapted from the PHQ-9 modified for Adolescents (PHQ-A), which is in the public domain (http://www.phqscreeners.com/instructions/instructions.pdf). The original measure was developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt
+Kroenke and colleagues, with an educational grant from Pfizer Inc.
+#### References
+Johnson JG, Harris ES, Spitzer RL, Williams JBW: The Patient Health Questionnaire for Adolescents: Validation of an instrument for the assessment of mental disorders among adolescent primary care patients. J Adolescent Health 30:196–204, 2002.
+#### Acknowledgement
+To request permission for any other use beyond what is stipulated above. The measure is in the public domain and can be used without permission.
 
 <b>Patient Health Questionnaire-9 (PHQ-9)</b>: This nine-item self-report measure assesses symptoms of depression in adults aged 18-24. It measures the frequency of symptoms such as feeling sad, hopeless, or having trouble sleeping.
 
