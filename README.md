@@ -101,8 +101,11 @@ The Patient Health Questionnaire (PHQ)-9 is the major depressive disorder (MDD) 
 #### Acknowledgement
 The copyright for the PHQ-9 was formerly held with Pfizer, who provided the educational grant for Drs Spitzer, Williams and Kroenke who originally designed it [1]. This is no longer the case and no permission is required to reproduce, translate, display or distribute the PHQ-9.
 
+### <b>Child and Youth Resilience Measure (CYRM-12)</b>
+There are different versions of the CYRM and ARM that you can use to measure resilience. These include the basic age appropriate versions: The CYRM-R (for 5-9 years and 10-23 years), and the ARM-R (for 18+). For each age group, there are 3- and 5-point Likert scale versions. There are also versions with simplified language for individuals with limited comprehension. Finally, there are Person Most Knowledgeable (PMK) versions of each measure that can be completed by an individual who knows the target individual well. In the user’s manual developers provide a guide to help you decide the best measure for your study. The statements are completed on either a three- or five-point scale. Responses are summed by the administrator to get a measure of an individual’s resilience. You can find out more about scoring and subscale scoring in the user’s manual: https://resilienceresearch.org/download
 
-<b>Child and Youth Resilience Measure (CYRM-12)</b>: This 12-item self-report measure assesses resilience in children aged 10-17. It measures positive coping skills, optimism, and social support.
+#### Acknowledgement
+There are no costs or special permissions required to use the measures, provided that: The measures are used for not-for-profit purposes and not for commercial purposes (if you wish to use the measures for profit/commercial purposes, please get in touch with developers (https://resilienceresearch.org)); Any reproduction of the measures is accompanied by the appropriate copyright information (see manual); Any report or publication involving the measure is accompanied by the appropriate citation/reference (see manual); The measures are not sold. Please fill in the form on download page to receive instant access the measures. There is no review process. Download page: https://resilienceresearch.org/download
 
 <b>Brief Resilience Scale (BRS)</b>: This six-item self-report measure assesses resilience in adults aged 18-24. It measures the ability to bounce back from adversity and maintain positive emotions.
 
