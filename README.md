@@ -92,7 +92,15 @@ Johnson JG, Harris ES, Spitzer RL, Williams JBW: The Patient Health Questionnair
 #### Acknowledgement
 To request permission for any other use beyond what is stipulated above. The measure is in the public domain and can be used without permission.
 
-<b>Patient Health Questionnaire-9 (PHQ-9)</b>: This nine-item self-report measure assesses symptoms of depression in adults aged 18-24. It measures the frequency of symptoms such as feeling sad, hopeless, or having trouble sleeping.
+### <b>Patient Health Questionnaire-9 (PHQ-9)</b>
+The Patient Health Questionnaire (PHQ)-9 is the major depressive disorder (MDD) module of the full PHQ. Used to provisionally diagnose depression and grade severity of symptoms in general medical and mental health settings. Scores each of the 9 DSM criteria of MDD as “0” (not at all) to “3” (nearly every day), providing a 0-27 severity score. The last item (“How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?”) is not included in score, but is a good indicator of the patient’s global impairment and can be used to track treatment response. Higher PHQ-9 scores are associated with decreased functional status and increased symptom-related difficulties, sick days, and healthcare utilization. 
+
+#### References
+<b>1:</b> Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001 Sep;16(9):606-13. doi: 10.1046/j.1525-1497.2001.016009606.x. PMID: 11556941; PMCID: PMC1495268.
+
+#### Acknowledgement
+The copyright for the PHQ-9 was formerly held with Pfizer, who provided the educational grant for Drs Spitzer, Williams and Kroenke who originally designed it [1]. This is no longer the case and no permission is required to reproduce, translate, display or distribute the PHQ-9.
+
 
 <b>Child and Youth Resilience Measure (CYRM-12)</b>: This 12-item self-report measure assesses resilience in children aged 10-17. It measures positive coping skills, optimism, and social support.
 
