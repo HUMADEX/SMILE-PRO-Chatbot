@@ -134,8 +134,12 @@ WEMWBS is protected by copyright, the Reproduction copyrights for WEMWBS are as 
 If you produce any documents outlining your WEMWBS results (e.g. reports, presentations) you need to reference WEMWBS as above.
 
 ### <b>Climate Change Anxiety Scale - Short-form (CCAS-S)</b>
-This 10-item self-report measure assesses anxiety related to climate change. It measures concerns about the future, personal impact, and social consequences of climate change.
+Stage 1 employed the Climate Change Anxiety Scale [1], a measure of climate anxiety and its impacts on personal well-being. It is composed of 13-items rated on a five-point Likert-type scale from 1=“never” to 5=“almost always,” with two factors measuring cognitive-emotional (items 1–8) and functional (items 9–13) impairment due to climate change. Cognitive-emotional items include “I think, ‘why can't I handle climate change better?’” and functional impairment items include, “My concerns about climate change interfere with my ability to get work or school assignments done.” . In consultation with adolescents, the 13-item Climate Change Anxiety Scale (CCAS) was adapted to create the Climate Change Anxiety Scale – Short-form (CCAS-S) which consists of four-items adapted from the original CCAS [2].
 
+#### References
+<b>1:</b> Clayton, S., & Karazsia, B. T. (2020). Development and validation of a measure of climate change anxiety. Journal of Environmental Psychology, 69, 101434. https://doi.org/10.1016/j.jenvp.2020.101434.
+<b>2:</b> Wu, J., Long, D., Hafez, N., Maloney, J., Lim, Y., & Samji, H. (2023). Development and validation of a youth climate anxiety scale for the Youth Development Instrument survey. International Journal of Mental Health Nursing. https://doi.org/10.1111/
+inm.13201
 
 <b>System Usability Scale (SUS)</b>: This 10-item questionnaire measures the perceived ease of use and effectiveness of a product or system. It is used to evaluate the usability of the game and companion app.
 
