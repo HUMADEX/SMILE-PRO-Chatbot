@@ -54,7 +54,27 @@ greater tendency to worry.
 <b>Resources:</b> https://www.childfirst.ucla.edu/resources/
 
 ### <b>Generalized Anxiety Disorder-7 (GAD-7)</b>
-This seven-item self-report measure screens for symptoms of generalized anxiety disorder in adults aged 18-24. It assesses the frequency of symptoms such as feeling nervous, restless, or easily fatigued.
+This seven-item self-report measure screens for symptoms of generalized anxiety disorder in adults aged 18-24. It assesses the frequency of symptoms such as feeling nervous, restless, or easily fatigued. When screening for anxiety disorders, a score of 8 or greater represents a reasonable cut-point for identifying probable cases of generalized anxiety disorder; further diagnostic assessment is warranted to determine the presence and type of anxiety disorder. Using a cut-off of 8 the GAD-7 has a sensitivity of 92% and specificity of 76% for diagnosis generalized anxiety disorder [2,3]
+
+The following cut-offs correlate with level of anxiety severity:
+
+Score 0-4: Minimal Anxiety
+Score 5-9: Mild Anxiety
+Score 10-14: Moderate Anxiety
+Score greater than 15: Severe Anxiety
+
+Based on a recent meta-analysis, some experts have recommended considering using a cut-off of 8 in order to optimize sensitivity without compromising specificity [2].
+
+#### <b>References:</b> 
+
+<b>1:</b> Spitzer RL, Kroenke K, Williams JB, Löwe B. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. 2006;166:1092-7.
+
+<b>2:</b> Plummer F, Manea L, Trepel D, McMillan D. Screening for anxiety disorders with the GAD-7 and GAD-2: a systematic review and diagnostic metaanalysis. Gen Hosp Psychiatry. 2016;39:24-31.
+
+<b>3:</b>Kroenke K, Spitzer RL, Williams JB, Monahan PO, Löwe B. Anxiety disorders in primary care: prevalence, impairment, comorbidity, and detection. Ann Intern Med. 2007;146:317-25.
+
+#### Acknowledgement
+The GAD-7 was developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute.
 
 <b>Patient Health Questionnaire-9 for Adolescents (PHQ-9-A)</b>: This nine-item self-report measure assesses symptoms of depression in adolescents aged 10-17. It measures the frequency of symptoms such as feeling sad, hopeless, or having trouble sleeping.
 
