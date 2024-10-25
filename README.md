@@ -137,6 +137,9 @@ Stage 1 employed the Climate Change Anxiety Scale (Clayton & Karazsia, 2020), a 
 * Clayton, S., & Karazsia, B. T. (2020). Development and validation of a measure of climate change anxiety. Journal of Environmental Psychology, 69, 101434. https://doi.org/10.1016/j.jenvp.2020.101434.
 * Wu, J., Long, D., Hafez, N., Maloney, J., Lim, Y., & Samji, H. (2023). Development and validation of a youth climate anxiety scale for the Youth Development Instrument survey. International Journal of Mental Health Nursing. https://doi.org/10.1111/inm.13201
 
+#### Acknowledgement
+The SUS is free tool and can be used for research and education as long as it is properly cited (Clayton & Karazsia, 2020; Wu et al, 2023).
+
 ### <b>System Usability Scale (SUS)</b>
 The system usability scale (SUS) is a simple, ten-item attitude Likert scale giving a global view of subjective assessments of usability. It was developed by John Brooke (1996) at Digital Equipment Corporation in the UK in 1986 as a tool to be used in usability engineering of electronic office systems. SUS is a short 10-item questionnaire (each question with a Likert scale ranging from strongly agree to strongly disagree) designed to measure the usability of a system. The SUS is a well-designed, balanced survey consisting of 5 questions with positive statements and 5 questions with negative statements, with scores ranging from 0 to 100. 
 
