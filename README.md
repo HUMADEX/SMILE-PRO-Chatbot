@@ -95,7 +95,7 @@ To request permission for any other use beyond what is stipulated above. The mea
 ### <b>Patient Health Questionnaire-9 (PHQ-9)</b>
 The Patient Health Questionnaire (PHQ)-9 is the major depressive disorder (MDD) module of the full PHQ. Used to provisionally diagnose depression and grade severity of symptoms in general medical and mental health settings. Scores each of the 9 DSM criteria of MDD as “0” (not at all) to “3” (nearly every day), providing a 0-27 severity score. The last item (“How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?”) is not included in score, but is a good indicator of the patient’s global impairment and can be used to track treatment response. Higher PHQ-9 scores are associated with decreased functional status and increased symptom-related difficulties, sick days, and healthcare utilization. 
 
-#### References
+#### Reference
 <b>1:</b> Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001 Sep;16(9):606-13. doi: 10.1046/j.1525-1497.2001.016009606.x. PMID: 11556941; PMCID: PMC1495268.
 
 #### Acknowledgement
@@ -104,10 +104,20 @@ The copyright for the PHQ-9 was formerly held with Pfizer, who provided the educ
 ### <b>Child and Youth Resilience Measure (CYRM-12)</b>
 There are different versions of the CYRM and ARM that you can use to measure resilience. These include the basic age appropriate versions: The CYRM-R (for 5-9 years and 10-23 years), and the ARM-R (for 18+). For each age group, there are 3- and 5-point Likert scale versions. There are also versions with simplified language for individuals with limited comprehension. Finally, there are Person Most Knowledgeable (PMK) versions of each measure that can be completed by an individual who knows the target individual well. In the user’s manual developers provide a guide to help you decide the best measure for your study. The statements are completed on either a three- or five-point scale. Responses are summed by the administrator to get a measure of an individual’s resilience. You can find out more about scoring and subscale scoring in the user’s manual: https://resilienceresearch.org/download
 
+#### Reference
+Liebenberg L, Ungar M, LeBlanc JC. The CYRM-12: a brief measure of resilience. Can J Public Health. 2013 Feb 11;104(2):e131-5. doi: 10.1007/BF03405676. PMID: 23618205; PMCID: PMC6974279.
+
 #### Acknowledgement
 There are no costs or special permissions required to use the measures, provided that: The measures are used for not-for-profit purposes and not for commercial purposes (if you wish to use the measures for profit/commercial purposes, please get in touch with developers (https://resilienceresearch.org)); Any reproduction of the measures is accompanied by the appropriate copyright information (see manual); Any report or publication involving the measure is accompanied by the appropriate citation/reference (see manual); The measures are not sold. Please fill in the form on download page to receive instant access the measures. There is no review process. Download page: https://resilienceresearch.org/download
 
-<b>Brief Resilience Scale (BRS)</b>: This six-item self-report measure assesses resilience in adults aged 18-24. It measures the ability to bounce back from adversity and maintain positive emotions.
+### <b>Brief Resilience Scale (BRS)</b>
+The brief resilience scale (BRS) was created to assess the ability to bounce back or recover from stress. The BRS is comprised of 6 items. Items 1, 3, and 5 are positively worded while items 2, 4, and 6 are negatively worded. The BRS is scored by reverse coding items 2, 4, and 6, and finding the mean of the 6 items. The Likert Scale for the BRS is as follows: 1=strongly disagree, 2=disagree, 3=neutral, 4=agree, 5=strongly agree. The BRS is a single-page activity where you assign a score between 1 and 5 to a series of statements. The scores (added and divided by the number of statements) determine your personal BRS score (1.00 – 2.99: Low resilience; 3.00 – 4.30: Normal resilience; 4.31 – 5.00: High Resilience). The higher the score, the higher your resiliency.
+
+#### Reference
+<b>1:</b> Smith, B. W., Dalen, J., Wiggins, K., Tooley, E., Christopher, P., & Bernard, J. (2008). The brief resilience scale: assessing the ability to bounce back. International journal of behavioral medicine, 15(3), 194-200.
+
+#### Acknowledgement
+The BRS can be used for research and education as long as it is properly cited and as long as the authors are acknowledged [1].
 
 <b>Warwick-Edinburgh Mental Well-being Scale (WEMWBS)</b>: This 14-item self-report measure assesses general mental well-being in adults. It measures positive feelings, such as happiness and satisfaction, as well as negative feelings, such as stress and anxiety.
 
