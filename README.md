@@ -150,12 +150,22 @@ The system usability scale (SUS) is a simple, ten-item attitude Likert scale giv
 The SUS is free tool and can be used for research and education as long as it is properly cited [1].
 
 ### <b>User Satisfaction Evaluation Questionnaire (USEQ)</b>
-This 10-item questionnaire measures overall satisfaction with a product or service. It is used to assess user satisfaction with the game and companion app.
+The USEQ is a questionnaire designed to assess user satisfaction with a specific product, service, or system. It aims to capture users’ perceptions, opinions, and overall satisfaction regarding their experience. The USEQ typically consists of multiple items or statements that users rate on a scale, reflecting their level of satisfaction. The questionnaire covers various dimensions such as usability, functionality, aesthetics, and overall satisfaction. The USEQ is a 6-item questionnaire with a 5-point Likert Scale. The total score ranges from 6 (poor satisfaction) to 30 (excellent satisfaction). All items are affirmative, except item 5, which is a negative item. The numerical value of the affirmative items is used to calculate the score. The negative item subtracts the numerical value of the response from 6 and then adds this result to the total score. The USEQ score is evaluated using the following classification: poor (0-5), fair (5-10), good (10-15), very good (15-20), or excellent (20-25) satisfaction.
 
+#### References
+<b>1:</b>Gil-Gómez JA, Manzano-Hernández P, Albiol-Pérez S, Aula-Valero C, Gil-Gómez H, Lozano-Quilis JA. USEQ: A Short Questionnaire for Satisfaction Evaluation of Virtual Rehabilitation Systems. Sensors (Basel). 2017 Jul 7;17(7):1589. doi: 10.3390/s17071589. PMID: 28686174; PMCID: PMC5539644.
 
+#### Acknowledgement
+The USEQ is free tool and can be used for research and education as long as it is properly cited [1].
 
+### <b>User Experience Questionnaire Short (UEQ-S)</b>
+The user experience questionnaire (UEQ) is a widely used questionnaire to measure the subjective impression of users towards the user experience of products. The UEQ is a semantic differential with 26 items. The short version, which is named UEQ-S, contains two subscales (pragmatic and hedonic quality; 4 items each) and a total value reflecting the overall user experience. The short version UEQ-S is only intended for specific scenarios which do not allow employing a full UEQ. The UEQ-S does not allow measuring the detailed UX qualities Attractiveness, Efficiency, Perspicuity, Dependability, Stimulation and Novelty, which are part of the UEQ report.The UEQ-S has the items that are scored from -3 (most negative evaluation) to +3 (most positive evaluation).
 
-<b>User Experience Questionnaire Short (UEQ-S)</b>: This 10-item questionnaire measures the overall user experience of a product or service. It is used to evaluate the user experience of the game and companion app.
+#### References
+<b>1:</b> Schrepp, M., & Hinderks, A. (2017). Design and evaluation of a short version of the user experience questionnaire (UEQ-S).
+
+#### Acknowledgement
+The UEQ-S is free tool and can be used for research and education as long as it is properly cited [1].
 
 <b>Supported Languages</b>
 
