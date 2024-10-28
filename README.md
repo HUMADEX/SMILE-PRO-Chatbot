@@ -175,10 +175,10 @@ Greek,
 Polish,
 German
 
-### <b>Reference</b>
+## <b>Reference</b>
 
 Mlakar, I.; Šafran, V.; Hari, D.; Rojc, M.; Alankus, G.; Pérez Luna, R.; Ariöz, U. Multilingual Conversational Systems to Drive the Collection of Patient-Reported Outcomes and Integration into Clinical Workflows. Symmetry 2021, 13, 1187. https://doi.org/10.3390/sym13071187. 
 
-### <b>Acknowledgment</b>
+## <b>Acknowledgment</b>
 
 This work has been funded by the European Union Horizon Europe Research and Innovation Programme projects SMILE (grant number 101080923) and the Slovenian Research and Innovation Agency, Advanced methods of interaction in telecommunication research programme (grant number P2-0069). The content of this paper does not reflect the official position of the European Union or any other institution. The information and views expressed are the sole responsibility of the authors.
